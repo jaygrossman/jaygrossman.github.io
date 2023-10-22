@@ -2,20 +2,13 @@
 layout: post
 title:  "Automating Image Processing with Python"
 author: jay
-categories: [ code ]
 tags: [ python, scans, automation ] 
 image: assets/images/headers/python_pillow.png
 description: "Automating Image Processing with Python"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2020/07/28
-#rating: 4.5
 ---
-
-
-
 
 <p>If you have been reading this blog, you'll know I collect sports cards. It's fun to share what I have with other collectors (by posting scans on sportscollectors.net, facebook, etc.).</p>
 <p>A few years ago I bought a <a title="Brother MFC-9130CW printer" href="https://www.amazon.com/gp/product/B00C6MNP52/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B00C6MNP52&amp;linkCode=as2&amp;tag=hipstir-20&amp;linkId=53bf0932815fceb1355ecfab28f5c264" target="_blank">Brother MFC-9130CW</a> all in one printer/scanner that I use to do my scanning. I usually set it to scan documents in legal format so I can fit 9 cards on a scan (3 rows by 3 columns). And since I want to do this most efficiently, I generally save them as a 200dpi pdf file with multiple pages.</p>

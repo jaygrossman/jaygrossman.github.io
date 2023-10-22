@@ -2,20 +2,15 @@
 layout: post
 title:  "Are You Swimming in a Red or Blue Ocean?"
 author: jay
-categories: [ analysis, business ]
-tags: [ strategy, innovate, competition, blue ocean, favorites ]
+tags: [ strategy, innovation, competition, blue ocean ]
 image: assets/images/headers/red_blue_ocean.png
 description: "Are You Swimming in a Red or Blue Ocean?"
 featured: true
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/09/06
-#rating: 4.5
 ---
 
-
- <p>I am quite fascinated how people/companies are able to innovate, make the most of their opportunities, and disrupt the established norms. It amazes me how some companies can tackle a small nuance differently than their competitors and win market share.&nbsp;I remember reading an interesting quote that stuck with me:</p>
+<p>I am quite fascinated how people/companies are able to innovate, make the most of their opportunities, and disrupt the established norms. It amazes me how some companies can tackle a small nuance differently than their competitors and win market share.&nbsp;I remember reading an interesting quote that stuck with me:</p>
 <p><em>play a different game on the same field as the competition.</em></p>
 <p>Last year a colleague introduced me to the concept of a Blue Ocean after hearing about it in as part of his MBA program (made popular by the book&nbsp;<a href="http://www.blueoceanstrategy.com/" target="_blank">Blue Ocean Strategy</a>). Since then I have spent quite a few hours in dicussions about them with various friends.</p>
 <p>In the book, there is the metaphor of red and blue oceans describes the market universe. Here's how the authors define them:</p>

@@ -2,20 +2,15 @@
 layout: post
 title:  "Methodology for Building a Product Valuation Platform"
 author: jay
-categories: [ analysis, business ]
-tags: [ SportsCardDatabase, market value, methodology, analysis ]
+tags: [ sportscarddatabase, value, analysis ]
 image: assets/images/headers/valuation_platform.png
 description: "Methodology for Building a Product Valuation Platform"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/08/23
-#rating: 4.5
 ---
 
-
- <p>As I have mentioned in previous posts, understanding pricing and market values has been a passion of mine for over 20 years.</p>
+<p>As I have mentioned in previous posts, understanding pricing and market values has been a passion of mine for over 20 years.</p>
 <p>With many problems I encounter (especially those related to business or technology), I try to follow these steps borrowed from agile software development methodology:</p>
 <ul>
 <li>DEFINE - Define the problem/goals, identifying clear and measurable requirements.&nbsp;</li>

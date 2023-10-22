@@ -2,20 +2,15 @@
 layout: post
 title:  "Reunion from the Internet Boom - 12 years later"
 author: jay
-categories: [ business ]
 tags: [ fail, success, dreams, learning ]
 image: assets/images/headers/agency_reunion.jpg
 description: "Reunion from the Internet Boom - 12 years later"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/09/21
-#rating: 4.5
 ---
 
-
-  <p>In June 1999, I moved to New York City and took a job as a Site Manager working <a href="http://en.wikipedia.org/wiki/Agency.com" target="_blank">Agency.com</a>. The job was to manage a team of front end coders responsible for taking a Photoshop design and turning it into a web site. Agency.com had some amazing design folks and really strong client management/strategy, so they had big time clients and did quite well.</p>
+<p>In June 1999, I moved to New York City and took a job as a Site Manager working <a href="http://en.wikipedia.org/wiki/Agency.com" target="_blank">Agency.com</a>. The job was to manage a team of front end coders responsible for taking a Photoshop design and turning it into a web site. Agency.com had some amazing design folks and really strong client management/strategy, so they had big time clients and did quite well.</p>
 <p>It was the stereotypical Internet Boom company from that time period:</p>
 <ul>
 <li>It was located in a great location - 665 Broadway (right around the Village) with open work spaces.</li>

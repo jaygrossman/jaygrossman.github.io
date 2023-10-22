@@ -2,18 +2,13 @@
 layout: post
 title:  "My Auction Framework MVP"
 author: jay
-categories: [ sports, business, analysis ]
-tags: [ eBay, MVP, sportscollectors, auction, baseball cards ]
+tags: [ ebay, sportscollectors, auction, baseball cards ]
 image: assets/images/headers/auction_mvp.gif
 description: "My Auction Framework MVP"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2014/03/04
-#rating: 4.5
 ---
-
 
  <p>I have been a huge fan of eBay since the moment I first found it (back in 1997 or so). It truly was the world changing marketplace because:</p>
 <ol>

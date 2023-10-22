@@ -2,16 +2,12 @@
 layout: post
 title:  "When to Build vs. Buy"
 author: jay
-categories: [ strategy ]
 tags: [ buy, build, strategy ]
 image: assets/images/headers/build_v_buy.png
 description: "When to Build vs. Buy"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/10/22
-#rating: 4.5
 ---
 
  <p >I had been lucky enough to get to work on a diverse variety of business models and approaches to solving problems over the past 20 years. For most of the major initiatives these companies face, the stakeholders must usually choose between the following:</p>

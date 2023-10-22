@@ -2,16 +2,12 @@
 layout: post
 title:  "Measuring, Understanding, and Predicting Subscriber Value"
 author: jay
-categories: [ code ]
-tags: [ subscripiton, value, analysis, kNN, CART, machine learning, prediction ]
+tags: [ subscripiton, value, analysis, knn, cart, machine learning, prediction ]
 image: assets/images/headers/subscribe.webp
 description: "Measuring, Understanding, and Predicting Subscriber Value"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2014/06/16
-#rating: 4.5
 ---
 
 

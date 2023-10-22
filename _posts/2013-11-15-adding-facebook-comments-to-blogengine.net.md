@@ -2,19 +2,15 @@
 layout: post
 title:  "Adding Facebook Comments to BlogEngine.Net"
 author: jay
-categories: [ analysis, business ]
 tags: [ blogengine, facebook, comments ]
 image: assets/images/headers/facebook_comments.gif
 description: "Adding Facebook Comments to BlogEngine.Net"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2013/11/15
-#rating: 4.5
 ---
 
-  <p >This blog runs using the open source&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="http://www.dotnetblogengine.net/" target="_blank">BlogEngine.net</a>&nbsp;platform using ASP.Net 4.0. So far I have been pretty happy with the features provided overall, as it was pretty straight forward to set up and there are many themes/widgets.</p>
+<p >This blog runs using the open source&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="http://www.dotnetblogengine.net/" target="_blank">BlogEngine.net</a>&nbsp;platform using ASP.Net 4.0. So far I have been pretty happy with the features provided overall, as it was pretty straight forward to set up and there are many themes/widgets.</p>
 <p>The issue I had with using the out of the box comments system was seeing about 15 spams comments posted a day. I've seen some of the bigger blogs use Facebook Comments and they had less of the spammy junk, like ESPN in the screenshot above.</p>
 
 <p >Since I couldn't find a pre-canned BlogEngine widget available using Facebook comments, I needed to use&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://web.archive.org/web/20161029091305/https://developers.facebook.com/docs/plugins/comments/" target="_blank">Facebook Comments plugin</a>&nbsp;to add this functionality. &nbsp;I was able to insert the following code into PostView.ascx of my theme to implement Facebook comments:</p>

@@ -2,19 +2,13 @@
 layout: post
 title:  "Modern Data Stack in a box (all Open Source)"
 author: jay
-categories: [ ]
-tags: [ data engineering, data warehosue, dbt, hackathon, DuckDB, Airbyte, Metabase  ] 
+tags: [ data engineering, data warehosue, dbt, hackathon, duckdb, airbyte, metabase, open source  ] 
 image: assets/images/headers/hackathon_modern_data_stack.png
 description: "Modern Data Stack in a box (all Open Source)"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2023/06/14
-#rating: 4.5
 ---
-
-
 
 <p>This week I participated in a hackathon for fun with a couple of friends. There were 3 rules for each of us:</p>
 

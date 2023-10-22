@@ -2,20 +2,15 @@
 layout: post
 title:  "Fun First Project with my 3D Printer"
 author: jay
-categories: [ code ]
 tags: [ ] 
 image: assets/images/headers/3d_printer.jpg
 description: "Fun First Project with my 3D Printer"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2020/12/26
-#rating: 4.5
 ---
 
-
-  <p>I have long been curious about 3D printers and my daughter has been playing with CAD programs for her middle school STEM Club.&nbsp; So I decided to do some research and buy the <a href="https://www.amazon.com/gp/product/B07D18L9K6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B07D18L9K6&amp;linkCode=as2&amp;tag=hipstir-20&amp;linkId=e0567b354d0dc701ea13d6a8607c88d5" target="_blank">Creality Ender 3 3D Printer Fully Open Source with Resume Printing DIY FDM Printer 220x220x250mm</a> off Amazon for $165. I also bought 2 1KG spools of PLA Filament so I could print things.</p>
+<p>I have long been curious about 3D printers and my daughter has been playing with CAD programs for her middle school STEM Club.&nbsp; So I decided to do some research and buy the <a href="https://www.amazon.com/gp/product/B07D18L9K6/ref=as_li_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B07D18L9K6&amp;linkCode=as2&amp;tag=hipstir-20&amp;linkId=e0567b354d0dc701ea13d6a8607c88d5" target="_blank">Creality Ender 3 3D Printer Fully Open Source with Resume Printing DIY FDM Printer 220x220x250mm</a> off Amazon for $165. I also bought 2 1KG spools of PLA Filament so I could print things.</p>
 <p>I am completely new to 3D printers, but i have put together my share of projects and I do engineering for my day job. I decided that 10pm Christmas Eve would be a good time to start assembling the printer, probably not the best decision. I open the box and there were a lot of pieces+tools and a single sheet with directions with only pictures. Two and a half hours later I had the printer assembled (I am pretty sure Santa's elves or someone experienced would have done it an hour)</p>
 
 <h3><br />First Project - Toothpaste Squeezer</h3>

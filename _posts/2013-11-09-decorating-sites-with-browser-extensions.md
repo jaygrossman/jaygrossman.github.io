@@ -2,18 +2,15 @@
 layout: post
 title:  "Decorating sites with Browser Extensions"
 author: jay
-categories: [ analysis, business ]
-tags: [ WeightWatchers, Chrome, extension, javascript, favorites ]
+tags: [ weightwatchers, chrome, extension, javascript ]
 image: assets/images/headers/chrome_extensions.png
 description: "Decorating sites with Browser Extensions"
 featured: true
 hidden: false
 comments: false
-redirect_from:
-  - /post/2013/11/09
-#rating: 4.5
 ---
-<p>We&rsquo;re big fans of internet grocer FreshDirect in my household. When we lived in Brooklyn and now in North Jersey, we place a delivery order about once a week. While there is a lot I like about the service offering, there are a few features that could improve the user experience.</p>
+
+<p>We're big fans of internet grocer FreshDirect in my household. When we lived in Brooklyn and now in North Jersey, we place a delivery order about once a week. While there is a lot I like about the service offering, there are a few features that could improve the user experience.</p>
 <p>One of the big ones for me would be to associate WeightWatchers points values for each food on the site. It would save me a bunch of time and frustration if my wife and I would be able to see them while we were filling our cart.&nbsp;</p>
 <p><img src="{{ site.baseurl }}/assets/images/ww_fd.gif" alt="" /></p>
 <p>&nbsp;</p>

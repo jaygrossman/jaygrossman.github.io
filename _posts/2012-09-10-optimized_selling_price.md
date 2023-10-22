@@ -2,16 +2,12 @@
 layout: post
 title:  "Is the Right Selling Price an Optimized Price?"
 author: jay
-categories: [ analysis, business ]
-tags: [ pricing, value, dynamic, analysis, optimization ]
+tags: [ value, analysis, optimization ]
 image: assets/images/headers/optimized_selling_price.png
 description: "Is the Right Selling Price an Optimized Price?"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/09/10
-#rating: 4.5
 ---
 <p>I think every person running a business needs to regularly ask themself the following question:</p>
 <p><em>Given our operating constraints, what is the best mix of products and/or services for us to produce and sell in the period, and at what prices, to generate the highest expected revenue?</em></p>

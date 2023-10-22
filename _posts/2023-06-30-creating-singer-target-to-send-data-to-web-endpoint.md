@@ -2,16 +2,12 @@
 layout: post
 title:  "Creating Singer Target to Send Data to Web Endpoint"
 author: jay
-categories: [ ]
-tags: [  data engineering, singer, python  ] 
+tags: [  data engineering, singer, python, open source ] 
 image: assets/images/headers/target-web_endpoint.png
 description: "Creating Singer Target to Send Data to Web Endpoint"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2023/06/30
-#rating: 4.5
 ---
 
 <table style="width: 100%; border-color:red;" border="1" cellpadding="5">

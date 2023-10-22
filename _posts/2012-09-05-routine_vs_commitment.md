@@ -2,20 +2,15 @@
 layout: post
 title:  "There’s a big difference between routine and commitment"
 author: jay
-categories: [ sports, business ]
-tags: [ routine commitment planning, goals, objectives ]
+tags: [ planning, goals, objectives ]
 image: assets/images/headers/commitment.jpg
 description: "There’s a big difference between routine and commitment"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/09/05
-#rating: 4.5
 ---
 
-
- <p>I am a very big fan of the New England Patriots. In the early 1990's, they were terrible (going 1-15 twice in 3 years). Then Bill Parcells was hired as the coach and turned around the fortunes of the team. In 1995, he let go of the team's best running back Marion Butts and used a third round draft pick on Curtis Martin from Pittsburgh. Martin immediately became his starter, went on to have 3 really great years in New England (including a Super Bowl run in 1997), and then followed Parcells to play for the Jets.</p>
+<p>I am a very big fan of the New England Patriots. In the early 1990's, they were terrible (going 1-15 twice in 3 years). Then Bill Parcells was hired as the coach and turned around the fortunes of the team. In 1995, he let go of the team's best running back Marion Butts and used a third round draft pick on Curtis Martin from Pittsburgh. Martin immediately became his starter, went on to have 3 really great years in New England (including a Super Bowl run in 1997), and then followed Parcells to play for the Jets.</p>
 <p>I was watching&nbsp;<a href="http://www.youtube.com/watch?v=eCYpF1OsklA" target="_blank">Curtis Martin's Hall of Fame induction speech</a>&nbsp;(which is the most heart felt speech I have seen from an athlete), and there was a story that stood out to me. Martin was always known as one of the hard working players anyone will ever meet and he always got the most out of his talent. He would outwork other players, the coaches, the trainers - that's just who he was. He tells a story how Parcells called him over during a practice and told him:</p>
 <p>&ldquo;There&rsquo;s a big difference between routine and commitment.&rdquo; &nbsp;</p>
 <p>Parcells was known for being able to push his players and get them to play to their potential. Martin went on to say that this comment got him to raise his workouts to a whole new level and become a better player.</p>

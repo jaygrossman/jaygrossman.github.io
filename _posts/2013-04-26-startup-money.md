@@ -2,20 +2,15 @@
 layout: post
 title:  "Show my startup the money…or not."
 author: jay
-categories: [ analysis, business ]
-tags: [ startup, captial, investment, sportscollectors, Hipstir ]
+tags: [ startup, captial, investment, sportscollectors ]
 image: assets/images/headers/show_me_the_money.png
 description: "Show my startup the money…or not."
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2013/04/26
-#rating: 4.5
 ---
 
-
- <p>Living/working in the New York City area I get to meet quite a few people starting up their own ventures and I am intrigued by how the small, early companies start out. There are all sorts of interesting dynamics to consider:</p>
+<p>Living/working in the New York City area I get to meet quite a few people starting up their own ventures and I am intrigued by how the small, early companies start out. There are all sorts of interesting dynamics to consider:</p>
 <ul >
 <li>How many founders do they have? If more than one, why?</li>
 <li>Did they hire employees/interns/partners at the beginning? If so, why?</li>

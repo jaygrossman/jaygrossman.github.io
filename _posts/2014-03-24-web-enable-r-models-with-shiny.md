@@ -2,20 +2,15 @@
 layout: post
 title:  "Web Enable R models with Shiny"
 author: jay
-categories: [ code ]
-tags: [ code ]
+tags: [ code, shiny ]
 image: assets/images/headers/shiny.png
 description: "Web Enable R models with Shiny"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2014/03/24
-#rating: 4.5
 ---
 
-
- <p>Last September I was preparing for my fantasy football league and I found this really cool<a href="http://fantasyfootballanalytics.net:3838/Auction%20Draft/" target="_blank">&nbsp;web app</a>&nbsp;that suggested the optimal draft recommendations based on the rules of your league. I then found the associated article on r-bloggers that explained how it was done:</p>
+<p>Last September I was preparing for my fantasy football league and I found this really cool<a href="http://fantasyfootballanalytics.net:3838/Auction%20Draft/" target="_blank">&nbsp;web app</a>&nbsp;that suggested the optimal draft recommendations based on the rules of your league. I then found the associated article on r-bloggers that explained how it was done:</p>
 <p><a href="http://www.r-bloggers.com/win-your-fantasy-football-snake-draft-with-this-shiny-app-in-r/" target="_blank">http://www.r-bloggers.com/win-your-fantasy-football-snake-draft-with-this-shiny-app-in-r/</a></p>
 <p><strong style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; text-decoration: underline;">Shiny is the secret sauce to make this possible:</span></strong></p>
 <p>The Shiny package makes it super simple for R users like you to turn analyses into interactive web applications that anyone can use. Let your users choose input parameters using friendly controls like sliders, drop-downs, and text fields. Easily incorporate any number of outputs like plots, tables, and summaries. No HTML or JavaScript knowledge is necessary. If you have some experience with R, you&rsquo;re just minutes away from combining the statistical power of R with the simplicity of a web page.</p>
@@ -57,16 +52,12 @@ redirect_from:
 <li>indicate whether item is authenticated</li>
 <li>enter the minimum bid</li>
 </ol>
-<div>The application returns:</div>
-<div>&nbsp;</div>
-<div><ol style="margin: 0px 0px 15px 35px; padding: 0px;">
+<p>The application returns:</p>
+<ol>
 <li>historical sales reference info for the sku (player+category)</li>
 <li>the predicted probability that the listing will result in a sale</li>
 <li>the predicted sale price and predicted price bucket (category)</li>
-</ol></div>
-<div>I have shared my code and a very limited sample data set on github at:</div>
-<div>&nbsp;</div>
-<div><a href="https://github.com/jaygrossman/EbaySalesPredictionShiny" target="_blank">https://github.com/jaygrossman/EbaySalesPredictionShiny</a>&nbsp;</div>
-<div>&nbsp;</div>
-<div>This is little app is going to make it so much easier for me to determine deals on eBay, as it's much easier than munging some data and firing up R on the command line,</div>
-<div>&nbsp;</div>
+</ol>
+<p>I have shared my code and a very limited sample data set on github at:</p>
+<p><a href="https://github.com/jaygrossman/EbaySalesPredictionShiny" target="_blank">https://github.com/jaygrossman/EbaySalesPredictionShiny</a>&nbsp;</p>
+<p>This is little app is going to make it so much easier for me to determine deals on eBay, as it's much easier than munging some data and firing up R on the command line,</p>

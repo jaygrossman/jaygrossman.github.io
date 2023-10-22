@@ -2,19 +2,13 @@
 layout: post
 title:  "Creating Singer Tap to Capture Ebay Completed Items"
 author: jay
-categories: [ ]
-tags: [ data engineering, singer, ebay, python   ] 
+tags: [ data engineering, singer, ebay, python, open source ] 
 image: assets/images/headers/tap-ebaycompleted.png
 description: "Creating Singer Tap to Capture Ebay Completed Items"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2023/06/19
-#rating: 4.5
 ---
-
-
 
  <h3>What is Singer</h3>
 <p>The <a href="https://www.singer.io/" target="_blank">Singer specification</a> bills itself as <em>"the open-source standard for writing scripts that move data"</em>. <a href="https://transferwise.github.io/pipelinewise/" target="_blank">PipelineWise</a> and <a href="https://meltano.com/" target="_blank">Meltano</a> are popular open source platforms that use the Singer specification to accommodate ingest and replication of data from various sources to various destinations.</p>

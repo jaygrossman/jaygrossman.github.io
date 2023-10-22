@@ -2,16 +2,12 @@
 layout: post
 title:  "Your Dreams must be bigger than your fear"
 author: jay
-categories: [ code ]
 tags: [  dreams, fear, passion project, sportscollectors ] 
 image: assets/images/headers/dreams_bigger.png
 description: "Your Dreams must be bigger than your fear"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2019/11/03
-#rating: 4.5
 ---
 
 <p><br />Last year I was eating lunch at a local Asian restaurant, and I pulled out an awesome message in my fortune cookie. It said, &ldquo;Your dream must be bigger that your fear.&rdquo;&nbsp;</p>

@@ -2,18 +2,13 @@
 layout: post
 title:  "Dagster with Python, Singer, and Meltano"
 author: jay
-categories: [ ]
 tags: [ orchestration, data engineering, dagster, python, singer, meltano, workflow ] 
 image: assets/images/headers/dagster_meltano.jpg
 description: "Dagster with Python, Singer, and Meltano"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - post/2023/04/04
-#rating: 4.5
 ---
-
 
 <p>I have been a fan of Dagster for data orchestration for a little while and wanted to share some of the basics. There are a lot of cool things I like about it (compared to airflow and other schedulers):</p>
 <ul>

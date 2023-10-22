@@ -2,18 +2,13 @@
 layout: post
 title:  "Optimizing spend in Snowflake"
 author: jay
-categories: [ ]
-tags: [ snowflake, optimization, costs, data engineering, credits, profiler ] 
+tags: [ snowflake, optimization, costs, data engineering ] 
 image: assets/images/headers/optimize_snowfalke.png
 description: "Optimizing spend in Snowflake"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - post/2023/04/25
-#rating: 4.5
 ---
-
 
 <p>Since about 2016, I have introduced Snowflake at two of my day jobs (<a href="https://www.renttherunway.com/" target="_blank">Rent the Runway</a> and <a href="https://lumafintech.com/" target="_blank">Luma Financial Technologies</a>) and have witnessed the platform's considerable evolution.&nbsp; As with any hosted SaaS platform, it is very important to understand both how the solution is architected, how users interact with it, and how it is priced.&nbsp;</p>
 <p>A very common concern among dats folks is that their Snowflake bills grown considerably as their use cases for it expand. A few months ago I saw this <a href="https://www.linkedin.com/posts/mattflorian_data-dataengineer-dataanalytics-activity-6995462163326795776-_hzn/" target="_blank">post</a> on LinkedIn:</p>

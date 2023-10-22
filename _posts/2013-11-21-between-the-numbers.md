@@ -2,20 +2,15 @@
 layout: post
 title:  "Between the Numbers"
 author: jay
-categories: [ sports, business, analysis ]
 tags: [ baseball, stats ]
 image: assets/images/headers/between_the numbers.jpg
 description: "Between the Numbers"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2013/11/21
-#rating: 4.5
 ---
 
-
- <p>I am a huge baseball fan, and I am especially excited that my Boston Red Sox won the 2013 World Series. Part of my love for the game and math came from following the statistical performance of different players and comparing them. I can remember the endless debates with my friends as a kid about who was better, Wade Boggs or Don Mattingly. My dad and his friends debated their generation&rsquo;s stars - Ted Williams vs. Joe Dimaggio vs. Mickey Mantle.</p>
+<p>I am a huge baseball fan, and I am especially excited that my Boston Red Sox won the 2013 World Series. Part of my love for the game and math came from following the statistical performance of different players and comparing them. I can remember the endless debates with my friends as a kid about who was better, Wade Boggs or Don Mattingly. My dad and his friends debated their generation&rsquo;s stars - Ted Williams vs. Joe Dimaggio vs. Mickey Mantle.</p>
 <p>Until the past 10-15 years, there was a standard set of stats that people used to measure batter performance. Things like batting average, home runs, runs batted in (RBI), hits, runs, etc. The announcers would always talk about these as the most important measurable aspects for position players (non-pitchers).</p>
 <p>I recently re-read a really good book that was re-released in 2005,&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="http://www.amazon.com/gp/product/0465005470/ref=as_li_tf_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0465005470&amp;linkCode=as2&amp;tag=hipstir-20" target="_blank">Baseball Between the Numbers: Why Everything You Know About the Game Is Wrong</a><img style="padding: 0px 10px 0px 0px; float: left; margin: 0px !important; border-style: none !important;" src="http://ir-na.amazon-adsystem.com/e/ir?t=hipstir-20&amp;l=as2&amp;o=1&amp;a=0465005470" alt="" width="1" height="1" border="0" />. A team of data enthusiasts and stats folks (including Nate Silver of NY Times election prediction notoriety) came up with a new set of statistical measures to quantify a single player&rsquo;s value objectively. It&rsquo;s a really good read for the serious baseball fan and I picked up a copy for $10 delivered.</p>
 <p>The key element is the Wins Above Replacement (WAR) framework, that represents how much better a player is than what a team would available to replace them. The model takes into account hundreds of different quantifiable attributes of a player&rsquo;s performance (including hitting, defense/fielding, throwing, running) to find a methodology to compare all players and pitchers. The authors went to great pains to make sure the model would normalize differences in baseball team&rsquo;s home stadiums (it is much easier to hit home runs at Yankee Stadium than Safeco Field in Seattle) and across different eras. This enables an objective frame of reference to determine what player had the greatest single season contribution.</p>
