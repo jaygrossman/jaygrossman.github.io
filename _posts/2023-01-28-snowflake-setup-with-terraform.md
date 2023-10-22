@@ -9,6 +9,8 @@ description: "My Snowflake Set up with Terraform"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - post/2023/01/28
 #rating: 4.5
 ---
 

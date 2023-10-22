@@ -9,6 +9,8 @@ description: "Automating Image Processing with Python"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2020/07/28
 #rating: 4.5
 ---
 

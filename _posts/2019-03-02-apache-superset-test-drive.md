@@ -9,6 +9,8 @@ description: "Apache Superset Test Drive"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2019/03/02
 #rating: 4.5
 ---
 

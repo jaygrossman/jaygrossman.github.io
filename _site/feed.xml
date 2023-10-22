@@ -5,8 +5,8 @@
     <description>Sharing My Fun with Software, Data, Sports, &amp; Collecting!</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Oct 2023 21:39:13 -0400</pubDate>
-    <lastBuildDate>Sat, 21 Oct 2023 21:39:13 -0400</lastBuildDate>
+    <pubDate>Sun, 22 Oct 2023 00:00:06 -0400</pubDate>
+    <lastBuildDate>Sun, 22 Oct 2023 00:00:06 -0400</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -48,6 +48,13 @@ I chose the &lt;a href=&quot;https://jekyllthemes.io/theme/mediumish&quot; targe
 &lt;p&gt;Here is a nice video I watched by Spencer Pao:&lt;/p&gt;
 
 &lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/g6AJ9qPPoyc?si=rq5dJJOkYtBAFR9Z&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;There were some gotchas in setting up a custom domain. Here is a helpful video from Kenny Yip:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/rIXWUJ5U8bY?si=UZvbFq2r62IR_B-u&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;Since I migrated from a different platform to Jekyll, it was helpful to set up redirects so my old URLs resolve with my new site. This GEM was helpful to set up page level redirects:&lt;br /&gt;
+&lt;a href=&quot;https://github.com/jekyll/jekyll-redirect-from&quot; target=&quot;_blank&quot;&gt;https://github.com/jekyll/jekyll-redirect-from&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The new platfrom will certaily make it easier for me to post new content. Now I just need to find time and motivation to add more to this blog consistently.&lt;/p&gt;
 

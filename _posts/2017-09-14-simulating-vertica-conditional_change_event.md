@@ -9,6 +9,8 @@ description: "Simulating Vertica's conditional_change_event"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2017/09/14
 #rating: 4.5
 ---
 

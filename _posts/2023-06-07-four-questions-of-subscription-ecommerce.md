@@ -9,6 +9,8 @@ description: "The 4 Analytics Questions of Subscription Ecommerce"
 featured: true
 hidden: false
 comments: false
+redirect_from:
+  - /post/2023/06/07
 #rating: 4.5
 ---
 

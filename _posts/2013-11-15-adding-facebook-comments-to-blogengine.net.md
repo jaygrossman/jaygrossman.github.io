@@ -9,6 +9,8 @@ description: "Adding Facebook Comments to BlogEngine.Net"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2013/11/15
 #rating: 4.5
 ---
 

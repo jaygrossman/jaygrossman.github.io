@@ -9,6 +9,8 @@ description: "Snowflake's lateral flatten function on variant data type"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2017/08/25
 #rating: 4.5
 ---
 

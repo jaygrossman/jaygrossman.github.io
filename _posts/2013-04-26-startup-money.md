@@ -9,6 +9,8 @@ description: "Show my startup the money…or not."
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2013/04/26
 #rating: 4.5
 ---
 

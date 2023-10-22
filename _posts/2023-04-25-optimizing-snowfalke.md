@@ -9,6 +9,8 @@ description: "Optimizing spend in Snowflake"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - post/2023/04/25
 #rating: 4.5
 ---
 

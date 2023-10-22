@@ -9,6 +9,8 @@ description: "Your Dreams must be bigger than your fear"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2019/11/03
 #rating: 4.5
 ---
 

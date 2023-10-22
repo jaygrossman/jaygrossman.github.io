@@ -9,6 +9,8 @@ description: "Creating Singer Target to Send Data to Web Endpoint"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2023/06/30
 #rating: 4.5
 ---
 

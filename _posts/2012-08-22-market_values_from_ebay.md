@@ -9,6 +9,8 @@ description: "Is Searching eBay a reliable way to determine Market Value?"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/08/22
 #rating: 4.5
 ---
 

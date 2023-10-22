@@ -9,6 +9,8 @@ description: "Decorating sites with Browser Extensions"
 featured: true
 hidden: false
 comments: false
+redirect_from:
+  - /post/2013/11/09
 #rating: 4.5
 ---
 <p>We&rsquo;re big fans of internet grocer FreshDirect in my household. When we lived in Brooklyn and now in North Jersey, we place a delivery order about once a week. While there is a lot I like about the service offering, there are a few features that could improve the user experience.</p>

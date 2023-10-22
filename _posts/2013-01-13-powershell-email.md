@@ -9,6 +9,8 @@ description: "Sending email through Gmail SMTP server - C# and Powershell exampl
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2013/01/13
 #rating: 4.5
 ---
 

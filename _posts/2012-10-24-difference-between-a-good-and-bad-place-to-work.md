@@ -9,6 +9,8 @@ description: "The Difference between a Good and Bad Place to Work."
 featured: true
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/12/24
 #rating: 4.5
 ---
 

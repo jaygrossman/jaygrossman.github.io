@@ -9,6 +9,8 @@ description: "Methodology for Building a Product Valuation Platform"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/08/23
 #rating: 4.5
 ---
 

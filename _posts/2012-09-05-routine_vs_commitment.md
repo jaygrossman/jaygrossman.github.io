@@ -9,6 +9,8 @@ description: "There’s a big difference between routine and commitment"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/09/05
 #rating: 4.5
 ---
 

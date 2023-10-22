@@ -9,6 +9,8 @@ description: "Is the Right Selling Price an Optimized Price?"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/09/10
 #rating: 4.5
 ---
 <p>I think every person running a business needs to regularly ask themself the following question:</p>

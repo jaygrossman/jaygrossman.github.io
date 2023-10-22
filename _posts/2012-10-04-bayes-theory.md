@@ -9,6 +9,8 @@ description: "Bayesian Theory and the Theory of Life"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/10/04
 #rating: 4.5
 ---
 

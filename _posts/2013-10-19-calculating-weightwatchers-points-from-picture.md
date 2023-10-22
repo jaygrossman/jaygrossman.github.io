@@ -9,6 +9,8 @@ description: "Calculating WeightWatchers points from a picture of the Nutritiona
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2013/10/19
 #rating: 4.5
 ---
 
