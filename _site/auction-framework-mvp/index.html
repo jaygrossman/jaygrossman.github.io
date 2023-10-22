@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/images/logo.png"
+><link rel="shortcut icon" href="/assets/images/favicon.ico" />
+
+<title>My Auction Framework MVP | JayGrossman.com</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>My Auction Framework MVP | JayGrossman.com</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="My Auction Framework MVP" />
+<meta name="author" content="jay" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="My Auction Framework MVP" />
+<meta property="og:description" content="My Auction Framework MVP" />
+<link rel="canonical" href="http://localhost:4000/auction-framework-mvp/" />
+<meta property="og:url" content="http://localhost:4000/auction-framework-mvp/" />
+<meta property="og:site_name" content="JayGrossman.com" />
+<meta property="og:image" content="http://localhost:4000/assets/images/headers/auction_mvp.gif" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-03-04T00:00:00-05:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/headers/auction_mvp.gif" />
+<meta property="twitter:title" content="My Auction Framework MVP" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"jay"},"dateModified":"2014-03-04T00:00:00-05:00","datePublished":"2014-03-04T00:00:00-05:00","description":"My Auction Framework MVP","headline":"My Auction Framework MVP","image":"http://localhost:4000/assets/images/headers/auction_mvp.gif","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/auction-framework-mvp/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"jay"},"url":"http://localhost:4000/auction-framework-mvp/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+    <!--<a class="navbar-brand" href="/">
+    <img src="/assets/images/logo.png" alt="JayGrossman.com">
+    </a>-->
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                <li class="nav-item">
+                
+                <a class="nav-link" href="/index.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/about/#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/favorites">Favorite Posts</a>
+                    </li>
+
+                <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+    <h1 class="sitetitle"><a href="/" style="color: #000000;">JayGrossman.com</a></h1>
+    <p class="lead">
+        Sharing My Fun with Software, Data, Sports, & Collecting!
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+    <!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=My Auction Framework MVP&url=http://localhost:4000/auction-framework-mvp/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/auction-framework-mvp/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/auction-framework-mvp/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+</div>
+
+        </div>
+
+        <!-- Post -->
+        
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="/assets/images/jay_headshot.png" alt="Jay Grossman">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a class="link-dark" href="/about">Jay Grossman</a><br>
+                       
+                        Published on: 
+                <span class="post-date"><time class="post-date" datetime="2014-03-04">04 Mar 2014</time></span>           
+                <br>
+                <ul class="tags" style="margin:0px;">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#MVP">#MVP</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#auction">#auction</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#baseball-cards">#baseball cards</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#eBay">#eBay</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#sportscollectors">#sportscollectors</a>
+                    </li>
+                    
+                </ul>
+            
+                    </div>
+                </div>
+                
+
+                <!-- Post Title -->
+                <h1 class="posttitle">My Auction Framework MVP</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/assets/images/headers/auction_mvp.gif" alt="My Auction Framework MVP">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <p>I have been a huge fan of eBay since the moment I first found it (back in 1997 or so). It truly was the world changing marketplace because:</p>
+<ol>
+<li>It quickly gained critical mass with worldwide populations of buyers and sellers.</li>
+<li>The auction format is easy to understand and allowed the market to determine the prices.&nbsp;</li>
+<li>It was an early web 1.0 company that thrived after the dotcom bust of 2001.</li>
+</ol>
+<p>Over the years, I have seen both start ups and established companies launch would be competitors to eBay. Some try to stand up some cheap package and others build a custom enterprise solution, but just about every one of them dies off with a lack of interest or sustainable business model.</p>
+<p>I have to admit, I have always thought it would be a lot of fun to stand up auction functionality (either as part of an existing site or as a stand alone project). I have built out 2 pretty feature rich versions customizing some canned scripts (one in ASP and another in PHP), but I did not feel they offered enough value to bring to production. I wasn&rsquo;t really happy with the quality of the user experience of either solution and didn&rsquo;t really want to commit myself to needing to extend either of those technologies.</p>
+<p><span style="margin: 0px; padding: 0px; text-decoration: underline;"><strong style="margin: 0px; padding: 0px;">The Project</strong></span></p>
+<p>I am a big fan of quickly launching usable features and then iterating on them based on the learning from users&rsquo; interactions (lean/agile development). Since I run a community full of prospective auction buyers and sellers (SportsCollectors.Net), I thought it would be a good place to test this type of functionality. &nbsp;</p>
+<p>The first thing I needed to do was to determine what use cases my&nbsp;<a href="http://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank">Minimum Viable Product</a>&nbsp;(MVP) would need to accommodate in order to provide value. My vision was to create some of the core user experience of eBay circa 1999 (well before the recommendations and the magento shopping cart integration).&nbsp;</p>
+<p>Since SportsCollectors.Net already had a design, an active user base, user/login functions, messaging, and user rating/feedback, I was able to leverage these elements and not even have to spend time on them. So I could focus on these core auction related functions:</p>
+<ul>
+<li>Buyers need ability to browse/search for active auctions</li>
+<li>Buyers need the ability to view the auction details</li>
+<li>Buyers need the ability to place bids (with proxy logic)</li>
+<li>Bidders need to see a list of active auctions they have bid on.</li>
+<li>Winning bidders need to be sent payment instructions once the auction has ended. This included associating the auction with the Trade Manager framework so feedback could be given.</li>
+<li>Sellers need the ability to create standard auctions (no support for reverse, dutch, or fixed price formats). This must include support for image uploads, payment methods, and categories.&nbsp;</li>
+</ul>
+<p>The next thing I did was to create a very basic entity model that defined the key objects in the system, the porperties to describe them, and the actions they can perform. The diagram below shows the corresponding data model (which has since been refactored a bit): &nbsp;</p>
+<p><img src="/assets/images/scn_auction_erd.gif" alt="erd" /></p>
+<p><br style="margin: 0px; padding: 0px;" />I spent about 3 days of my train commute (2+ hours per day) coding the user functionality on the site. Below are screens of the browse/search and auction details pages:</p>
+
+<p><img src="/assets/images/scn_auction_listings.gif" alt="auction detail" /></p>
+<p><img src="/assets/images/headers/auction_mvp.gif" alt="auction detail" /></p>
+<p>The proxy logic for bidding took the most time of any function. There are a few involved scenarios to accommodate, like when the bid is not high enough or when high bidder raises the maximum bid amount. &nbsp;It was certainly helpful to have built out robust unit tests (validating all the fringe scenarios) before writing any implementation code.</p>
+<p>I was really happy to not have to worry about creating a look and feel or generic user management functionality. The look and feel can especially be a huge time suck.</p>
+<p><strong style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; text-decoration: underline;">The Test</span></strong></p>
+<p>I decided I would run a test of 50 auctions of vintage sports cards of star players (mostly Hall of Fame caliber). All auctions would run for 14 days and have a starting bid of $0.25 (the median retail value of the lots was around $8). I figured the best time to have them end was on a Sunday night between 8-10PM EST.</p>
+<p>I spent another 2 more hours scanning the cards and entering the information for the auctions. To expedite the process, I wrote a small console application to trigger a scan and then divide a scanned image into individual images based on coordinates &ndash; much like a photoshop macro.</p>
+<p>To let folks know about the new functionality, I posted a simple announcement the site&rsquo;s&nbsp;<a href="http://www.sportscollectors.net/MessageBoardThread.aspx?t=157710" target="_blank">message board</a>&nbsp;and the site&rsquo;s&nbsp;<a href="https://www.facebook.com/groups/8878802885/" target="_blank">Facebook page</a>:</p>
+
+<p><img src="/assets/images/scn_auction_announcement.gif" alt="auction detail" /></p>
+<p>&nbsp;</p>
+<p>Other than these general announcements, I provided no additional information or instructions to how everything would work. My hypothesis was that this member base was familiar enough using auctions to figure out how it would work. In the event there would be questions, they could reply to the message board post.&nbsp;</p>
+<p><span style="text-decoration: underline;"><strong style="margin: 0px; padding: 0px;">The Results</strong></span></p>
+<p>I&rsquo;d like to think the auction was pretty easy to use, as people used it to get some good deals. It had 43 different bidders made a total of 163 bids. &nbsp;47 of the 50 auctions resulted in sales (85%), for a total of $65.19 ($1.38 average).&nbsp;</p>
+<p>On the final day, the auctions saw 24 bids, 10 of which were leading bidders raising their proxy bid amounts. I had figured there would be some items were people would bid in the last few minutes, but it did not happen. Of course I didn&rsquo;t take into account that the Oscars and a new Walking Dead episode may have distracted people during that window.</p>
+<p>There was a theme on the message board (which saw 30 replies to the announcement) and via personal messages/emails, that members liked the auction feature. Many had expressed interest in using it to offer their items for sale.</p>
+<p>I am interested to see if everyone pays for their winnings, and how timely the payments are. We should know over the next few weeks. I am also interested to see the preferred payment methods for buyers (Paypal, check, money order, or cash).</p>
+<p><span style="text-decoration: underline;"><strong style="margin: 0px; padding: 0px;">Conclusions</strong></span></p>
+<p>This was fun and I am happy I decided to 1) build this MVP during my commute and 2) run a set of auctions. I think the feature set that was part of this first test offered the right functionality.&nbsp;</p>
+<p>I intentionally made starting bid very attractive to promote interest, as well as picking items (vintage star cards) that I knew would garner interest at these low price points. I likely spent more on the cards than what they sold for, but it was well worth it to get some tangible feedback on the idea.</p>
+<p>I have not yet decided if an auction service is viable to run &ndash; either to be added permanently to the site (only open to members) or living as a different site.&nbsp;</p>
+<p>I have also considered adding the following enhancements and offering the framework to others (maybe open source):</p>
+<ul>
+<li>Buy it now and fixed price listings</li>
+<li>Allowing other sellers can list</li>
+<li>Options to charge listing and/or final value fees</li>
+<li>Watchlists for bidders</li>
+<li>Notification when outbid</li>
+<li>Notification when your auction is sold (for seller)</li>
+</ul>
+
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2014-03-04">04 Mar 2014</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <!--<div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#analysis">analysis</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#business">business</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#sports">sports</a>
+                    </li>
+                    
+                </ul>
+            </div>-->
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#MVP">#MVP</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#auction">#auction</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#baseball-cards">#baseball cards</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#eBay">#eBay</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#sportscollectors">#sportscollectors</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="/between-the-numbers/" > &laquo; Between the Numbers</a>
+
+
+
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="/web-enable-r-models-with-shiny/">Web Enable R models with Shiny &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+</div>
+
+
+    
+</div>
+
+-<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Popular Tags <span class="d-none d-md-inline">→</span></h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#sportscarddatabase">SportsCardDatabase  (4)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#analysis">analysis  (9)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#data">data  (3)</a>
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#data-engineering">data engineering  (7)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#dreams">dreams  (3)</a>
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#ebay">eBay  (3)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#favorites">favorites  (7)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#python">python  (4)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#singer">singer  (3)</a>
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#snowflake">snowflake  (4)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#sportscollectors">sportscollectors  (5)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#strategy">strategy  (3)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+		</div>
+	</div>
+</div>
+
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                Copyright © 2023 JayGrossman.com 
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//.disqus.com/count.js"></script>
+
+
+</body>
+</html>

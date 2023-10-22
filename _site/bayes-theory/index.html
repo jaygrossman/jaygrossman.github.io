@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/assets/images/logo.png"
+><link rel="shortcut icon" href="/assets/images/favicon.ico" />
+
+<title>Bayesian Theory and the Theory of Life | JayGrossman.com</title>
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Bayesian Theory and the Theory of Life | JayGrossman.com</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Bayesian Theory and the Theory of Life" />
+<meta name="author" content="jay" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Bayesian Theory and the Theory of Life" />
+<meta property="og:description" content="Bayesian Theory and the Theory of Life" />
+<link rel="canonical" href="http://localhost:4000/bayes-theory/" />
+<meta property="og:url" content="http://localhost:4000/bayes-theory/" />
+<meta property="og:site_name" content="JayGrossman.com" />
+<meta property="og:image" content="http://localhost:4000/assets/images/headers/bayes.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2012-10-04T00:00:00-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/headers/bayes.png" />
+<meta property="twitter:title" content="Bayesian Theory and the Theory of Life" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"jay"},"dateModified":"2012-10-04T00:00:00-04:00","datePublished":"2012-10-04T00:00:00-04:00","description":"Bayesian Theory and the Theory of Life","headline":"Bayesian Theory and the Theory of Life","image":"http://localhost:4000/assets/images/headers/bayes.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/bayes-theory/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"jay"},"url":"http://localhost:4000/bayes-theory/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link href="/assets/css/screen.css" rel="stylesheet">
+
+<link href="/assets/css/main.css" rel="stylesheet">
+
+<script src="/assets/js/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body class="layout-post">
+	<!-- defer loading of font and font awesome -->
+	<noscript id="deferred-styles">
+		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	</noscript>
+
+
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+
+    <div class="container pr-0">
+
+    <!-- Begin Logo -->
+    <!--<a class="navbar-brand" href="/">
+    <img src="/assets/images/logo.png" alt="JayGrossman.com">
+    </a>-->
+    <!-- End Logo -->
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMediumish">
+
+        <!-- Begin Menu -->
+
+            <ul class="navbar-nav ml-auto">
+
+                
+                <li class="nav-item">
+                
+                <a class="nav-link" href="/index.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="/about/#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/favorites">Favorite Posts</a>
+                    </li>
+
+                <script src="/assets/js/lunr.js"></script>
+
+
+<style>
+    .lunrsearchresult .title {color: #d9230f;}
+    .lunrsearchresult .url {color: silver;}
+    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
+    .lunrsearchresult a:hover .title {text-decoration: underline;}
+</style>
+
+
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+</form>
+
+<div id="lunrsearchresults">
+    <ul></ul>
+</div>
+
+<script src="/assets/js/lunrsearchengine.js"></script>
+
+            </ul>
+
+        <!-- End Menu -->
+
+    </div>
+
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->
+
+<div class="site-content">
+
+<div class="container">
+
+<!-- Site Title
+================================================== -->
+<div class="mainheading">
+    <h1 class="sitetitle"><a href="/" style="color: #000000;">JayGrossman.com</a></h1>
+    <p class="lead">
+        Sharing My Fun with Software, Data, Sports, & Collecting!
+    </p>
+</div>
+
+<!-- Content
+================================================== -->
+<div class="main-content">
+    <!-- Begin Article
+================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Share -->
+        <div class="col-md-2 pl-0">
+            <div class="share sticky-top sticky-top-offset">
+    <p>
+        Share
+    </p>
+    <ul>
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://twitter.com/intent/tweet?text=Bayesian Theory and the Theory of Life&url=http://localhost:4000/bayes-theory/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://facebook.com/sharer.php?u=http://localhost:4000/bayes-theory/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+
+        <li class="ml-1 mr-1">
+            <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/bayes-theory/" onclick="window.open(this.href, 'width=550,height=435');return false;">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+
+    </ul>
+    
+</div>
+
+        </div>
+
+        <!-- Post -->
+        
+
+        <div class="col-md-9 flex-first flex-md-unordered">
+            <div class="mainheading">
+
+                <!-- Author Box -->
+                
+                <div class="row post-top-meta">
+                    <div class="col-xs-12 text-center text-md-left mb-4 mb-md-0">
+                        
+                        <img class="author-thumb" src="/assets/images/jay_headshot.png" alt="Jay Grossman">
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                        <a class="link-dark" href="/about">Jay Grossman</a><br>
+                       
+                        Published on: 
+                <span class="post-date"><time class="post-date" datetime="2012-10-04">04 Oct 2012</time></span>           
+                <br>
+                <ul class="tags" style="margin:0px;">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Bayes">#Bayes</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Bayesian">#Bayesian</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#analysis">#analysis</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#class">#class</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#probablility">#probablility</a>
+                    </li>
+                    
+                </ul>
+            
+                    </div>
+                </div>
+                
+
+                <!-- Post Title -->
+                <h1 class="posttitle">Bayesian Theory and the Theory of Life</h1>
+
+            </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            
+            <!-- End Adsense -->
+
+            <!-- Post Featured Image -->
+            
+
+            
+            <img class="featured-image img-fluid" src="/assets/images/headers/bayes.png" alt="Bayesian Theory and the Theory of Life">
+            
+
+            
+            <!-- End Featured Image -->
+
+            <!-- Post Content -->
+            <div class="article-post">
+                <!-- Toc if any -->
+                
+                <!-- End Toc -->
+                <p style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">One of the reasons I love working in Manhattan is all the cool opportunities to learn and the networks of interesting people. Every Monday I receive an email from tech investor&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="http://www.thisisgoingtobebig.com/" target="_blank">Charlie O&rsquo;Donnell</a>&nbsp;&nbsp;with classes a list of classes and meetups for entrepreneurs going on around New York City.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">Last week I found out and signed up for a high level class on Bayesian Theory and probability (called&nbsp;Bayesian Theory and the Theory of Life)&nbsp;that met during lunch time a few blocks from my office. The class offered through Skillshare (interesting but seemingly immature startup) and the instructor was&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="http://www.usv.com/bios/albert.html" target="_blank">Albert Wegner</a>, a partner with venture capital firm Union Square Ventures.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">I am someone who generally questions a lot of accepted hypotheses, baselines, and beliefs. So I was interested to see this presentation how we could use Bayes Theory to test whether a prior belief is correct in relation to what we measure.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">His agenda was written on the white board as follows:</p>
+<ol style="margin: 0px 0px 15px 35px; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">
+<li style="margin: 0px; padding: 5px 0px; background-image: none; background-position: initial initial; background-repeat: initial initial;"><span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;</span><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">Why does uncertainty exist?</span></li>
+<li style="margin: 0px; padding: 5px 0px; background-image: none; background-position: initial initial; background-repeat: initial initial;"><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">Why do we suck at dealing with #1?</span></li>
+<li style="margin: 0px; padding: 5px 0px; background-image: none; background-position: initial initial; background-repeat: initial initial;"><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">How do we think correctly about uncertainty?</span></li>
+<li style="margin: 0px; padding: 5px 0px; background-image: none; background-position: initial initial; background-repeat: initial initial;"><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">What does it mean for life?</span></li>
+</ol>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><strong style="margin: 0px; padding: 0px;">Some Background Exercises and Concepts</strong></p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">So Wegner started the class having us answer some multiple choice and open ended questions, and they helped to illustrate some excellent points:</p>
+<ul style="margin: 0px 0px 15px 15px; padding: 0px; list-style: none; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">
+<li style="margin: 0px; padding: 5px 0px 5px 25px; background-image: url('https://web.archive.org/web/20130923010123/http://jaygrossman.com/themes/Boldy/images/bullet_list.png'); background-position: 0px 8px; background-repeat: no-repeat no-repeat;"><span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;</span><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">The source of uncertainty is limited knowledge of the world. &nbsp;Can we ever really be certain about anything?</span></li>
+</ul>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em 1in; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;"><span style="margin: 0px; padding: 0px; font-family: 'Courier New';">o<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;</span></span>Maybe we can have certainty for really small systems. Even then it is very likely there is some level of the unknown that could affect our certainty of an outcome.</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em 1in; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;"><span style="margin: 0px; padding: 0px; font-family: 'Courier New';">o<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;</span></span>We also need to consider how the cost of observations affects our certainty. Are we sacrificing something important to make those observations?</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em 1in; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;"><span style="margin: 0px; padding: 0px; font-family: 'Courier New';">o<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;</span></span>We also need to consider how the speed at which we can make observations affects our certainty. Can we make and process observations quickly enough for them to be relevant?</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em 1in; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;"><span style="margin: 0px; padding: 0px; font-family: 'Courier New';">o<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;</span></span>Quantum uncertainty &ndash; if we observer something too closely we may change what you are trying to measure.</p>
+<ul style="margin: 0px 0px 15px 15px; padding: 0px; list-style: none; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">
+<li style="margin: 0px; padding: 5px 0px 5px 25px; background-image: url('https://web.archive.org/web/20130923010123/http://jaygrossman.com/themes/Boldy/images/bullet_list.png'); background-position: 0px 8px; background-repeat: no-repeat no-repeat;"><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">One of the scenarios described an introverted shy, nerdy individual and then asked which was a more likely career path &ndash; librarian or truck driver.<br style="margin: 0px; padding: 0px;" /><br style="margin: 0px; padding: 0px;" /></span><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">The correct answer was truck driver, because there are 1.5 million of those positions available vs. 150,000 librarians. Even if there is a possible social predisposition, it would be difficult to assume that it would weigh greater than the 10x multiplier difference of the population dynamics.<br style="margin: 0px; padding: 0px;" /><br style="margin: 0px; padding: 0px;" /></span><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">This concept is referred to as the&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="http://en.wikipedia.org/wiki/Base_rate_fallacy" target="_blank">Base Rate Fallacy</a>.</span></li>
+</ul>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">&nbsp;</p>
+<ul style="margin: 0px 0px 15px 15px; padding: 0px; list-style: none; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">
+<li style="margin: 0px; padding: 5px 0px 5px 25px; background-image: url('https://web.archive.org/web/20130923010123/http://jaygrossman.com/themes/Boldy/images/bullet_list.png'); background-position: 0px 8px; background-repeat: no-repeat no-repeat;"><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">He gave an example that the Bill Gates &nbsp;Foundation did a study that the best schools in the US were small schools, the foundation and government gave small schools lots of money. He then commented that small schools also accounted for the worst schools, while larger schools seemed to have a more middle of the road position.<br style="margin: 0px; padding: 0px;" /><br style="margin: 0px; padding: 0px;" /></span><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">He noted that the law of small numbers could be in play here, as analyzing small populations can lead to misleading extremes. It is very popular a small school could have a majority of either good or bad students. The larger populations will have both good and bad averaged together, accounting for a blended score.</span></li>
+</ul>
+<ul style="margin: 0px 0px 15px 15px; padding: 0px; list-style: none; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">
+<li style="margin: 0px; padding: 5px 0px 5px 25px; background-image: url('https://web.archive.org/web/20130923010123/http://jaygrossman.com/themes/Boldy/images/bullet_list.png'); background-position: 0px 8px; background-repeat: no-repeat no-repeat;"><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">My favorite question was &ldquo;Intelligent women tend to marry less intelligent men. Why?&rdquo; The asked this to half the class, and the other have had intelligent men with less intelligent women.&nbsp;<br style="margin: 0px; padding: 0px;" /><br style="margin: 0px; padding: 0px;" /></span>He drew the following diagram on the board for us:<br style="margin: 0px; padding: 0px;" />
+<table style="margin: 0px; padding: 0px;">
+<tbody style="margin: 0px; padding: 0px;">
+<tr style="margin: 0px; padding: 0px;">
+<td style="margin: 0px; padding: 0px;"><img style="margin: 0px 10px 0px 0px; padding: 0px 10px 0px 0px; float: left;" src="https://web.archive.org/web/20131006065751im_/http://jaygrossman.com/image.axd?picture=%2f2012%2f12%2f1355156136475.jpg" alt="" /></td>
+</tr>
+</tbody>
+</table>
+<br style="margin: 0px; padding: 0px;" /><br style="margin: 0px; padding: 0px;" />In a fairly common linear regression scenario, we can draw a line that that shows the trend for all the individual data points. He then drew an oval around the data points. He explained that as the smartness of woman got to the higher end, the number of men under the line in the oval increased proportionally. The inverse would be true as the smartness of men increased.<br style="margin: 0px; padding: 0px;" /><br style="margin: 0px; padding: 0px;" />He mentioned that smartness of men and woman are imperfectly correlated &ndash; meaning that they do not go up together and one may go down as the other goes up.</li>
+</ul>
+<ul style="margin: 0px 0px 15px 15px; padding: 0px; list-style: none; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">
+<li style="margin: 0px; padding: 5px 0px 5px 25px; background-image: url('https://web.archive.org/web/20130923010123/http://jaygrossman.com/themes/Boldy/images/bullet_list.png'); background-position: 0px 8px; background-repeat: no-repeat no-repeat;"><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">We don&rsquo;t observe probability distributions, only outcomes.&nbsp; So we try to tie our expectations about uncertainty to outcomes.</span></li>
+<li style="margin: 0px; padding: 5px 0px 5px 25px; background-image: url('https://web.archive.org/web/20130923010123/http://jaygrossman.com/themes/Boldy/images/bullet_list.png'); background-position: 0px 8px; background-repeat: no-repeat no-repeat;">&nbsp;<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;</span><span style="margin: 0px; padding: 0px; text-indent: -0.25in;">2 types of modes our brain works in:</span></li>
+</ul>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em 1in; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;"><span style="margin: 0px; padding: 0px; font-family: 'Courier New';">o<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;</span></span>Type 1 &ndash; assumptions and thought processes we just make automatically</p>
+<p class="MsoListParagraphCxSpLast" style="margin: 0px 0px 1.5em 1in; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;"><span style="margin: 0px; padding: 0px; font-family: 'Courier New';">o<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;</span></span>Type 2 &ndash; we knowingly realize we need deeper analysis, and take a step back to do the analysis</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><strong style="margin: 0px; padding: 0px;">His explanation Bayesian Theory&nbsp;</strong></p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">Bayes Theory is about testing hypothesis against the observed outcomes.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">&nbsp;He gives an example about home HIV tests. Here are the numbers we&rsquo;ll dive into:</p>
+<p class="MsoListParagraphCxSpFirst" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>The US population had 309 million people and 1.2 million had HIV (0.3%).</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>The home test is 99.8% accurate in measuring people who don&rsquo;t have HIV.</p>
+<p class="MsoListParagraphCxSpLast" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>The home test is 92% accurate in measuring people who do have HIV.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em 0.25in; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: 2in;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1 million people<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;------------------------------------------------------------<br style="margin: 0px; padding: 0px;" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3,000&nbsp;&nbsp;&nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp;997,000<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp;<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HIV &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NO HIV<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp;<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp;<br style="margin: 0px; padding: 0px;" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;----------------- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-----------------<br style="margin: 0px; padding: 0px;" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 92% &nbsp;| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp;&nbsp;&nbsp; 8% &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0.2% &nbsp;| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 99.8%<br style="margin: 0px; padding: 0px;" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|<br style="margin: 0px; padding: 0px;" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2,760 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 240 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1,994 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 995,006<br style="margin: 0px; padding: 0px;" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -</p>
+<p class="MsoListParagraphCxSpFirst" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>The 995,006 have correctly tested negative</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>The 1,994 have tested false positive</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>The 240 have tested false negative</p>
+<p class="MsoListParagraphCxSpLast" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>The 2,760 have correctly tested positive</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">E=Evidence, H=Hypothesis, P=Probability</p>
+<table class="MsoTableGrid" style="margin: 0px; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; border-collapse: collapse; border: none;" border="1" cellspacing="0" cellpadding="0">
+<tbody style="margin: 0px; padding: 0px;">
+<tr style="margin: 0px; padding: 0px;">
+<td style="margin: 0px; padding: 0in 5.4pt; width: 159.6pt; border: 1pt solid windowtext;" valign="top" width="213">
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px;">&nbsp;</p>
+</td>
+<td style="margin: 0px; padding: 0in 5.4pt; width: 159.6pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt;" valign="top" width="213">
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px;">E</p>
+</td>
+<td style="margin: 0px; padding: 0in 5.4pt; width: 159.6pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt;" valign="top" width="213">
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px;">!E</p>
+</td>
+</tr>
+<tr style="margin: 0px; padding: 0px;">
+<td style="margin: 0px; padding: 0in 5.4pt; width: 159.6pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt;" valign="top" width="213">
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px;">H</p>
+</td>
+<td style="margin: 0px; padding: 0in 5.4pt; width: 159.6pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt;" valign="top" width="213">
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px;">P(H&amp;E)</p>
+</td>
+<td style="margin: 0px; padding: 0in 5.4pt; width: 159.6pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt;" valign="top" width="213">
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px;">P(H&amp;!E)</p>
+</td>
+</tr>
+<tr style="margin: 0px; padding: 0px;">
+<td style="margin: 0px; padding: 0in 5.4pt; width: 159.6pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt;" valign="top" width="213">
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px;">!H</p>
+</td>
+<td style="margin: 0px; padding: 0in 5.4pt; width: 159.6pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt;" valign="top" width="213">
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px;">P(!H%E)</p>
+</td>
+<td style="margin: 0px; padding: 0in 5.4pt; width: 159.6pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt;" valign="top" width="213">
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px;">P(!H&amp;!E)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">&nbsp;</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(H) = 0.3%<br style="margin: 0px; padding: 0px;" />(the hypothesis or prior belief)</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(H|E) = 92%<br style="margin: 0px; padding: 0px;" />(probability of hypothesis given evidence observed)</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(E) = P(H&amp;E) + P(!H%E) = 2760+1994 = 4754&nbsp;<br style="margin: 0px; padding: 0px;" />(total of expected positive with false positive)</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(H&amp;E) &nbsp;/ P(E) &nbsp;= 2760/(2760+1994) = 58% &nbsp;<br style="margin: 0px; padding: 0px;" />(divide expected positive by total of expected positive with false positive)</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; line-height: 15.333332061767578px; font-family: Arial, sans-serif;">Our goal is to calculate the probability that the hypothesis is accurate, given the fact that the evidence observed. &nbsp;Using the formula for Bayes' theorem, we have:</span></p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">Bayes Theorum:<br style="margin: 0px; padding: 0px;" />P(E|H) &nbsp;/ P(E) * P(H) = .92 / .04754 * .0003 = .0058<br style="margin: 0px; padding: 0px;" />(divide the probability of hypothesis by expected positive the divide &nbsp;by total of expected positive with false positive and then multiply by the hypothesis)</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">Any time P(E|H) is greater than P(E), you likely have a good test that will provide lift.<br style="margin: 0px; padding: 0px;" />In this case the 0.58% of total people attributed to having HIV is increased compared to the hypothesis of 0.3%.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">Strong prior belief leads to lesser updating. People tend to hold beliefs and signals (tests) will be less impactful.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><strong style="margin: 0px; padding: 0px;">My take on the class</strong></p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">I very much enjoyed the course content and my refresher on probability (it has been 15+ years since college since I had classes covering probability). The instructor did a good job with the background exercises, as they did a good job illustrating the concepts.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">I would have liked him to spend a little more time explaining the value of Bayes Theory before jumping into the scenario. It became a little confusing (even for the instructor) whether the HIV test example represents a good (reliable) test based on the statistics.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">I came out of the class thinking it was about validating a hypothesis, but I see it now being more about understanding the relationship between correlated probabilities.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">In the last 2 minutes of the class he was trying to tie in the discussion of the class to how we can deal with life's uncertainties. I thought it was a bit of a stretch, but it was entertaining.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><strong style="margin: 0px; padding: 0px;">Applying it to one of my projects:</strong></p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">After the class, I read up on Bayes Theorum a little bit online and found some descriptions a little easier for me to understand.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; text-decoration: underline;">The Problem</span></p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">I am interested in how visitation relates to conversion rates between free membership and paid subscriptions for SportsCollectors.Net.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; text-decoration: underline;">Using Bayes to figure it out</span></p>
+<p class="MsoListParagraphCxSpFirst" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Out of 33,000 registered users, 6,842 have subscribed (20.7%)</p>
+<p class="MsoListParagraphCxSpMiddle" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Members that visit the site 50 or more times become subscribers 74% of the time.</p>
+<p class="MsoListParagraphCxSpLast" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px; text-indent: -0.25in;">-<span style="margin: 0px; padding: 0px; font-size: 7pt; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Members that the site less than 50 times become subscribers 8% of the time.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(S) = Probability of member subscription = .207</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(A) = Probability member has 50+ visits = &nbsp;.23</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(S|A) = Probability subscriber is a member with 50+ visits = &nbsp;.74</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(B) = Probability member has under 50 visits = &nbsp;.77</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(S|B) = Probability subscriber is member with under 50 visits = .08</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(A|S) = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P(A)P(S|A)&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="margin: 0px; padding: 0px; font-size: 10pt; line-height: 15.333332061767578px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.23</span>&nbsp;* .74 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .1702&nbsp;&nbsp;&nbsp;<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------------&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= ----------------------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =&nbsp; ------------&nbsp; &nbsp;= &nbsp;&nbsp;.7343<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P(A)P(S|A) + P(B)P(S|B)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="margin: 0px; padding: 0px; font-size: 10pt; line-height: 15.333332061767578px;">.23</span>&nbsp;* .74 + .77 * .08 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.2318</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">The probability of a person visiting the site 50+ times is going to buy a subscription is at 73%.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">P(B|S) = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P(B)P(S|B)&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="margin: 0px; padding: 0px; font-size: 10pt; line-height: 15.333332061767578px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .77</span>&nbsp;* .08 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .01816&nbsp;<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ----------------------------------&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= ----------------------------&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =&nbsp; ------------&nbsp; &nbsp;= &nbsp;&nbsp;.2657<br style="margin: 0px; padding: 0px;" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P(B)P(S|B) + P(S)P(S|A) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style="margin: 0px; padding: 0px; font-size: 10pt; line-height: 15.333332061767578px;">.77</span>&nbsp;* .08 +&nbsp;<span style="margin: 0px; padding: 0px; font-size: 10pt; line-height: 15.333332061767578px;">.23</span>&nbsp;* .74 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; .2318</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">The probability of a person visiting the site less than 50 times is going to buy a subscription is under 27%.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; text-decoration: underline;">Analysis:</span></p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">From these numbers, I&rsquo;m going to consider increasing my attention to getting non premium members to visit the site more regularly (with freemium features) if a goal is to convert them to paying subscribers.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">I am not sure it is realistic to expect a new user to visit the site 50 times. I will re-run the procedure with thresholds of 10, 20 ,and 25, 35 visits to see how the relationship of visitation on subscription rates changes.</p>
+<p class="MsoNormal" style="margin: 0px 0px 1.5em; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; text-decoration: underline;">Pseudo SQL Code that could be used to get this info:</span></p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@threshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">int<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalUsers&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">int<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalSubcribers&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">int<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@SubcriptionProbability&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>5<span style="margin: 0px; padding: 0px; color: gray;">,</span>2<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalUsersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">int<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalSubcribersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">int<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@SubcriptionProbabilityAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>5<span style="margin: 0px; padding: 0px; color: gray;">,</span>2<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalUsersBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">int<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalSubcribersBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">int<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@PercentUsersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>5<span style="margin: 0px; padding: 0px; color: gray;">,</span>2<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@PercentUsersBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>5<span style="margin: 0px; padding: 0px; color: gray;">,</span>2<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@SubcriptionProbabilityBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>5<span style="margin: 0px; padding: 0px; color: gray;">,</span>2<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@ProbablityAboveThresholdWillSubscribe&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>5<span style="margin: 0px; padding: 0px; color: gray;">,</span>2<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">DECLARE</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@ProbablityBelowThresholdWillSubscribe&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>5<span style="margin: 0px; padding: 0px; color: gray;">,</span>2<span style="margin: 0px; padding: 0px; color: gray;">)</span></span><span style="margin: 0px; padding: 0px; color: gray; font-family: 'Courier New'; font-size: 10pt;">&nbsp;</span></p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@threshold<span style="margin: 0px; padding: 0px; color: gray;">=</span>50<br style="margin: 0px; padding: 0px;" /></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalUsers<span style="margin: 0px; padding: 0px; color: gray;">=(</span><span style="margin: 0px; padding: 0px; color: blue;">SELECT</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">COUNT</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>USERID<span style="margin: 0px; padding: 0px; color: gray;">)</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">From</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;"><span style="margin: 0px; padding: 0px; color: #000000;">UserInfo</span>)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalSubcribers<span style="margin: 0px; padding: 0px; color: gray;">=(</span><span style="margin: 0px; padding: 0px; color: blue;">SELECT</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">COUNT</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>USERID<span style="margin: 0px; padding: 0px; color: gray;">)</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">From</span>&nbsp;UserInfo&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">WHERE</span>&nbsp;IsPremium = true<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@SubcriptionProbability<span style="margin: 0px; padding: 0px; color: gray;">=</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalSubcribers&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)/</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsers&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span><span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)</span></span></p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;">&nbsp;</p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalUsersAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">=(</span><span style="margin: 0px; padding: 0px; color: blue;">SELECT</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">COUNT</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>USERID<span style="margin: 0px; padding: 0px; color: gray;">)</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">From</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;"><span style="margin: 0px; padding: 0px; color: #000000;">UserInfo&nbsp;</span>WHERE</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;"><span style="margin: 0px; padding: 0px; color: #000000;">VisitCount&nbsp;</span>&gt;=</span>@Threshold<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@PercentUsersAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">=</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span><span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)/</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsers&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalSubcribersAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">=(</span><span style="margin: 0px; padding: 0px; color: blue;">SELECT</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">COUNT</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>USERID<span style="margin: 0px; padding: 0px; color: gray;">)</span><span style="margin: 0px; padding: 0px; color: blue;">From</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;"><span style="margin: 0px; padding: 0px; color: #000000;">UserInfo&nbsp;</span>WHERE</span>&nbsp;IsPremium = true&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">AND</span>&nbsp;&nbsp;<span style="margin: 0px; padding: 0px; color: gray;"><span style="margin: 0px; padding: 0px; color: #000000;">VisitCount&nbsp;</span>&gt;=</span>&nbsp;@Threshold<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@SubcriptionProbabilityAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">=</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalSubcribersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span><span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)/</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)</span></span></p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalUsersBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">=(</span><span style="margin: 0px; padding: 0px; color: blue;">SELECT</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">COUNT</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>USERID<span style="margin: 0px; padding: 0px; color: gray;">)</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">From</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;"><span style="margin: 0px; padding: 0px; color: #000000;">UserInfo&nbsp;</span>WHERE</span>&nbsp;VisitCount&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">&lt;</span>@Threshold<span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@PercentUsersBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">=</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsersBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span><span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)/</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsers&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@TotalSubcribersBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">=(</span><span style="margin: 0px; padding: 0px; color: blue;">SELECT</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">COUNT</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>USERID<span style="margin: 0px; padding: 0px; color: gray;">)</span><span style="margin: 0px; padding: 0px; color: blue;">From</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;"><span style="margin: 0px; padding: 0px; color: #000000;">UserInfo&nbsp;</span>WHERE</span>&nbsp;IsPremium = true&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">AND</span>&nbsp;&nbsp;<span style="margin: 0px; padding: 0px; color: gray;"><span style="margin: 0px; padding: 0px; color: #000000;">VisitCount&nbsp;</span>&lt;</span>&nbsp;@Threshold<span style="margin: 0px; padding: 0px; color: gray;">)</span></span></p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@SubcriptionProbabilityBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">=</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalSubcribersBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span><span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)/</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsersBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">decimal</span><span style="margin: 0px; padding: 0px; color: gray;">)</span></span><span style="margin: 0px; padding: 0px; color: gray; font-family: 'Courier New'; font-size: 10pt;">&nbsp;<br style="margin: 0px; padding: 0px;" /></span></p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@ProbablityAboveThresholdWillSubscribe<span style="margin: 0px; padding: 0px; color: gray;">=(</span>@PercentUsersAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">*</span>@SubcriptionProbabilityAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">)/((</span>@PercentUsersAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">*</span>@SubcriptionProbabilityAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">)+((</span>1.00<span style="margin: 0px; padding: 0px; color: gray;">-</span>@PercentUsersAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">)*</span>@SubcriptionProbabilityBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">SET</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;@ProbablityBelowThresholdWillSubscribe<span style="margin: 0px; padding: 0px; color: gray;">=(</span>@PercentUsersBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">*</span>@SubcriptionProbabilityBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">)/((</span>@PercentUsersBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">*</span>@SubcriptionProbabilityBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">)+((</span>1.00<span style="margin: 0px; padding: 0px; color: gray;">-</span>@PercentUsersBelowThreshold<span style="margin: 0px; padding: 0px; color: gray;">)*</span>@SubcriptionProbabilityAboveThreshold<span style="margin: 0px; padding: 0px; color: gray;">))</span></span></p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: gray;">&nbsp;</span><span style="margin: 0px; padding: 0px; color: gray; font-family: 'Courier New'; font-size: 10pt;">&nbsp;</span></p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'Threshold: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@Threshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'TotalUsers: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsers&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'TotalSubcribers: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalSubcribers&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'SubcriptionProbability: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@SubcriptionProbability&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">' '<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'TotalUsersAboveThreshold: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'PercentUsersAboveThreshold: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@PercentUsersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span><span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'TotalSubcribersAboveThreshold: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalSubcribersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span><span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'SubcriptionProbabilityAboveThreshold: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@SubcriptionProbabilityAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">' '<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'TotalUsersBelowThreshold: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalUsersBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'PercentUsersBelowThreshold: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@PercentUsersBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span><span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'TotalSubcribersBelowThreshold: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@TotalSubcribersBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span><span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'SubcriptionProbabilityBelowThreshold: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@SubcriptionProbabilityBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">' '</span></span></p>
+<p class="MsoNormal" style="margin: 0px 0px 0.0001pt; padding: 0px; color: #333333; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 17.549999237060547px;"><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'@ProbablityAboveThresholdWillSubscribe=(@PercentUsersAboveThreshold*@SubcriptionProbabilityAboveThreshold)/((@PercentUsersAboveThreshold*@SubcriptionProbabilityAboveThreshold)+((1.00-@PercentUsersAboveThreshold)*@SubcriptionProbabilityBelowThreshold))'<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@ProbablityAboveThresholdWillSubscribe&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'=('</span><span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@PercentUsersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'*'</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@SubcriptionProbabilityAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: red;">')/(('</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@PercentUsersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: red;">'*'</span><span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@SubcriptionProbabilityAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: red;">')+((1.00-'</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@PercentUsersAboveThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: red;">')*'</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@SubcriptionProbabilityBelowThreshold&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span>&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'))'<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'ProbablityAboveThresholdWillSubscribe: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@ProbablityAboveThresholdWillSubscribe&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))<br style="margin: 0px; padding: 0px;" /></span></span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New'; color: blue;">PRINT</span><span style="margin: 0px; padding: 0px; font-size: 10pt; font-family: 'Courier New';">&nbsp;<span style="margin: 0px; padding: 0px; color: red;">'ProbablityBelowThresholdWillSubscribe: '</span>&nbsp;<span style="margin: 0px; padding: 0px; color: gray;">+</span><span style="margin: 0px; padding: 0px; color: fuchsia;">CAST</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>@ProbablityBelowThresholdWillSubscribe&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">AS</span>&nbsp;<span style="margin: 0px; padding: 0px; color: blue;">varchar</span><span style="margin: 0px; padding: 0px; color: gray;">(</span>255<span style="margin: 0px; padding: 0px; color: gray;">))</span></span>&nbsp;</p>
+
+
+            </div>
+
+            <!-- Rating -->
+            
+
+            <!-- Post Date -->
+            <p>
+            <small>
+                <span class="post-date"><time class="post-date" datetime="2012-10-04">04 Oct 2012</time></span>           
+                
+                </small>
+            </p>
+
+            <!-- Post Categories -->
+            <!--<div class="after-post-cats">
+                <ul class="tags mb-4">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/categories#analysis">analysis</a>
+                    </li>
+                    
+                </ul>
+            </div>-->
+            <!-- End Categories -->
+
+            <!-- Post Tags -->
+            <div class="after-post-tags">
+                <ul class="tags">
+                    
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Bayes">#Bayes</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#Bayesian">#Bayesian</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#analysis">#analysis</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#class">#class</a>
+                    </li>
+                    
+                    <li>
+                        <a class="smoothscroll" href="/tags#probablility">#probablility</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- End Tags -->
+
+            <!-- Prev/Next -->
+            <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="/agency_reunion/" > &laquo; Reunion from the Internet Boom - 12 years later</a>
+
+
+
+            
+            
+            <a class="next d-block col-md-6 text-lg-right" href="/build-vs-buy/">When to Build vs. Buy &raquo; </a>
+            
+            <div class="clearfix"></div>
+            </div>
+            <!-- End Categories -->
+
+        </div>
+        <!-- End Post -->
+
+    </div>
+</div>
+<!-- End Article
+================================================== -->
+
+<!-- Begin Comments
+================================================== -->
+
+<!--End Comments
+================================================== -->
+
+<!-- Review with LD-JSON, adapt it for your needs if you like, but make sure you test the generated HTML source code first: 
+https://search.google.com/structured-data/testing-tool/u/0/
+================================================== -->
+
+</div>
+
+
+    
+</div>
+
+-<div class="jumbotron fortags">
+	<div class="d-md-flex h-100">
+		<div class="col-md-4 transpdark align-self-center text-center h-100">
+            <div class="d-md-flex align-items-center justify-content-center h-100">
+                <h2 class="d-md-block align-self-center py-1 font-weight-light">Popular Tags <span class="d-none d-md-inline">→</span></h2>
+            </div>
+		</div>
+		<div class="col-md-8 p-5 align-self-center text-center">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#sportscarddatabase">SportsCardDatabase  (4)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#analysis">analysis  (9)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#data">data  (3)</a>
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#data-engineering">data engineering  (7)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#dreams">dreams  (3)</a>
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#ebay">eBay  (3)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#favorites">favorites  (7)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#python">python  (4)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#singer">singer  (3)</a>
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#snowflake">snowflake  (4)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#sportscollectors">sportscollectors  (5)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <a class="mt-1 mb-1" href="/tags#strategy">strategy  (3)</a>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+		</div>
+	</div>
+</div>
+
+
+<!-- Begin Footer
+================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 text-center text-lg-left">
+                Copyright © 2023 JayGrossman.com 
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer
+================================================== -->
+
+</div> <!-- /.site-content -->
+
+<!-- Scripts
+================================================== -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="/assets/js/mediumish.js"></script>
+
+
+
+<script src="/assets/js/ie10-viewport-bug-workaround.js"></script> 
+
+
+<script id="dsq-count-scr" src="//.disqus.com/count.js"></script>
+
+
+</body>
+</html>

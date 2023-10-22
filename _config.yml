@@ -1,0 +1,64 @@
+# Site
+name: "JayGrossman.com"
+title: "JayGrossman.com"
+description: "Sharing My Fun with Software, Data, Sports, & Collecting!"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+google_analytics: ''
+disqus: ''
+mailchimp-list: false
+include: ["_pages"]
+permalink: /:title/
+show_featured: false
+
+# Authors
+authors:
+  jay:
+    name: jay
+    display_name: Jay Grossman
+    gravatar: 
+    email: jaygross@gmail.com
+    web: http://www.JayGrossman.com
+    twitter: https://twitter.com/sportscol
+    description: "Fun guy who likes software and data"
+ 
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
