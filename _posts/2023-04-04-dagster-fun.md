@@ -9,6 +9,8 @@ description: "Dagster with Python, Singer, and Meltano"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - post/2023/04/04
 #rating: 4.5
 ---
 

@@ -9,6 +9,8 @@ description: "My Willingness To Fail Gives Me The Ability To Succeed"
 featured: true
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/09/13
 #rating: 4.5
 ---
  <p>I was watching the LiveStream from the TechCrunch Disrupt conference, and I heard &nbsp;co-founder of Sun Microsystems and venture capitalist Vinod Khosla say the title of this post:</p>

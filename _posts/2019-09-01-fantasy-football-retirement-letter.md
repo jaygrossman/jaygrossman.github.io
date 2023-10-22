@@ -9,6 +9,8 @@ description: "Fantasy Football Retirement Letter"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2019/09/01
 #rating: 4.5
 ---
 

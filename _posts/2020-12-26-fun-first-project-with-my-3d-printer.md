@@ -9,6 +9,8 @@ description: "Fun First Project with my 3D Printer"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2020/12/26
 #rating: 4.5
 ---
 

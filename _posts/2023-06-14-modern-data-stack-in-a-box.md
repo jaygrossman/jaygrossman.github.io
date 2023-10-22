@@ -9,6 +9,8 @@ description: "Modern Data Stack in a box (all Open Source)"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2023/06/14
 #rating: 4.5
 ---
 

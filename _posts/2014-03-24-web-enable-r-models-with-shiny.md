@@ -9,6 +9,8 @@ description: "Web Enable R models with Shiny"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2014/03/24
 #rating: 4.5
 ---
 

@@ -9,6 +9,8 @@ description: "Framework for making Big Decisions"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/08/24
 #rating: 4.5
 ---
 

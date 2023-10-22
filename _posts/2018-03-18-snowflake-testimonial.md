@@ -9,6 +9,8 @@ description: "Snowflake Testimonial - Rent The Runway: Reinventing Retail with D
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2018/03/15
 #rating: 4.5
 ---
 

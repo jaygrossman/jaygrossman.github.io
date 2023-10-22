@@ -9,6 +9,8 @@ description: "Powershell Module for transferring files via SFTP"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2013/06/22
 #rating: 4.5
 ---
 

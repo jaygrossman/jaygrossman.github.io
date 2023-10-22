@@ -9,6 +9,8 @@ description: "Measuring, Understanding, and Predicting Subscriber Value"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2014/06/16
 #rating: 4.5
 ---
 

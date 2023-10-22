@@ -9,6 +9,8 @@ description: "User Manual for Jay at Work"
 featured: true
 hidden: false
 comments: false
+redirect_from:
+  - /post/2018/05/23
 #rating: 4.5
 ---
 

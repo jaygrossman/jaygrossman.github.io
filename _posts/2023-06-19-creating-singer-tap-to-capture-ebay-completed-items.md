@@ -9,6 +9,8 @@ description: "Creating Singer Tap to Capture Ebay Completed Items"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2023/06/19
 #rating: 4.5
 ---
 

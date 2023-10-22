@@ -9,6 +9,8 @@ description: "Are You Swimming in a Red or Blue Ocean?"
 featured: true
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/09/06
 #rating: 4.5
 ---
 

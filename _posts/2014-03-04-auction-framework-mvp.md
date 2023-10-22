@@ -9,6 +9,8 @@ description: "My Auction Framework MVP"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2014/03/04
 #rating: 4.5
 ---
 

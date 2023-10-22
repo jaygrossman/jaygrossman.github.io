@@ -9,6 +9,8 @@ description: "Reunion from the Internet Boom - 12 years later"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/09/21
 #rating: 4.5
 ---
 

@@ -9,6 +9,8 @@ description: "Our trip to the 2013 NBA All Star Weekend in Houston, TX."
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2013/02/16
 #rating: 4.5
 ---
 <div>My buddy Mike Dolan runs a very cool magazine targeted to professional athletes called <a href="https://athletesquarterly.com/" target=_blank>Athletes Quaterly</a>. Each issue is loaded with content/interviews about current and former pro athletes. </div>

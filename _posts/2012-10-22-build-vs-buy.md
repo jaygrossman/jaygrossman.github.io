@@ -9,6 +9,8 @@ description: "When to Build vs. Buy"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2012/10/22
 #rating: 4.5
 ---
 

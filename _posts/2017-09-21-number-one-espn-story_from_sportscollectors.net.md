@@ -9,6 +9,8 @@ description: "#1 news story on espn.com details something that happened on Sport
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2017/09/21
 #rating: 4.5
 ---
 

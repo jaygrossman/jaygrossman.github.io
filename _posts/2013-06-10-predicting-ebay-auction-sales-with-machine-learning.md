@@ -9,6 +9,8 @@ description: "Predicting eBay Auction Sales with Machine Learning"
 featured: true
 hidden: false
 comments: false
+redirect_from:
+  - /post/2013/06/10
 #rating: 4.5
 ---
 

@@ -9,6 +9,8 @@ description: "Personal Roadtrip Hackathon"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2013/02/17
 #rating: 4.5
 ---
 

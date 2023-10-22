@@ -9,6 +9,8 @@ description: "Open Source Data Tools I like"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2020/05/17
 #rating: 4.5
 ---
 

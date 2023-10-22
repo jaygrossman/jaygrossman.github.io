@@ -9,6 +9,8 @@ description: "Creating a Custom Jenkins Plugin with JRuby"
 featured: false
 hidden: false
 comments: false
+redirect_from:
+  - /post/2015/01/13
 #rating: 4.5
 ---
 
