@@ -2,16 +2,12 @@
 layout: post
 title:  "Calculating WeightWatchers points from a picture of the Nutritional Information"
 author: jay
-categories: [ analysis, business ]
-tags: [  WeightWatchers, ocr, nutrition, tesseract   ]
+tags: [  weightwatchers, ocr, nutrition, tesseract   ]
 image: assets/images/headers/ww_points.jpg
 description: "Calculating WeightWatchers points from a picture of the Nutritional Information"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2013/10/19
-#rating: 4.5
 ---
 
 <p>When I have tried to track the food I am eating as part of a diet, entering the key nutrition elements was not always convenient. Since I haven't seen a WeightWatchers product for reading nutritional values from a picture, I thought it would be a cool thing to prototype.</p>

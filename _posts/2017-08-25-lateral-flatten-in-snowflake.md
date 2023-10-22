@@ -9,20 +9,13 @@ description: "Snowflake's lateral flatten function on variant data type"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2017/08/25
-#rating: 4.5
 ---
 
-
-
- <p><a href="https://www.snowflake.net/" target="_blank">Snowflake</a> is a really interesting new data warehouse built on top of AWS. I like their architecture because they had the interesting idea to separate data storage (backed by small files on S3) and compute to run queries (EC2 instances running their API).</p>
+<p><a href="https://www.snowflake.net/" target="_blank">Snowflake</a> is a really interesting new data warehouse built on top of AWS. I like their architecture because they had the interesting idea to separate data storage (backed by small files on S3) and compute to run queries (EC2 instances running their API).</p>
 <p>I inherited a project where we would store complex JSON in a string in a field as varchar(64000). Then we would use regex patterns to get the values we wanted from them. Sometimes these regexes would get really involved, yuck.</p>
 <p><span style="text-decoration: underline;"><strong>The Variant data type</strong></span></p>
 <p>Snowflake offers mechanism to store semi structured data in field that is easy to parse - the <a href="https://docs.snowflake.net/manuals/user-guide/semistructured-intro.html" target="_blank">Variant data type</a>.&nbsp;</p>
 <p>In snowflake I have a table variant_demo with a single Variant field named json_data as shown below:</p>
-
-
 
 <p><img src="{{ site.baseurl }}/assets/images/sf_variant.png" alt="sf_variant"/></p>
 
@@ -35,7 +28,6 @@ redirect_from:
     SELECT json_data:membership::string as membership 
     FROM variant_demo;
 
-
 <p><img src="{{ site.baseurl }}/assets/images/sf_flatten_1.png" alt="sf_flatten_1"/></p>
 
 <p>Now what if I wanted to pull out the list associated with "products" and join them to our products table?</p>
@@ -43,7 +35,6 @@ redirect_from:
 <p><span style="text-decoration: underline;"><strong>Lateral Flatten Function</strong></span></p>
 
 <p>Snowflake has this really cool function that allow us to normalize a row from a list from JSON attribute from variant field. The SQL below uses lateral flatten to take the items in the list from json_data:products make them their own dataset:</p>
-
 
     WITH p as (
     SELECT

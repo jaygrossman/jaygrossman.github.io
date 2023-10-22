@@ -2,19 +2,13 @@
 layout: post
 title:  "Is Searching eBay a reliable way to determine Market Value?"
 author: jay
-categories: [ analysis, business ]
-tags: [ SportsCardDatabase, eBay, market value, demand, market, analysis ]
+tags: [ sportscarddatabase, ebay, value, demand, analysis ]
 image: assets/images/headers/market_values_from_ebay.png
 description: "Is Searching eBay a reliable way to determine Market Value?"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/08/22
-#rating: 4.5
 ---
-
-
 
 <p><em>Disclaimer: I am a huge fan of eBay and the significant disruption they brought about for buyers and sellers. I have been a frequent buyer and occasional seller on the site since 1998 and continue to use it every day. Nothing in this post is meant to put eBay (the company or marketplace) in a negative light.</em></p>
 <p>I have seen a good many people base their selling and purchasing decisions solely on data they can find from&nbsp;the closed listings from the past 60 days for a particular search on eBay. I have heard them refer to this as "Market Value". &nbsp;While I think this is extremely valuable and easily accessible information, I am not sure it is a complete and accurate picture for market value.</p>

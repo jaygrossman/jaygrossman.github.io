@@ -2,16 +2,12 @@
 layout: post
 title:  "Apache Superset Test Drive"
 author: jay
-categories: [ code ]
-tags: [  data] 
+tags: [  data engineering, superset, data visualization, open source] 
 image: assets/images/headers/superset.png
 description: "Apache Superset Test Drive"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2019/03/02
-#rating: 4.5
 ---
 
 <p>I have lately been playing with some commercial BI &amp; Dashboard tools. There is a certainly quite broad range when it comes to features, price, scalability, administration capabilities, how they can access data, and set up complexity. For a good sized enterprise (with 100+ users), some of these solutions can run you several hundred thousand dollars per year.</p>

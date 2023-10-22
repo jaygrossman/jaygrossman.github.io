@@ -2,14 +2,12 @@
 layout: post
 title:  "New JayGrossman.com"
 author: jay
-categories: [ ]
 tags: [  ] 
 image: assets/images/headers/moving_on_up.png
 description: "New JayGrossman.com"
 featured: false
 hidden: false
 comments: false
-#rating: 4.5
 ---
 
 <p>Welcome to the new version of my blog!!! I migrated over 10+ years of content to a platform and a fresh (cleaner) look.</p>

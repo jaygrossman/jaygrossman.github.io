@@ -2,16 +2,12 @@
 layout: post
 title:  "When do you start investing in people and stop investing in software?"
 author: jay
-categories: [ analysis, business ]
-tags: [ invest, people, software, culture, SportsCardDatabase ]
+tags: [ people, culture, sportscarddatabase ]
 image: assets/images/headers/invest_in_people.jpg
 description: "When do you start investing in people and stop investing in software?"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2013/02/13
-#rating: 4.5
 ---
   <p>Yesterday a friend IM&rsquo;d me this question out of the blue with a really interesting question:</p>
 <p><strong style="margin: 0px; padding: 0px;"><em style="margin: 0px; padding: 0px;">When do you start investing in people and stop investing in software?</em></strong></p>

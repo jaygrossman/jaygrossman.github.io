@@ -2,19 +2,13 @@
 layout: post
 title:  "My Snowflake Set up with Terraform"
 author: jay
-categories: [ ]
 tags: [ snowflake, terraform, data engineering ] 
 image: assets/images/headers/snowflake_terraform.png
 description: "My Snowflake Set up with Terraform"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - post/2023/01/28
-#rating: 4.5
 ---
-
-
 
 <p>I have been working with <a href="https://www.snowflake.com/en/" target="_blank">Snowflake</a> since 2016 when I proposed and chose to bring it into Rent the Runway to replace our very painful on premise Vertica implementation (yes we had it in a data center in NJ). Since then, Snowflake has grown considerably and is now one of the leading Data Warehouse offerings.<br /><br />After implementing data warehouses at several companies and having lots of conversations with some very smart folks, I've learned some things along the way. I've found it is a really good idea to think about up front how I want to segment responsibilities and permissions for databases. I want to decide what types of data to store in different places and to build roles + permission grants to enforce those decisions.&nbsp;</p>
 <h3>My Best Practices Assumptions for segmenting data:</h3>

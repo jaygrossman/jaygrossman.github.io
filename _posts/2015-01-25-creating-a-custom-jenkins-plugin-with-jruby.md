@@ -2,46 +2,29 @@
 layout: post
 title:  "Creating a Custom Jenkins Plugin with JRuby"
 author: jay
-categories: [ code ]
 tags: [ jenkins, jruby, plugins, vagrant, continuous deployment ]
 image: assets/images/headers/jenkins.png
 description: "Creating a Custom Jenkins Plugin with JRuby"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2015/01/13
-#rating: 4.5
 ---
 
+ <p>I have seen scenarios where I would like to not have Jenkins not execute builds under certain circumstances. One common example is with the&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://wiki.jenkins-ci.org/display/JENKINS/Maven+Project+Plugin" target="_blank">Maven Project Plugin</a>, it will often update the .pom file and check it back into source control. When you have Jenkins jobs that poll source code repos for new commits, your builds will enter an endless cycle of triggering more builds.</p>
+<p>It would be nice to have the ability to stop builds from executing when the commit contained a specified phrase. I searched for such a plugin with no luck, so I have created my own plugin (that I use in production):</p>
+<p><a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://github.com/jaygrossman/jenkins-ignore-commit-plugin" target="_blank">https://github.com/jaygrossman/jenkins-ignore-commit-plugin</a></p>
 
+<p>Since there wasn't much detail for creating custom plugins in Ruby that I could find, this blog post will walk through the process.</p>
+<p><strong style="margin: 0px; padding: 0px;">Options for making Jenkins Plugins</strong></p>
+<p>1) Maven (default)<br>
+2) JRuby</p>
+<p>Since <a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://wiki.jenkins-ci.org/display/JENKINS/Plugin+tutorial" target="_blank">setting up .pom files</a> always seems painful to me, I wanted to try the Ruby option.</p>
+<p>I found this very light post from 2013 that showed a few examples and the jpi gem with not much explanation:<br>
+<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+plugin+development+in+Ruby" target="_blank">https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+plugin+development+in+Ruby</a></p>
 
- <div>I have seen scenarios where I would like to not have Jenkins not execute builds under certain circumstances. One common example is with the&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://wiki.jenkins-ci.org/display/JENKINS/Maven+Project+Plugin" target="_blank">Maven Project Plugin</a>, it will often update the .pom file and check it back into source control. When you have Jenkins jobs that poll source code repos for new commits, your builds will enter an endless cycle of triggering more builds.</div>
-<div>&nbsp;</div>
-<div>It would be nice to have the ability to stop builds from executing when the commit contained a specified phrase. I searched for such a plugin with no luck, so I have created my own plugin (that I use in production):</div>
-<div>&nbsp;</div>
-<div><a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://github.com/jaygrossman/jenkins-ignore-commit-plugin" target="_blank">https://github.com/jaygrossman/jenkins-ignore-commit-plugin</a></div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>Since there wasn't much detail for creating custom plugins in Ruby that I could find, this blog post will walk through the process.</div>
-<div>&nbsp;</div>
-<div><strong style="margin: 0px; padding: 0px;">Options for making Jenkins Plugins</strong></div>
-<div><strong style="margin: 0px; padding: 0px;"><br style="margin: 0px; padding: 0px;" /></strong></div>
-<div>1) Maven (default)</div>
-<div>2) JRuby&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;Since&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://wiki.jenkins-ci.org/display/JENKINS/Plugin+tutorial" target="_blank">setting up .pom files</a>&nbsp;always seems painful to me, I wanted to try the Ruby option.</div>
-<div>&nbsp;</div>
-<div>I found this very light post from 2013 that showed a few examples and the jpi gem with not much explanation:</div>
-<div><a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+plugin+development+in+Ruby" target="_blank">https://wiki.jenkins-ci.org/display/JENKINS/Jenkins+plugin+development+in+Ruby</a></div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div><strong style="margin: 0px; padding: 0px;">Setting up a JRuby Plugin Development Environment</strong></div>
-<div>&nbsp;</div>
-<div>I like to do all my development in reproducible environments when possible, so I set up a vagrant environment for building and testing Jenkins Plugin development &amp; testing.</div>
-<div>&nbsp;</div>
-<div>My&nbsp;<a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://github.com/jaygrossman/jenkins-ignore-commit-plugin/blob/master/Vagrantfile" target="_blank">Vagrantfile</a>&nbsp;installs the following dependencies on Centos 6.5:</div>
-<div>
+<p><strong style="margin: 0px; padding: 0px;">Setting up a JRuby Plugin Development Environment</strong></p>
+<p>I like to do all my development in reproducible environments when possible, so I set up a vagrant environment for building and testing Jenkins Plugin development &amp; testing.</p>
+<p>My <a style="margin: 0px; padding: 0px; text-decoration: none; color: #1fa2e1;" href="https://github.com/jaygrossman/jenkins-ignore-commit-plugin/blob/master/Vagrantfile" target="_blank">Vagrantfile</a>&nbsp;installs the following dependencies on Centos 6.5:</p>
 <ul>
 <li>Java 1.6</li>
 <li>Maven&nbsp;</li>
@@ -49,13 +32,10 @@ redirect_from:
 <li>rbenv &amp; jruby 1.7.9</li>
 <li>jpi gem</li>
 </ul>
-</div>
-<div><strong style="margin: 0px; padding: 0px;">Setting up a JRuby Plugin Development Project</strong></div>
-<div>&nbsp;</div>
-<div>1) Create a directory with the name of your project (jenkins-ignore-commit-plugin)</div>
-<div>&nbsp;</div>
-<div>2) Create a pluginspec file (jenkins-ignore-commit-plugin.pluginspec):</div>
-<div>&nbsp;</div>
+<p><strong style="margin: 0px; padding: 0px;">Setting up a JRuby Plugin Development Project</strong></p>
+<p>1) Create a directory with the name of your project (jenkins-ignore-commit-plugin)</p>
+
+<p>2) Create a pluginspec file (jenkins-ignore-commit-plugin.pluginspec):</p>
 
     Jenkins::Plugin::Specification.newdo |plugin|
         plugin.name = "jenkins-ignore-commit-plugin"
@@ -77,9 +57,7 @@ redirect_from:
         plugin.depends_on 'ruby-runtime', '0.12'
     end 
 
-
 <p>3) You'll need these gems: jenkins-plugin-runtime, jpi, jruby-openssl. Here is my Gemfile:</p>
-
 
     gem "jenkins-plugin-runtime", "~> 0.2.3"
     
@@ -161,11 +139,6 @@ redirect_from:
         end
     end
 
-
-
-
-
-
 <p><strong>Building the code and generating the Jenkins Plugin</strong></p>
 <p>From within the project directory, run:</p>
 
@@ -173,18 +146,13 @@ redirect_from:
 
 <p>The JPI gem executes a build via maven and will compile a .hpi file (plugin binary file that can be uploaded into Jenkins) in a pkg sub-directory:</p>
 
-
 <p><img src="{{ site.baseurl }}/assets/images/hpi_file.png" alt="configure_jenkins_plugin"/></p>
-
-
 
 <p>You can then manually install the plugin from the Plugin Manager upload page in Jenkins.</p>
 <p>If you have a local&nbsp;&nbsp;local Jenkins environment (like in our vagrant set up), you can run the following commands to upload the plugin to it:</p>
 
     bundle update rake
     jpi server
-
-
 
 <p><b>Running the Build and Testing Vagrant image</b></p>
 

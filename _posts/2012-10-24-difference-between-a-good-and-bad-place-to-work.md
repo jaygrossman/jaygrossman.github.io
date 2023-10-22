@@ -2,19 +2,13 @@
 layout: post
 title:  "The Difference between a Good and Bad Place to Work."
 author: jay
-categories: [ strategy ]
-tags: [ culture, strategy, decision making, favorites ]
+tags: [ culture, strategy, decision making ]
 image: assets/images/headers/good_v_bad.webp
 description: "The Difference between a Good and Bad Place to Work."
 featured: true
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/12/24
-#rating: 4.5
 ---
-
-
 
 <p >I enjoy reading the insights I can find from&nbsp;Ben Horowitz (he was founder/CEO of Opsware and nowadays is founder/partner at&nbsp;<a  href="http://a16z.com/" target="_blank">Andreessen-Horowitz</a>&nbsp;which manages near $3B).&nbsp;I recently read one of his&nbsp;<a  href="http://bhorowitz.com/2012/08/18/a-good-place-to-work/" target="_blank">blog posts</a>&nbsp;where he provided a member of his team with his view of the difference between a good place to work and a bad place to work:</p>
 <div style="margin-left: 30px; padding: 0px;">

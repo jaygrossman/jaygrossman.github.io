@@ -2,18 +2,15 @@
 layout: post
 title:  "My Willingness To Fail Gives Me The Ability To Succeed"
 author: jay
-categories: [ learning ]
-tags: [ fail, success, dreams, learning, favorites ]
+tags: [ fail, success, dreams, learning ]
 image: assets/images/headers/willing_to_fail.png
 description: "My Willingness To Fail Gives Me The Ability To Succeed"
 featured: true
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/09/13
-#rating: 4.5
 ---
- <p>I was watching the LiveStream from the TechCrunch Disrupt conference, and I heard &nbsp;co-founder of Sun Microsystems and venture capitalist Vinod Khosla say the title of this post:</p>
+
+<p>I was watching the LiveStream from the TechCrunch Disrupt conference, and I heard &nbsp;co-founder of Sun Microsystems and venture capitalist Vinod Khosla say the title of this post:</p>
 <p><span style="color: #ff0000;"><strong><em>My Willingness to Fail is what allows me to Succeed</em></strong></span></p>
 <p>Khosla was referring to the high risk, high reward investments as part of his multibillion dollar fund. In his world, one really good exit can offset a hundred less successful ones - and he has been pretty successful in finding ambitious tech companies that have had big exits.&nbsp;While I don't quite play in his world as far as monetary risk or reward, I really think his words apply to me and so many people I know.</p>
 <p><strong>Most businesses fail</strong></p>

@@ -2,19 +2,15 @@
 layout: post
 title:  "Predicting eBay Auction Sales with Machine Learning"
 author: jay
-categories: [ analysis, business ]
-tags: [ analysis, kNN, CART, machine learning, prediction, eBay, auction, sportscollectors, favorites ]
+tags: [ analysis, knn, cart, machine learning, prediction, ebay, auction, sportscollectors ]
 image: assets/images/headers/carnac.png
 description: "Predicting eBay Auction Sales with Machine Learning"
 featured: true
 hidden: false
 comments: false
-redirect_from:
-  - /post/2013/06/10
-#rating: 4.5
 ---
 
- <p><span style="margin: 0px; padding: 0px; font-size: large;"><strong>Abstract:&nbsp;</strong></span></p>
+<p><span style="margin: 0px; padding: 0px; font-size: large;"><strong>Abstract:&nbsp;</strong></span></p>
 <p>Online auctions are one the most popular methods to buy and sell items on the internet. &nbsp;With more than 100 million active users globally (as of Q4 2011),&nbsp;<a  href="http://www.ebayinc.com/who_we_are/one_company">eBay</a>&nbsp;is the world's largest online marketplace, where practically anyone can buy and sell practically anything. The total value of goods sold on eBay was $68.6 billion, more than $2,100 every second. This kind of volume produces huge amounts of data that can be utilized to provide services to the buyers and sellers, market research, and product development.&nbsp;</p>
 <p>In this analysis, I collect historical auction data from eBay and use machine learning algorithms to predict sales results of auction items. I describe the features used and formulations used for making predictions. Using the sports autograph category on eBay, the algorithms used can be relatively accurate and can result in a useful set of services for buyers and sellers.</p>
 <p><span style="margin: 0px; padding: 0px; font-size: large;"><strong>1)&nbsp;Introduction</strong>&nbsp;&nbsp;</span></p>

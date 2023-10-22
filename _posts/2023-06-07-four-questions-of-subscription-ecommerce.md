@@ -2,16 +2,12 @@
 layout: post
 title:  "The 4 Analytics Questions of Subscription Ecommerce"
 author: jay
-categories: [ ]
-tags: [  favorites, analysis, data engineering, subscription, marketing, attribution ] 
+tags: [ analysis, data engineering, subscription, marketing, attribution ] 
 image: assets/images/headers/4_questions.gif
 description: "The 4 Analytics Questions of Subscription Ecommerce"
 featured: true
 hidden: false
 comments: false
-redirect_from:
-  - /post/2023/06/07
-#rating: 4.5
 ---
 
 <p>I have spent over 20 years building my own subscription based service (<a href="http://www.SportsCollectors.Net" target="_blank">SportsCollectors.Net</a>) and working for companies with subscription offerings (<a href="http://www.dell.com" target="_blank">Dell</a>, <a href="https://www.gettyimages.com/search/photographer?family=creative&amp;photographer=jupiterimages&amp;sort=best" target="_blank">Jupiterimages</a>, <a href="http://www.ww.com" target="_blank">Weight Watchers</a>, <a href="http://www.renttherunway.com" target="_blank">Rent the Runway</a>,&nbsp;<a href="https://www.elysiumhealth.com/" target="_blank">ElysiumHelath</a>). While the business models, value propositions and customer segments of these companies may be very different, there are similarities I recognized as these companies (all with product market fit) looked to accelerate their growth. From this, the 4 questions above are what analytics teams should spend resources trying to answer.</p>

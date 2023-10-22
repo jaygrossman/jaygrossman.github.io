@@ -2,19 +2,13 @@
 layout: post
 title:  "Open Source Data Tools I like"
 author: jay
-categories: [ code ]
-tags: [ data, tools, framework, superset, dbt, debezium, great expectations ] 
+tags: [ data, tools, framework, superset, dbt, debezium, great expectations, open source ] 
 image: assets/images/headers/data_meet_up.jpg
 description: "Open Source Data Tools I like"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2020/05/17
-#rating: 4.5
 ---
-
-
 
 <p>A few months ago I participated on a panel talking about something data related at a <a href="https://www.snowflake.com" target="_blank">Snowflake</a> user group.&nbsp;In the picture below, I am in the white button down shirt and blue jeans looking less excited than the guy in plaid shirt on the left.</p>
 

@@ -2,19 +2,15 @@
 layout: post
 title:  "Personal Roadtrip Hackathon"
 author: jay
-categories: [ sports ]
-tags: [ SportsCardDatabase, Market Value, analysis, hackathon ]
+tags: [ sportscarddatabase, value, analysis ]
 image: assets/images/headers/hackathon.png
 description: "Personal Roadtrip Hackathon"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2013/02/17
-#rating: 4.5
 ---
 
- <p >A hackathon is generally an event a small group collaborates together to build a product or prototype in a very short period. Some of the more popular sponsored examples (such as the ones during the&nbsp;<a  href="http://techcrunch.com/events/disrupt-ny-2013/startup-battlefield/">TechCrunch Disrupt series</a>) usually last for 24 hours.&nbsp;</p>
+<p >A hackathon is generally an event a small group collaborates together to build a product or prototype in a very short period. Some of the more popular sponsored examples (such as the ones during the&nbsp;<a  href="http://techcrunch.com/events/disrupt-ny-2013/startup-battlefield/">TechCrunch Disrupt series</a>) usually last for 24 hours.&nbsp;</p>
 <p >For a while, I have been intrigued by the concept and have wanted to see what I can accomplish. Unfortunately I have not had the opportunity to enter one with my always busy schedule and family commitments.&nbsp;</p>
 <p >This weekend I had a planned&nbsp;<a  href="/2013-nba-all-star-weekend/">trip with a friend to Houston for the NBA All Star weekend</a>. It was a unique opportunity since I would have some time to myself as I would not be traveling with my family or colleagues. Since the flight from JFK Airport in NY to Houston is over 4 hours, I could either rest or be productive.</p>
 <p ><strong style="margin: 0px; padding: 0px;">The Plan</strong></p>

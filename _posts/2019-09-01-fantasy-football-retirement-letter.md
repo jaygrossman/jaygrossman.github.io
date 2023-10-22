@@ -2,19 +2,13 @@
 layout: post
 title:  "Fantasy Football Retirement Letter"
 author: jay
-categories: [ code ]
-tags: [  fantasy football ] 
+tags: [ silly, fantasy football ] 
 image: assets/images/headers/retired_football.png
 description: "Fantasy Football Retirement Letter"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2019/09/01
-#rating: 4.5
 ---
-
-
 
 <p><strong><em>Below is the ridiculous retirement email to members of my day job's fantasy league. Hope y'all enjoy.</em></strong></p>
 <p>To my friends and fellow competitors,</p>

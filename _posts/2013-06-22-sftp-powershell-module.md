@@ -2,18 +2,13 @@
 layout: post
 title:  "Powershell Module for transferring files via SFTP"
 author: jay
-categories: [ analysis, business ]
 tags: [  powershell, module, sftp, winscp  ]
 image: assets/images/headers/ftp.png
 description: "Powershell Module for transferring files via SFTP"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2013/06/22
-#rating: 4.5
 ---
-
 
 <p>I had the need for several automated jobs to be able to exchange files securely with partners via the Secure FTP (SFTP).&nbsp;I chose powershell because the jobs:</p>
 <ol>

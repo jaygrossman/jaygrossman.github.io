@@ -2,16 +2,12 @@
 layout: post
 title:  "Framework for making Big Decisions"
 author: jay
-categories: [ analysis, business ]
-tags: [ decision, career path, job, goals, objectives ]
+tags: [ career, goals, objectives ]
 image: assets/images/headers/making_big_decisions.png
 description: "Framework for making Big Decisions"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/08/24
-#rating: 4.5
 ---
 
 <p>Choosing a fulfilling career path is such a difficult task, and I see many people have no idea where to even start (including myself).&nbsp;I routinely find myself asking my friends and coworkers "what do you want to do long term in your career" or "what do you want to be when you grow up". I seem to hear the following responses repeatedly:</p>

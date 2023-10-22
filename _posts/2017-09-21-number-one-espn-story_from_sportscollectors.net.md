@@ -2,16 +2,12 @@
 layout: post
 title:  "#1 news story on espn.com details something that happened on SportsCollectors.Net"
 author: jay
-categories: [ code ]
 tags: [ sports, sportscollectors]
 image: assets/images/headers/neshek_espn.png
 description: "#1 news story on espn.com details something that happened on SportsCollectors.Net"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2017/09/21
-#rating: 4.5
 ---
 
 <p>In my 20's, I taught myself to code and I created what has become a fairly popular community for sports autograph collectors - <a href="SportsCollectors.Net" target="_blank">SportsCollectors.Net</a>. I have mentioned it a few times before on this blog.</p>

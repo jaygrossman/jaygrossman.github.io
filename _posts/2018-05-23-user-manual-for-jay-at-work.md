@@ -2,22 +2,15 @@
 layout: post
 title:  "User Manual for Jay at Work"
 author: jay
-categories: [ code ]
-tags: [  favorites ]
+tags: [  ]
 image: assets/images/headers/user_manual.png
 description: "User Manual for Jay at Work"
 featured: true
 hidden: false
 comments: false
-redirect_from:
-  - /post/2018/05/23
-#rating: 4.5
 ---
 
-
-
-
- <p>I thought it would be a fun exercise to write a short document about what I index on for my day job and folks I work with.</p>
+<p>I thought it would be a fun exercise to write a short document about what I index on for my day job and folks I work with.</p>
 <p><strong>What matters most to me in a role:<br /></strong></p>
 
 <ol>

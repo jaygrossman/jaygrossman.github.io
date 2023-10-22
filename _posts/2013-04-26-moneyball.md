@@ -2,16 +2,12 @@
 layout: post
 title:  "The Moneyball Effect"
 author: jay
-categories: [ analysis, business ]
-tags: [ moneyball, decision making, analysis, data ]
+tags: [ decision making, analysis, data ]
 image: assets/images/headers/moneyball.png
 description: "The Moneyball Effect"
 featured: false
 hidden: false
 comments: false
-redirect_from:
-  - /post/2012/10/09
-#rating: 4.5
 ---
 
 <p>In 2004, Michael Lewis wrote this book called "<a href="http://www.amazon.com/Moneyball-Art-Winning-Unfair-Game/dp/0393324818" target="_blank">Moneyball: The Art of Winning an Unfair Game</a>" detailing the focus of the Oakland A's (baseball team) on analytical, evidence-based, sabermetric approach to assembling a competitive baseball team, despite a disadvantaged revenue situation.</p>
