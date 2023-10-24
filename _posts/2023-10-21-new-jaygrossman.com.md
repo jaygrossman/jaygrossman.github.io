@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New JayGrossman.com"
+title:  "New Look on JayGrossman.com"
 author: jay
 tags: [  ] 
 image: assets/images/headers/moving_on_up.png
