@@ -10,7 +10,7 @@ hidden: false
 comments: false
 ---
 
-<p>Last week marked the 21st Anniversary from when I publicly launched <a href="https://www.sporrtscollectors.net">SportsCollectors.net</a> allowing collectors to join. It's been a pretty wild ride and I thought I would celebrate a little bit on the site's blog.</p>
+<p>Last week marked the 21st Anniversary from when I publicly launched <a href="https://www.sportscollectors.net">SportsCollectors.net</a> allowing collectors to join. It's been a pretty wild ride and I thought I would celebrate a little bit on the site's blog.</p>
 
 <p>21 years is a long time and lot has happened to me personally:</p>
 <ul>
