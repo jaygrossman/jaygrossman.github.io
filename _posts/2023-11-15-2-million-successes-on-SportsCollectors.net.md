@@ -3,7 +3,7 @@ layout: post
 title:  "2 Million Successes on SportsCollectors.net"
 author: jay
 tags: [ "sportscollectors" ] 
-image: assets/images/headers/2_million_successes.png
+image: assets/images/headers/2_million_successes_.png
 description: "2 Million Successes on SportsCollectors.net"
 featured: false
 hidden: false
