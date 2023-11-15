@@ -10,7 +10,7 @@ hidden: false
 comments: false
 ---
 
-<p>Way back in 1998, I came up with the idea of creating a database for collectors to track when they mailed out a letter to athletes asking for an autograph. I went on to launch <a href="https://www.sportscollectors.net/RequestIntro.aspx" target="_blank">autograph request tracking</a> as the key feature on <a href="SportsCollectors.Net" target="_blank">SportsCollectors.Net</a> (SCN) in 2000 and it has been such a helpful tool for collectors.  So many of us have been able to track our successes and failures, and see how our collections grow.</p>
+<p>Way back in 1998, I came up with the idea of creating a database for collectors to track when they mailed out a letter to athletes asking for an autograph. I went on to launch <a href="https://www.sportscollectors.net/RequestIntro.aspx" target="_blank">autograph request tracking</a> as the key feature on <a href="https://www.sportscollectors.net/" target="_blank">SportsCollectors.Net</a> (SCN) in 2000 and it has been such a helpful tool for collectors.  So many of us have been able to track our successes and failures, and see how our collections grow.</p>
 
 <p><center><img src="https://www.sportscollectors.net/assets/screens/requestsearch.gif"><br><small>Functionality that allows collectors to track autograph requests</small></center></p>
 
@@ -39,3 +39,12 @@ comments: false
 
 <p>I'd like to thank everyone for all your contributions and for making SCN what it is today, you are all amazing.</p>
 
+<table style="width: 100%; border-color:red;" border="1" cellpadding="5">
+<tr>
+<td>
+   <strong><i>Please Note:</i></strong><br>
+   This content was cross posted on the sportscollectors.net blog at:<br>
+   <a href="https://www.sportscollectors.net/blog.aspx?id=178&m=2-million-successes-on-SportsCollectors.net" target="_blank">https://www.sportscollectors.net/blog.aspx?id=178&m=2-million-successes-on-SportsCollectors.net"</a>.
+    </td>
+</tr>
+</table>
