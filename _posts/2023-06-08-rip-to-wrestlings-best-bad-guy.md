@@ -5,7 +5,7 @@ author: jay
 tags: [  ] 
 image: assets/images/headers/iron_sheik_memory.jpg
 description: "The 4 Analytics Questions of Subscription Ecommerce"
-featured: true
+featured: false
 hidden: false
 comments: false
 ---
