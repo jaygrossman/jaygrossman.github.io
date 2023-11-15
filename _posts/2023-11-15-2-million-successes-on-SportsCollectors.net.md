@@ -37,7 +37,7 @@ comments: false
 
 <p>To show our appreciation, I am extending the subscription of 100 members by 3 months.  We will be randomly selecting 100 active subscribers who have entered 10+ successes in the past 90 days.  If you are selected, you will receive a message from us with the details.</p>
 
-<p>I'd like to thank everyone for all your contributions and for making SCN what it is today, you are all amazing.</p>
+<p>I'd like to thank everyone in the community for all your contributions and for making SCN what it is today, you are all amazing.</p>
 
 <table style="width: 100%; border-color:red;" border="1" cellpadding="5">
 <tr>
