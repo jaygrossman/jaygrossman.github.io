@@ -10,9 +10,9 @@ hidden: false
 comments: false
 ---
 
-<p>Way back in 1998, I came up with the idea of creating a database for collectors to track when they mailed out a letter to athletes asking for an autograph. I went on to launch <a href="https://www.sportscollectors.net/RequestIntro.aspx" target="_blank">autograph request tracking</a> as the key feature on <a href="SportsCollectors.Net" target="_blank">SportsCollectors.Net</a> in 2000 and it has been such a helpful tools for collectors.  So many of us have been able to track my own successes and failures, and see how our collections grow.</p>
+<p>Way back in 1998, I came up with the idea of creating a database for collectors to track when they mailed out a letter to athletes asking for an autograph. I went on to launch <a href="https://www.sportscollectors.net/RequestIntro.aspx" target="_blank">autograph request tracking</a> as the key feature on <a href="SportsCollectors.Net" target="_blank">SportsCollectors.Net</a> in 2000 and it has been such a helpful tool for collectors.  So many of us have been able to track my own successes and failures, and see how our collections grow.</p>
 
-<p><center><img src="https://www.sportscollectors.net/assets/screens/requestsearch.gif"><br><small>Fucntionality that allows collectors to track autograph requests</small></center></p>
+<p><center><img src="https://www.sportscollectors.net/assets/screens/requestsearch.gif"><br><small>Functionality that allows collectors to track autograph requests</small></center></p>
 
 <p>Earlier this morning the SCN community hit a pretty significant milestone with 2 million successes tracked in our system.  For context, the community of 1000's of collectors enter an average of over 300 successes each day. It still sometimes blows my mind that so many folks enjoy using this system and what we have accomplished as a group.</p>
 
