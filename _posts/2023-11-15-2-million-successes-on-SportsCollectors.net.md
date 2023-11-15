@@ -44,7 +44,7 @@ comments: false
 <td>
    <strong><i>Please Note:</i></strong><br>
    This content was cross posted on the sportscollectors.net blog at:<br>
-   <a href="https://www.sportscollectors.net/blog.aspx?id=178&m=2-million-successes-on-SportsCollectors.net" target="_blank">https://www.sportscollectors.net/blog.aspx?id=178&m=2-million-successes-on-SportsCollectors.net"</a>.
+   <a href="https://www.sportscollectors.net/blog.aspx?id=178&m=2-million-successes-on-SportsCollectors.net" target="_blank">https://www.sportscollectors.net/blog.aspx?id=178&m=2-million-successes-on-SportsCollectors.net</a>.
     </td>
 </tr>
 </table>
