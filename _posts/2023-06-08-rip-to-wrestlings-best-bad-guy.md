@@ -10,7 +10,7 @@ hidden: false
 comments: false
 ---
 
-<p>As a young kid (maybe 6 or 7) in the 1980's I very much loved to watch the WWF every Saturday morning on channel 5 in NJ.  The Iron Sheik was the number one bad guy, and I loved to hate him. He was always quick to tell us that "Iran Number 1"!</p>
+<p>As a young kid (maybe 8 or 9) in the 1980's I very much loved to watch the WWF every Saturday morning on channel 5 in NJ.  The Iron Sheik was the number one bad guy, and I loved to hate him. He was always quick to tell us that "Iran Number 1"!</p>
 
 <p>He passed away this week, and I wanted to share a few of my favorite memories of him.</p>
 
