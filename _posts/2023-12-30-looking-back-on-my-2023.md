@@ -212,7 +212,7 @@ width="200"/></a></td>
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/2023_review/scn_slab_1959_fleer_ted_williams.png" alt="" /></p>
 
-<p>There was some trial and error, but we think it turned out pretty nicely. The big autheticators (PSA and SGC) have nothing to worry about, as I have NO plans to offer a sportscollectors.net grading service.</p>
+<p>There was some trial and error, but we think it turned out pretty nicely. The big authenticators (PSA and SGC) have nothing to worry about, as I have NO plans to offer a sportscollectors.net grading service.</p>
 
 <hr>
 <source id="sports" />
