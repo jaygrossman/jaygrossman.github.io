@@ -10,9 +10,17 @@ hidden: false
 comments: false
 ---
 
-<p>I try to write post around the new year every year on the <a href="https://www.sportscollectors.net/blog.aspx" target="_blank">SportsCollectors.net blog</a> reviewing what happened during the year for the community. I figured it may be fun to do soemething on this blog to talk about things that went on in my life during the year.</p>
+<p>I try to write post around the new year every year on the <a href="https://www.sportscollectors.net/blog.aspx" target="_blank">SportsCollectors.net blog</a> reviewing what happened during the year for the community. I figured it may be fun to do soemething on this blog to talk about things that went on in my life during the year across 4 areas:</p>
+
+<ul>
+    <li><a href="#tech">Tech and Professional Things</a></li>
+    <li><a href="#family">Family Fun</a></li>
+    <li><a href="#collect">My Collecting Adventures</a></li>
+    <li><a href="#sports">My Sports Fandom</a></li>
+</ul>
 
 <hr>
+<source id="tech"/>
 <h2>Tech and Professional Things</h2>
 
 <h4>My Day Jobs</h4>
@@ -34,7 +42,7 @@ width="200"/></a></td>
 <p>I started the year running the data team for a fintech startup, <a href="https://lumafintech.com/" target="_blank">Luma Financial Technologies</a>. The core of their business was running a 2 sided marketplace where financial advisors could use their platform to buy structured products via reverse auction format. I got to choose the data platform, learn a very interesting + complex business, hire + manage an awesome team and build some really interesting projects that delivered value.</p>
 
 
-<p>Over the summer, a former colleague from my WeightWatchers days (2007-2014) told me about his company in the auto insurance space - <a href="https://quanata.com/" target="_blank">Quanata</a> (formerly Blue Owl).  I met some nice+smart folks during the interview process and joined to manage their data warehouse fun in August. I have been a big Snowflake fan and we're migrating lots of interesting data/processes onto it. So far I am very happy with the decision to join.</p>
+<p>Over the summer, a former colleague from my WeightWatchers days (2007-2014) told me about his company in the auto insurance space - <a href="https://quanata.com/" target="_blank">Quanata</a> (formerly Blue Owl).  I met some nice + smart folks during the interview process and joined to manage their data warehouse fun in August. I have been a big Snowflake fan and we're migrating lots of interesting data/processes onto it. So far I am very happy with the decision to join.</p>
 
 <h4>My Projects / Side Hustles</h4>
 
@@ -44,15 +52,12 @@ width="200"/></a></td>
 <img src="https://www.sportscollectors.net/assets/screens/requestsearch.gif" alt="" /><br/>
 <small>Functionality that allows collectors to track autograph requests</small></p>
 
-
-
-
-<p>I have been running a fun data engineering and data sceince project for about 10 years looking at arbitrage for collectibles - <a href="http://collectz.com/" target="_blank">Collectz.com</a>. I've noticed that finding arbitrage opportunities for physical goods (specifically sports cards) has become so much more challenging since 2021 for a reasons:
+<p>I have been running a fun data engineering and data sceince project for about 10 years looking at arbitrage for collectibles - <a href="http://collectz.com/" target="_blank">Collectz.com</a>. I've noticed that finding arbitrage opportunities for physical goods (specifically sports cards) has become so much more challenging since 2021 for several reasons:
 <ul>
     <li>The pandemic brought many more buyers.</li>
     <li>Inflation.</li>
     <li>Markets (such as eBay) have become more efficient.</li>
-    <li>There is significant volume of sales on social media (especially Facebook Groups) where the non structured data is messy and there is huge variance.</li>
+    <li>There is significant volume of sales on social media (especially Facebook Groups) where the non structured data is messy and there is huge price variance.</li>
 </ul>
 </p>
 <p>So having better data and better tools is more important than ever. I have been working on a new version of Collectz that is a lot more powerful and looks for signal in new/more features.</p>
@@ -60,10 +65,7 @@ width="200"/></a></td>
 <img src="{{ site.baseurl }}/assets/images/data_stack_13.png" alt="" /><br/>
 <small>Some fun I had exploring Collectz data in Metabase</small></p>
 
-
-<h4>Playtime</h4>
-
-
+<h4>Playtime and Learning</h4>
 
 <p>I spent some time this year playing with some open source data tech that I had wanted to try out. I wrote about some of it on this blog:</p>
 <ul>
@@ -74,7 +76,7 @@ width="200"/></a></td>
 </ul>
 
 <hr>
-
+<source id="family"/>
 <h2>Family Fun</h2>
 
 <p style="text-align: center;">
@@ -162,7 +164,7 @@ width="200"/></a></td>
 <small>She got me tickets (and risked her ear drums) to see my favorite band - Parliment Funkadelic. George Clinton is 82 and was barely part of the show, but I'm still happy we went.</small></p>
 
 <hr>
-
+<source id="collect"/>
 <h2>My Collecting Adventures</h2>
 
 <h4>Getting Organized</h4>
@@ -213,7 +215,7 @@ width="200"/></a></td>
 <p>There was some trial and error, but we think it turned out pretty nicely. The big autheticators (PSA and SGC) have nothing to worry about, as I have NO plans to offer a sportscollectors.net grading service.</p>
 
 <hr>
-
+<source id="sports" />
 <h2>My 2023 Sports Fandom</h2>
 
 <h4>Mixed feelings about my teams</h4>
@@ -235,17 +237,17 @@ width="200"/></a></td>
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/2023_review/mcginnis.jpg" alt="" /></p>
 
-<p>Until Lebron James came along in 2003, we had never seen an athlete quite like George McGinnis. He was 6'8, 235, super strong, great jumper and ran the floor really well. He won 3 ABA titles with the Pacers, shared the 1975 MVP award with Julius Erving. Then he went to the NBA and immediately turned around a historically terrible 76ers team. He was so generous to collectors and is one of my favorite players to collect - as I have every one of his Topps cards signed.</p>
+<p>Until Lebron James came along in 2003, we had never seen an athlete quite like George McGinnis. He was 6'8, 235, super strong, great jumper and ran the floor really well. He won ABA titles in his first 2 years with the Pacers and shared the 1975 MVP award with Julius Erving. His per game averages were impressive that season - 29.8 points (led league), 14.8 rebounds, 6.3 assists (3rd in league), and 2.6 steals (2nd in league). Then he went to the NBA and immediately turned around a historically terrible 76ers team. He was so generous to fans + collectors and is one of my favorite players to collect - as I have every one of his Topps cards signed.</p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/2023_review/vida_blue.jpg" alt="" /></p>
 
-<p><a href="https://www.baseball-reference.com/players/b/bluevi01.shtml">Vida Blue</a> was a huge personality and a GREAT pitcher for the back to back to back champion 1970's Oakland A's teams. His 1971 season may be one of the best in modern baseball history as he won the Cy Young Award and MVP -> 24-8, 1.82 ERA, 301 strikeouts. </p>
+<p><a href="https://www.baseball-reference.com/players/b/bluevi01.shtml">Vida Blue</a> was a huge personality and a GREAT lefty pitcher for the back to back to back World Series champion 1970's Oakland A's teams. His 1971 season may be one of the best in modern baseball history as he won the Cy Young Award and MVP -> 24-8, 1.82 ERA, 301 strikeouts. </p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/2023_review/wakefield.jpg" alt="" /></p>
 
-<p>The 2004 Red Sox were such a special team, as they finally beat the Yankees in the playoffs and won the World Series. The nasty knuckleball of <a href="https://www.baseball-reference.com/players/w/wakefti01.shtml" target="_blank">Tim Wakefield</a> drove hitters for his 20 year run in the majors. I remember seeing a game in Minnesota were the hitters were literally shaking their heads after watching it move all over the strike zone. He finished up with most wins as a Red Sox - and that is saying a lot since the team has been around since 1869.</p>
+<p>The 2004 Red Sox were such a special team, as they finally beat the Yankees in the playoffs and won the World Series. The nasty knuckleball of <a href="https://www.baseball-reference.com/players/w/wakefti01.shtml" target="_blank">Tim Wakefield</a> drove hitters crazy for his 20 year run in the majors. I remember seeing a game in Minnesota were the hitters were literally shaking their heads after watching it move all over the strike zone. He finished up with most wins as a Red Sox - and that is saying a lot since the team has been around since 1869.</p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/2023_review/butkus.jpg" alt="" /></p>
