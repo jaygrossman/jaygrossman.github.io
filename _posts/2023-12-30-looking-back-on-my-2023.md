@@ -31,7 +31,7 @@ width="200"/></a></td>
 </table>
 </p>
 
-<p>I started the year running the data team for a fintech startup, <a href="https://lumafintech.com/" target="_blank">Luma Financial Technologies</a>. The core of their business was running a 2 sided marketplace where financial advisors could use their platform to buy structured products via reverse auction format. I got to choose the data platform, hire + manage an awesome team and build some really interesting projects that delivered value.</p>
+<p>I started the year running the data team for a fintech startup, <a href="https://lumafintech.com/" target="_blank">Luma Financial Technologies</a>. The core of their business was running a 2 sided marketplace where financial advisors could use their platform to buy structured products via reverse auction format. I got to choose the data platform, learn a very interesting + complex business, hire + manage an awesome team and build some really interesting projects that delivered value.</p>
 
 
 <p>Over the summer, a former colleague from my WeightWatchers days (2007-2014) told me about his company in the auto insurance space - <a href="https://quanata.com/" target="_blank">Quanata</a> (formerly Blue Owl).  I met some nice+smart folks during the interview process and joined to manage their data warehouse fun in August. I have been a big Snowflake fan and we're migrating lots of interesting data/processes onto it. So far I am very happy with the decision to join.</p>
