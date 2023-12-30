@@ -171,7 +171,7 @@ width="200"/></a></td>
 <a href="https://www.buysportscards.com/search?sellerId=354fc7bb8e&sellerName=sportscollectors" target="_blank">https://www.buysportscards.com/search?sellerId=354fc7bb8e&sellerName=sportscollectors</a></p>
 
 <p style="text-align: center;">
-<img src="{{ site.baseurl }}/assets/images/2023_review/buysportscards.png" alt="" /></p>
+<a href="https://www.buysportscards.com/search?sellerId=354fc7bb8e&sellerName=sportscollectors" target="_blank"><img src="{{ site.baseurl }}/assets/images/2023_review/buysportscards.png" alt="" /></a></p>
 
 <p>I accumulated a lot of stuff in the past 40+ years and I only had a very vague idea of what cards I had that were mixed up in many random boxes. After watching some videos of how <a href="https://www.youtube.com/watch?v=zwauOPIIStU" target="_blank">Burbank Cards sets up their warehouse</a>, I got inspired to organize my stuff by sport, year, and set in 5000 count monster boxes. It has been a lot of fun for me to "shop" in my own store for cards, so no more needing to buy cards I already have.</p>
 
@@ -227,7 +227,7 @@ width="200"/></a></td>
 <li><a href="https://www.baseball-reference.com/teams/BOS/2023.shtml" target="_blank">Red Sox</a> - I didn't have high expectations for this team and was pleasantly surprised by some of the guys (Bello, Yoshida, Duran, Casas, Turner). They contended for most of the season, but they had a terrible September and missed the playoffs. Seeing <a href="https://www.youtube.com/watch?v=lDYko3jrnO8"  target="_blank">Tanner Houck take a line drive off the face</a> was scary, thankfully he came back. Hopefully Craig Breslow will be a better GM than Chaim Bloom, but I am not convinced.</li>
 <li><a href="https://www.pro-football-reference.com/teams/nwe/2023.htm" target="_blank">Patriots</a> - This is the worst Patriots team since Dick MacPherson in 1992. The QB play has been awful, they don't have offensive playmakers, so many key injuries and they have not played disciplined. I miss the Brady, Gronk, Edelman days!!!</li>
 <li><a href="https://www.basketball-reference.com/teams/BOS/2023.html" target="_blank">Celtics</a> - The Celtics are a fun team and I like how Brad Stevens works to make the team better. Last season's loss to the Heat in game 7 was so tough when Jayson Tatum sprained his ankle in the first minutes. I like the Prozingis and Jrue Holiday additions to this year's team so far.</li>
-<li><a href="https://www.hockey-reference.com/teams/BOS/2024.html" target="_blank">Bruins</a> - They had the greatest regular season in NHL history last season. They had amazing offense the best goalies in the league (Ullmark and Swayman). ANd then they blow a 3-1 lead to the Panthers in the first round of the playoffs. I think they will be solid, but they lost a lot with Patrice Bergeron and David Krejci retiring.</li>
+<li><a href="https://www.hockey-reference.com/teams/BOS/2024.html" target="_blank">Bruins</a> - They had the greatest regular season in NHL history last season. They had amazing offense to go wtih the best goalies in the league (Ullmark and Swayman). They were the prohibitive favorites to win the Stanley Cup. And then they blow a 3-1 lead to the Panthers in the first round of the playoffs. I think they will be solid this season, but they lost a lot with Patrice Bergeron and David Krejci retiring.</li>
 </ul>
 
 <h4>Sad news about some greats</h4>
