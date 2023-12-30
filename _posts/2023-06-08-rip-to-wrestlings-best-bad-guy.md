@@ -22,10 +22,12 @@ comments: false
 
 <p>For Chirstmas/Channukah in 1983, my father surprised me with tickets for us to go to my first live wrestling event. I was beyond excited!!!  It was on December 26, 1983 at Madison Square Garden.  I got to see so many of my favorite wrestlers that night - Andre the Giant, Superfly Snuka, the Wild Samoans, Tony Atlas. In the main event, the Iron Sheik ended Bob Backlund's 5+ year tenure as champion when his manager threw in the towel as the Sheik applied the camel clutch:</p>
 
+<p><img src="{{ site.baseurl }}/assets/images/iron_sheik_legend.png" alt="camel clutch" /></p>
+
+<p>Most folks in the audience were completely stunned to have the Sheik as champ. Everyone booed him mercilessly. I was never a big Bob Backlund guy (I found him to be boring), so I didn't mind.</p>
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/RFzSMKpWtuw?si=pyr2NRWUMifurK9c&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 
-<p>Most folks in the audience were completely stunned to have the Sheik as champ. Everyone booed him mercilessly. I was never a big Bob Backlund guy (I found him to be boring), so I didn't mind.</p>
 
 <p>About a month later the Sheik lost the title to Hulk Hogan, which began an incredible rise of popularity for pro wrestlig. He was probably the most important transitional champion in the history of the WWF.</p>
 
