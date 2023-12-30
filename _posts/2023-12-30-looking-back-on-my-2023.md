@@ -192,6 +192,13 @@ width="200"/></a></td>
 <p><img src="{{ site.baseurl }}/assets/images/2023_review/t201.png" alt="" /><br>
 <img src="{{ site.baseurl }}/assets/images/2023_review/t201back.png" alt="" /></p>
 
+
+<h4>My favorite Autograph by mail/h4>
+
+<p>Since I run a sports autograph community, I get asked a lot about my favorite autograph I get each year. My favorite TTM autograph of the year was finding Michael Pittman Sr. and getting him to finish up this Bucs leaders card from the season after their championship team:</p>
+
+<p><img src="https://www.sportscollectors.net/photos/893913.jpg" alt="" /></p>
+
 <h4>Collecting with Jack</h4>
 
 <p>Some of my most fun childhood memories were going to baseball card shows with my dad in the 1980's and early 1990's. Unlike most of my friends, I was more interested in older cards from his heroes from the 1950's and 1960's than the newer junk wax era stuff.</p>
