@@ -193,7 +193,7 @@ width="200"/></a></td>
 <img src="{{ site.baseurl }}/assets/images/2023_review/t201back.png" alt="" /></p>
 
 
-<h4>My favorite Autograph by mail/h4>
+<h4>My favorite Autograph by mail</h4>
 
 <p>Since I run a sports autograph community, I get asked a lot about my favorite autograph I get each year. My favorite TTM autograph of the year was finding Michael Pittman Sr. and getting him to finish up this Bucs leaders card from the season after their championship team:</p>
 
