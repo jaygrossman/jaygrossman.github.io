@@ -2,7 +2,7 @@
 layout: post
 title:  "Looking back on my 2023"
 author: jay
-tags: [ sportsocllectors ] 
+tags: [ sportscollectors, collectz, sports, family ] 
 image: assets/images/2023_review/2023_header.png
 description: "Looking back on my 2023"
 featured: false
