@@ -46,11 +46,15 @@ width="200"/></a></td>
 
 <h4>My Projects / Side Hustles</h4>
 
+<b><u>SportsCollectors.net</u></b><br>
 <p>Big news came in November with a huge milestone -  <a href="{{ site.baseurl }}2-million-successes-on-SportsCollectors.net/" target="_blank">2 Million Successes on SportsCollectors.net</a>. SCN is the coolest project I have gotten to work on and I am so grateful for the incredible community that continues to support it.</p>
 
 <p style="text-align: center;">
 <img src="https://www.sportscollectors.net/assets/screens/requestsearch.gif" alt="" /><br/>
 <small>Functionality that allows collectors to track autograph requests</small></p>
+
+
+<b><u>Collectz.com</u></b><br>
 
 <p>I have been running a fun data engineering and data sceince project for about 10 years looking at arbitrage for collectibles - <a href="http://collectz.com/" target="_blank">Collectz.com</a>. I've noticed that finding arbitrage opportunities for physical goods (specifically sports cards) has become so much more challenging since 2021 for several reasons:
 <ul>
