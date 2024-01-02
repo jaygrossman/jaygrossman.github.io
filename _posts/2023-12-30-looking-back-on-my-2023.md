@@ -261,7 +261,7 @@ width="200"/></a></td>
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/headers/iron_sheik_memory.jpg" alt="" /></p>
 
-<p>The <a href="{{ site.baseurl }}/rip-to-wrestlings-best-bad-guy/" target="_blank">Iron Sheik</a> was the wrestling's best bad guy in the 1980's during my childhood. He was universally disliked by most fans, but he was a legit tough and incredibly entertaining.</p>
+<p>The <a href="{{ site.baseurl }}/rip-to-wrestlings-best-bad-guy/" target="_blank">Iron Sheik</a> was the wrestling's best bad guy in the 1980's during my childhood. He was universally disliked by most fans, but he was a legit tough guy and incredibly entertaining. My first live wrestling match was in 1983 at Madison Square Garden when he beat Bob Backlund to win the WWF heavyweight championship.</p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/2023_review/superstar.jpg" alt="" /></p>
