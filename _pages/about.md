@@ -143,8 +143,9 @@ My interest in this problem space only grew as I attended college and beyond. Th
 &nbsp;2) building software projects/products<br />
 &nbsp;3) digging for gold in data sets<br />
 &nbsp;4) my various <a href="https://www.linkedin.com/in/jaygrossman/" target="_blank">day jobs<br /></a>
-&nbsp;5) playing sports (baseball + hoops)<br />
-&nbsp;6) rooting for my Boston sports teams:<br />
+&nbsp;5) collecting sports cards + autographs<br />
+&nbsp;6) playing sports (baseball + hoops)<br />
+&nbsp;7) rooting for my Boston sports teams:<br />
 &nbsp; &nbsp;&nbsp;<a href="https://www.patriots.com/" target="_blank"><img src="http://www.sportscollectors.net/assets/logos/mini/152.jpg" alt="New England Patriots" border="0" /></a>&nbsp;&nbsp;<a href="https://www.mlb.com/redsox" target="_blank"><img src="http://www.sportscollectors.net/assets/logos/mini/6.jpg" alt="Boston Red Sox" border="0" /></a>&nbsp;&nbsp;<a href="https://www.nba.com/celtics/" target="_blank"><img src="http://www.sportscollectors.net/assets/logos/mini/49.jpg" alt="Boston Celtics" border="0" /></a>&nbsp;&nbsp;<a href="https://www.nhl.com/bruins/" target="_blank"><img src="http://www.sportscollectors.net/assets/logos/mini/172.jpg" alt="Boston Bruins" border="0" /></a>
 
 <br>
