@@ -35,7 +35,7 @@ My interest in this problem space only grew as I attended college and beyond. Th
 </tr>
 <tr>
 <td valign="top"><a href="http://www.sportscollectors.net/" target="_blank"><img src="{{ site.baseurl }}/assets/images/about/sportscollectors.jpg" alt="" border="0" width="600" /></a></td>
-<td valign="top"><strong>Description:</strong><br />Largest Community for Sports Autograph Collectors. 45K+ members and 10K+ subscribers<br /><strong>Timeframe:</strong><br />2000-Present</td>
+<td valign="top"><strong>Description:</strong><br />Largest Community for Sports Autograph Collectors. 70K+ members and 16K+ subscribers<br /><strong>Timeframe:</strong><br />2000-Present</td>
 </tr>
 <tr>
 <td colspan="2" align="center"><hr /></td>
