@@ -113,7 +113,7 @@ width="200"/></a></td>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/2023_review/2023_rec_all_star_game.jpg" alt="" /><br/>
-<small>Very fun Rec Majors All Star game went extra innings. I coached the Gray team and Jack ripped a double.</small></p>
+<small>Very fun Rec Majors All Star game went extra innings. I coached the gray team and Jack ripped a double.</small></p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/2023_review/raiders_NJSBL_champs.jpg" alt="" /><br/>
