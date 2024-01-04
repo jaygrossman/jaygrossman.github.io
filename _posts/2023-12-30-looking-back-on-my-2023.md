@@ -66,7 +66,7 @@ width="200"/></a></td>
 </p>
 <p>So having better data and better tools is more important than ever. I have been working on a new version of Collectz that is a lot more powerful and looks for signal in new/more features.</p>
 <p style="text-align: center;">
-<img src="{{ site.baseurl }}/assets/images/data_stack_13.png" alt="" /><br/>
+<img src="{{ site.baseurl }}/assets/images/data_stack_13.png" alt="" style="border:1px solid #000000;" /><br/>
 <small>Some fun I had exploring Collectz data in Metabase</small></p>
 
 <h4>Playtime and Learning</h4>
