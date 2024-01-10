@@ -12,6 +12,10 @@ comments: false
 
 <p>A few years back, I remember one of my former coworkers used to ask candidates to write a program to score a bowling game. I remember that it usually took folks a little bit to get all the pieces.</p>
 
+<p style="text-align: center;">
+<img src="{{ site.baseurl }}/assets/images/2023_review/jenna_bowling.png" alt="" /><br/>
+<small>Jenna bowling a strike in her first match.</small></p>
+
 <p>My 15 year old daughter Jenna recently starting bowling and joined her school's JV bowling team. She's been having a lot of fun and I've been enjoying watching her bowl. So I got inspired and thought it would be fun to write a script to complete my former coworker's challenge:</p>
 
 <h2>Rules for scoring a bowling match</h2>
@@ -88,7 +92,7 @@ class BowlingGame:
 
         return total_score
 ```
-<p>We'll use the picture above that came from a recent session when I took Jenna bowling at a nearby bowling place (<a href="https://bowlero.com/location/bowlero-fair-lawn" target="_blank">Bowlero</a>) to test our class:</p>
+<p>We'll use the first picture above that came from a recent session when I took Jenna bowling at a nearby bowling place (<a href="https://bowlero.com/location/bowlero-fair-lawn" target="_blank">Bowlero</a>) to test our class:</p>
 
 ```python
 game = BowlingGame()
