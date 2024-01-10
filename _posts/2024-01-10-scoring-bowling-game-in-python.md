@@ -10,7 +10,7 @@ hidden: false
 comments: false
 ---
 
-<p>A few years back, I remember one of my former coworkers used to candidates to write a program to score a bowling game. I remember that it usually took folks a little bit to get all the pieces.</p>
+<p>A few years back, I remember one of my former coworkers used to ask candidates to write a program to score a bowling game. I remember that it usually took folks a little bit to get all the pieces.</p>
 
 <p>My 15 year old daughter Jenna recently starting bowling and joined her school's JV bowling team. She's been having a lot of fun and I've been enjoying watching her bowl. So I got inspired and thought it would be fun to write a script to complete my former coworker's challenge:</p>
 
@@ -78,7 +78,8 @@ class BowlingGame:
             if self.rolls[roll_index] == 10:  # Strike
                 total_score += 10 + self.rolls[roll_index + 1] + self.rolls[roll_index + 2]
                 roll_index += 1
-            elif self.rolls[roll_index] + self.rolls[roll_index + 1] == 10:  # Spare
+            elif self.rolls[roll_index] + self.rolls[roll_index + 1] == 10: 
+             # Spare
                 total_score += 10 + self.rolls[roll_index + 2]
                 roll_index += 2
             else:
