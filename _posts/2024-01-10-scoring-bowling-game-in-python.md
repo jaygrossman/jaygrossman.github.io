@@ -111,6 +111,9 @@ class TestBowlingGame(unittest.TestCase):
         self.roll_many(20, 1)
         self.assertEqual(self.game.score(), 20)
 
+    def test_perfect_game(self):
+        self.roll_many(12, 10)
+        self.assertEqual(self.game.score(), 300)
 
     def test_test_jennas_game(self):
         frames = [
