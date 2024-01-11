@@ -95,26 +95,44 @@ class BowlingGame:
 <p>We'll use the first picture above that came from a recent session when I took Jenna bowling at a nearby bowling place (<a href="https://bowlero.com/location/bowlero-fair-lawn" target="_blank">Bowlero</a>) to test our class:</p>
 
 ```python
-game = BowlingGame()
+class TestBowlingGame(unittest.TestCase):
+    def setUp(self):
+        self.game = BowlingGame()
 
-frames = [
-  [1, 9], # First frame
-  [7, 3], # Second frame
-  [8, 2], # Third frame
-  [9, 1], # Fourth frame
-  [8, 2], # Fifth frame
-  [9, 0], # Sixth frame
-  [9, 1], # Seventh frame
-  [6, 4], # Eighth frame
-  [7, 2], # Ninth frame
-  [6, 2]  # Tenth frame
-]
+    def roll_many(self, rolls, pins):
+        for _ in range(rolls):
+            self.game.roll(pins)
 
-for frame in frames:
-   for shot in frame:
-       game.roll(shot)
+    def test_gutter_game(self):
+        self.roll_many(20, 0)
+        self.assertEqual(self.game.score(), 0)
 
-print(game.score())
+    def test_all_ones_game(self):
+        self.roll_many(20, 1)
+        self.assertEqual(self.game.score(), 20)
+
+
+    def test_test_jennas_game(self):
+        frames = [
+            [1, 9], # First frame
+            [7, 3], # Second frame
+            [8, 2], # Third frame
+            [9, 1], # Fourth frame
+            [8, 2], # Fifth frame
+            [9, 0], # Sixth frame
+            [9, 1], # Seventh frame
+            [6, 4], # Eighth frame
+            [7, 2], # Ninth frame
+            [6, 2]  # Tenth frame
+        ]
+        for frame in frames:
+            for shot in frame:
+                self.game.roll(shot)
+        self.assertEqual(self.game.score(), 150)
+
+if __name__ == '__main__':
+    unittest.main(argv=[''], verbosity=2, exit=False)
+
 ```
 
 <p><b>150</b></p>
