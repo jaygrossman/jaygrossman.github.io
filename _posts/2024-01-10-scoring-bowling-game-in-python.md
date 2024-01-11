@@ -92,7 +92,10 @@ class BowlingGame:
 
         return total_score
 ```
-<p>We'll use the first picture above that came from a recent session when I took Jenna bowling at a nearby bowling place (<a href="https://bowlero.com/location/bowlero-fair-lawn" target="_blank">Bowlero</a>) to test our class:</p>
+
+<h2>Testing it works</h2>
+
+<p>First I created a few easy tests where all the rolls are the same. Then I used the first picture above that came from a recent session when I took Jenna bowling at a nearby bowling place (<a href="https://bowlero.com/location/bowlero-fair-lawn" target="_blank">Bowlero</a>).</p>
 
 ```python
 class TestBowlingGame(unittest.TestCase):
