@@ -134,5 +134,3 @@ if __name__ == '__main__':
     unittest.main(argv=[''], verbosity=2, exit=False)
 
 ```
-
-<p><b>150</b></p>
