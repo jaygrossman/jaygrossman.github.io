@@ -12,7 +12,7 @@ comments: false
 
 <p>I absolutley loved watching pro wrestling as a kid in the mid 1980's growing up in NJ. I began with watching the World Wrestling Federation (WWF) on channel 9 every Saturday morning when I was 8. In my first episode I was amazed when I watched Andre the Giant easily squash 3 guys in a handicap match.</p>
 
-<p>In early 1984, Pro Wrestling USA debuted on channel 11. It was first time combining talent the the two oldest pro wrestling organizations - American Wrestling Association (AWA) and National Wrestling Alliance (NWA). I was introduced to a whole new set of great wrestlers like Ric Flair, Dusty Rhodes, Nick Bockwinkel, Crusher Blackwell, Superstar Graham, Mr. Saito and Jerry Lawler.</p>
+<p>In early 1984, Pro Wrestling USA debuted on channel 11. It was first time combining talent the two oldest pro wrestling organizations - American Wrestling Association (AWA) and National Wrestling Alliance (NWA). I was introduced to a whole new set of great wrestlers like Ric Flair, Dusty Rhodes, Nick Bockwinkel, Crusher Blackwell, Superstar Graham, Mr. Saito and Jerry Lawler.</p>
 
 <p>There was a tag team with two absolutley jacked guys with their faces painted, one with a mohawk and the other with a line shaved down the middle of his head. Every week they would come running out to Black Sabbath's "Iron Man" and their opponenets looked terrified as the matched usually ended in under 3 minutes. I am talking about Animal and Hawk - the Road Warriors, who would go on to become my all time favorite tag team.</p>
 
