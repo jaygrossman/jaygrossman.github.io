@@ -84,7 +84,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 <img src="{{ site.baseurl }}/assets/images/burbank_cards_warehouse.webp" alt="burbank_cards_warehouse" /><br/>
 <small>An aisle at Burbank Cards warehouse with racks of card boxes on each side.</small></p>
 
-<p>Since I have seen other card sellers organize their inventory this way and it worked for Burbank Cards at scale, I figured using Fixed-Location Putaway would be a good approach for my collection - even though my space is limited and my scale is considerably smaller. My office was a bit of a disater zone as I spent 2-3 months sorting my unsigned cards by sport, year, set and number into all the same type of box.</p>
+<p>Since I have seen other card sellers organize their inventory this way and it worked for Burbank Cards at scale, I figured using Fixed-Location Putaway would be a good approach for my collection - even though my space is limited and my scale is considerably smaller. My office was engulfed in piles of cards as I spent 2-3 months sorting my unsigned cards by sport, year, set and number.</p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/row_moster_boxes.jpg" alt="row_moster_boxes" /><br/>
@@ -146,19 +146,19 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 <p>I suspect majority of online and in person sellers use some form of Directed Putaway, where they regularly list a smaller portion of their inventory for sale and don't fully catalog their items. For me it makes sense for the following scenarios where I do not need to catalog them individually:
 <ul>
 <li>I am selling many cards in a lot or in bulk.</li>
-<li>I take a picture of a group of cards and offer them individually on a message board or Facebook group. It is very common on Facebook to see a seller post a picture of 9 or 18 cards and each of them all at the same price.</li>
+<li>I take a picture of a group of cards and offer them individually on a message board or Facebook group. It is very common on Facebook to see a seller post a picture of 9 or 18 cards and offer each of them all at the same price.</li>
 <li>I list cards in auction formats (eBay, sportlots, etc).</li>
 </ul>
 </p>
 
 <h5>When to use Dymanic Putaway</h5>
 
-<p>For the new inventory that I plan to catalog, I have switched to using Dynamic Putaway. The automated process I have  is pretty simple: 
+<p>For the new inventory that I plan to catalog, I have switched to using Dynamic Putaway. The heavily automated process I have is pretty simple: 
 <ul>
 <li>I choose a card and associate it with its sku in <a href="http://collectz.com/" target="_blank">Collectz</a> (my WMS).</li>
 <li>I scan in the front and back of each card (optional).</li>
 <li>The system assigns a numbered barcode to each card.</li>
-<li>I attach the barcode and put the card in a box in numbered order.</li>
+<li>I attach the barcode to the card and put in a box in numbered order.</li>
 </ul>
 </p>
 <p>I can use my WMS to track the location of each item within my warehouse. This allows me to quickly add new items to my inventory without having to invest any effort in sorting. This also allows me to more easily find and retrieve items when needed, as the system tracks the location of each item within the warehouse.</p>
