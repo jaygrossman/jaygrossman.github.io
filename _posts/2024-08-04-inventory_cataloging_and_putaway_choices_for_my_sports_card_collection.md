@@ -59,7 +59,7 @@ Primary Method: Fixed-Location<br/>
 <td valign="top"><b>Dell</b> - (Computer Manufacter)<br />
 Primary Method: Directed<br/>
 <br />
- During the dotcom boom + bust (2000-2005), I worked in the professional services divison of Dell. Their world class logistics facilities in Austin, TX only carried inventory for hours. </td>
+ During the dotcom boom + bust (2000-2005), I worked in the professional services divison of Dell. Their world class logistics facilities in Austin, TX only carried inventory for 4 hours. </td>
 </tr>
 <tr>
 <td colspan="2"><hr></td>
