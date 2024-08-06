@@ -96,7 +96,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <h5>The Early Results</h5>
 
-<p>After I got organized, I listed (with some helped from my kids) over 60K unsigned cards on BuySportsCards (my seller name is <a href="https://www.buysportscards.com/search?sellerId=354fc7bb8e&sellerName=sportscollectors&sort=recently-added" target="_blank">sportscollectors</a>):<br>
+<p>After I finished getting organized, I felt so much better about knowing I had a system in place. With some help from my kids, I listed over 60K unsigned cards on BuySportsCards (my seller name is <a href="https://www.buysportscards.com/search?sellerId=354fc7bb8e&sellerName=sportscollectors&sort=recently-added" target="_blank">sportscollectors</a>):<br>
 </p>
 
 <p style="text-align: center;">
