@@ -2,7 +2,7 @@
 layout: post
 title:  "Inventory cataloging and putaway choices for my sports card collection"
 author: jay
-tags: [  ] 
+tags: [ collectz, baseball cards, logistics] 
 image: assets/images/headers/messy_sports_card.png
 description: "Inventory cataloging and putaway choices for my sports card collection"
 featured: false
