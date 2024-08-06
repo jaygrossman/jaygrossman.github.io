@@ -123,7 +123,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <h2>More Efficient Approach</h2>
 
-<p>While I am certainly happy with my organization and my sales, I could not bring myself to sorting new items and shuffling them around in a Fixed-Location scenario.</p>
+<p>While I am certainly happy with my organization and my sales, I could not bring myself to sort new items and then shuffling them around in a Fixed-Location scenario.</p>
 
 <p>I think it is pretty obvious that I needed something else! Thankfully I can learn from some of my experience and discussions with friends who are into solving logistics probelms.</p>
 
