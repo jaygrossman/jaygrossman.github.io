@@ -76,7 +76,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <h2>My Initial Approach</h2>
 
-<p>I had many boxes in my office with too many of my cards mixed up randomly. For the past 10+ years I kept buying cards online and card shows and sometimes would list a handful at a time on eBay, sportlots or sportscollectors.net. I had a vague idea of what I had, but it was rarely easy to know where to find them.</p>
+<p>I had many boxes all over my office with too many of my cards mixed up randomly. For the past 10+ years I kept buying cards online and card shows and sometimes would list a handful at a time on eBay, sportlots or sportscollectors.net. I had a vague idea of what I had, but it was rarely easy to know where to find them.</p>
 
 <p>In the spring of 2023 I watched videos of how <a href="https://www.youtube.com/watch?v=zwauOPIIStU" target="_blank">Burbank Cards sets up their warehouse</a> with over 41 million cards - likely the world's largest sports card inventory by a single seller. Dave (the owner) described how they organize their inventory by sport, year, set and number in 5000 count monster boxes and put the boxes in specific areas on racks in their warehouse. It was a prototypical example of Fixed-Location Putaway described above.</p>
 
@@ -84,7 +84,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 <img src="{{ site.baseurl }}/assets/images/burbank_cards_warehouse.webp" alt="burbank_cards_warehouse" /><br/>
 <small>An aisle at Burbank Cards warehouse with racks of card boxes on each side.</small></p>
 
-<p>Since I have seen other card sellers organize their inventory this way and it worked for Burbank Cards at scale, I figured using Fixed-Location Putaway would be a good approach for my collection - even though my space is limited and my scale is considerably smaller. My office was a bit of a disater zone as I spent 2-3 months sorting my unsigned cards by sport, year, set and number.</p>
+<p>Since I have seen other card sellers organize their inventory this way and it worked for Burbank Cards at scale, I figured using Fixed-Location Putaway would be a good approach for my collection - even though my space is limited and my scale is considerably smaller. My office was a bit of a disater zone as I spent 2-3 months sorting my unsigned cards by sport, year, set and number into all the same type of box.</p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/row_moster_boxes.jpg" alt="row_moster_boxes" /><br/>
