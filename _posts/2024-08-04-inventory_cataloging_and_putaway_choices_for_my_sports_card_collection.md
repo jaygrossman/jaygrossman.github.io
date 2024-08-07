@@ -90,7 +90,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/row_moster_boxes.jpg" alt="row_moster_boxes" /><br/>
-<small>I sorted my collection into 20+ monster boxes (each box contains only 1 sport).</small></p>
+<small>A portion of my basketball card inventory sorted into 20+ monster boxes.</small></p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/card_in_fixed_location.jpg" alt="card_in_fixed_location" /><br/>
