@@ -103,7 +103,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <p style="text-align: center;">
 <a href="https://www.buysportscards.com/search?sellerId=354fc7bb8e&sellerName=sportscollectors&sort=recently-added" target="_blank"><img src="{{ site.baseurl }}/assets/images/2023_review/buysportscards.png" alt="" /></a><br/>
-<small>My <a href="https://www.buysportscards.com/search?sellerId=354fc7bb8e&sellerName=sportscollectors&sort=recently-added" target="_blank">seller profile</a> on BuySportsCards.com.</small></p>
+<small>You can check out <a href="https://www.buysportscards.com/search?sellerId=354fc7bb8e&sellerName=sportscollectors&sort=recently-added" target="_blank">my cards on BuySportsCards.com</a>.</small></p>
 
 <p>I am reasonably happy as I have been able to sell a bunch of cards on this platform that would have been very difficult before my improved organization:
 <ul>
