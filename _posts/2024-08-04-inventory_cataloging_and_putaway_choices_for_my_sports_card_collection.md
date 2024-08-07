@@ -164,7 +164,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 </ul>
 </p>
 
-<p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/2023_review/card_with_bar_code.jpg" alt="" /><br/>
+<p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/card_with_bar_code.jpg" alt="" /><br/>
 <small>Card with bar code being placed into Dynamic Inventory.</small></p>
 
 <p>I can use my WMS to track the location of each item within my warehouse. This allows me to quickly add new items to my inventory without having to invest any effort in sorting. This also allows me to more easily find and retrieve items when needed, as the system tracks the location of each item within the warehouse.</p>
