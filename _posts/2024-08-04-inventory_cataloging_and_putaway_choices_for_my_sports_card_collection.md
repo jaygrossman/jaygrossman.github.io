@@ -78,6 +78,8 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <p>I had many boxes all over my office with too many of my cards mixed up randomly. For the past 10+ years I kept buying cards online and card shows and sometimes would list a handful at a time on eBay, sportlots or sportscollectors.net. I had a vague idea of what I had, but it was rarely easy to know where to find them.</p>
 
+<h5>Fixed-Loaction Putaway as a primary method</h5>
+
 <p>In the spring of 2023 I watched videos of how <a href="https://www.youtube.com/watch?v=zwauOPIIStU" target="_blank">Burbank Cards sets up their warehouse</a> with over 41 million cards - likely the world's largest sports card inventory by a single seller. Dave (the owner) described how they organize their inventory by sport, year, set and number in 5000 count monster boxes and put the boxes in specific areas on racks in their warehouse. It is a prototypical example of Fixed-Location Putaway described above.</p>
 
 <p style="text-align: center;">
@@ -94,7 +96,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 <img src="{{ site.baseurl }}/assets/images/card_in_fixed_location.jpg" alt="card_in_fixed_location" /><br/>
 <small>Inside each box, cards are divided by year and set, sorted by number.</small></p>
 
-<h5>The Early Results</h5>
+<h5>The Results after 1 year</h5>
 
 <p>After I finished getting organized, I felt so much better about knowing I had a system in place. With some help from my kids, I listed over 60K unsigned cards on BuySportsCards (my seller name is <a href="https://www.buysportscards.com/search?sellerId=354fc7bb8e&sellerName=sportscollectors&sort=recently-added" target="_blank">sportscollectors</a>):<br>
 </p>
