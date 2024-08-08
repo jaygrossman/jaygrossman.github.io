@@ -42,7 +42,7 @@ comments: false
 
 <h2>My Logistics Experience</h2>
 
-<p>Over the years, I have worked at companies each running multiple warehouses (with 100's to 1000's of warehouse employees) and have seen how they organize their inventory:</p>
+<p>Over the years, I have worked at companies each running multiple warehouse buildings (with 100's to 1000's of warehouse employees) and have seen how they organize their inventory:</p>
 <p><table>
 <tr>
 <td valign="top" align="center"><img src="{{ site.baseurl }}/assets/images/apex_one_jacket.png" alt="apex one jacket" width="60%" /></td>
