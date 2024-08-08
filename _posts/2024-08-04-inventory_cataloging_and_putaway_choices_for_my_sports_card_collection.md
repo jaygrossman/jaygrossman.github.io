@@ -86,7 +86,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 <img src="{{ site.baseurl }}/assets/images/burbank_cards_warehouse.webp" alt="burbank_cards_warehouse" /><br/>
 <small>An aisle at Burbank Cards warehouse with racks of card boxes on each side.</small></p>
 
-<p>Since I have seen other card sellers organize their inventory this way and it worked for Burbank Cards at scale, I figured using Fixed-Location Putaway would be a good approach for my collection - even though my space is limited and my scale is considerably smaller. My office was engulfed in piles of cards as I spent 2 months sorting my unsigned cards by sport, year, set and number.</p>
+<p>Since I have seen other card sellers organize their inventory this way and it worked for Burbank Cards at scale, I figured using Fixed-Location Putaway would be a good approach for my collection - even though my space is limited and my scale is considerably smaller. My office was engulfed in piles of cards as I spent about 2 months sorting my unsigned cards by sport, year, set and number.</p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/row_moster_boxes.jpg" alt="row_moster_boxes" /><br/>
