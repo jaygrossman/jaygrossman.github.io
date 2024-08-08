@@ -131,7 +131,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <h5>Case Study: Rent the Runway moved to Dynamic Putaway</h5>
 
-<p>When I joined Rent the Runway in 2014 and spent time in the warehouses, their Fixed-Location set up was challenging as the seasonality + trends of their business meant that they would have empty spaces on their racks at different times and have to move items around. There were regular concerns about running out of space in their warehouse as new inventory was acquired each season.</p> 
+<p>When I joined Rent the Runway in 2014 and spent time in the warehouses, their Fixed-Location set up was challenging as the seasonality + trends of their business meant that they would have empty spaces on their racks at different times and have to move items around. There were regular concerns about running out of physical space in their warehouse as new inventory was acquired each season.</p> 
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/RTR_warehosue_racks.jpg" alt="RTR_warehosue_racks" /><br/>
