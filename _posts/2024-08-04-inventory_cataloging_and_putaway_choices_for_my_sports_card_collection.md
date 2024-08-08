@@ -149,7 +149,6 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 <ul>
 <li>I am selling many cards in a lot or in bulk.</li>
 <li>I take a picture of a group of cards and offer them individually on a message board or Facebook group. It is very common on Facebook to see a seller post a picture of 9 or 18 cards and offer each of them all at the same price.</li>
-<li>I list cards in auction formats (eBay, sportlots, etc).</li>
 </ul>
 </p>
 
