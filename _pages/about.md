@@ -141,7 +141,7 @@ My interest in this problem space only grew as I attended college and beyond. Th
 <p>techie / entrepreneur that&nbsp;enjoys:<br />
 &nbsp;1) my kids + awesome wife<br />
 &nbsp;2) building software projects / products<br />
-&nbsp;3) digging for gold in data sets<br />
+&nbsp;3) digging for signal in data sets<br />
 &nbsp;4) my various <a href="https://www.linkedin.com/in/jaygrossman/" target="_blank">day jobs<br /></a>
 &nbsp;5) collecting sports cards + autographs<br />
 &nbsp;6) playing sports (baseball + hoops)<br />
