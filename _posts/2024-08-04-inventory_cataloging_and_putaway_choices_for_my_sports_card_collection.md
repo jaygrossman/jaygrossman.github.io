@@ -76,7 +76,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <h2>My Initial Approach</h2>
 
-<p>I had too many boxes in different sections of my warehouse (AKA my office in my house) with so many of my cards mixed up randomly. For the past 10+ years I kept buying cards online and card shows and sometimes would list a handful at a time in auctions on eBay, sportlots or sportscollectors.net. I had a vague idea of what I had, but it was rarely easy to know where to find them.</p>
+<p>I had too many boxes in different sections of my warehouse (AKA my office in my house) with so many of my cards mixed up randomly. For the past 10+ years I kept buying cards online and at card shows and sometimes would list a handful at a time in auctions on eBay, sportlots or sportscollectors.net. I had a vague idea of what I had, but it was rarely easy to know where to find them.</p>
 
 <h5>Fixed-Loaction Putaway as a primary method</h5>
 
