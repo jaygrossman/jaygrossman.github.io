@@ -152,7 +152,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 </ul>
 </p>
 
-<h5>When to use Dymanic Putaway</h5>
+<h5>When to use Dynamic Putaway</h5>
 
 <p>For the new inventory that I plan to catalog, I have switched to using Dynamic Putaway. The heavily automated process I have is pretty simple: 
 <ul>
