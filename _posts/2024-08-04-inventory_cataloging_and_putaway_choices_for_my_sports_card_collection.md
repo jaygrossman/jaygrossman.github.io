@@ -110,7 +110,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 <li>I average about 4 orders/week.</li>
 <li>I average about 10 minutes to pick and pack up an order. This feels long.</li>
 <li>Profit margins are consistently better now than before I was organized.</li>
-<li>Pre 1980's era seems to be my most popular cards I sell (especially baseball).</li>
+<li>Pre 1980's era seems to be my most popular cards that I sell (especially baseball).</li>
 <li>The biggest order was over 150 cards across 10 boxes, took over 45 minutes to fulfill.</li>
 </ul>
 </p>
