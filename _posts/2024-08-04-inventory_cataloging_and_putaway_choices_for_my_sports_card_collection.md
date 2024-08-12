@@ -127,7 +127,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <p>While I am certainly happy with my organization and my sales, I could not bring myself to sort new items and then shuffling them around in a Fixed-Location scenario.</p>
 
-<p>I think it is pretty obvious that I needed something else! Thankfully I can learn from some of my experience and discussions with friends who are into solving logistics probelms.</p>
+<p>I think it is pretty obvious that I needed something else! Thankfully, I can learn from some of my experience and discussions with friends who are into solving logistics prolbems.</p>
 
 <h5>Case Study: Rent the Runway moved to Dynamic Putaway</h5>
 
