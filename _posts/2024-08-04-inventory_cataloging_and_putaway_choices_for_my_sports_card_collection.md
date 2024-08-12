@@ -59,7 +59,7 @@ Primary Method: Fixed-Location<br/>
 <td valign="top"><b>Dell</b> - (Computer Manufacturer)<br />
 Primary Method: Directed<br/>
 <br />
- During the dotcom boom + bust (2000-2005), I worked in the professional services divison of Dell. Their world class logistics facilities in Austin, TX only carried inventory for 4 hours. </td>
+ During the dotcom boom + bust (2000-2005), I worked in the professional services division of Dell. Their world class logistics facilities in Austin, TX only carried inventory for 4 hours. </td>
 </tr>
 <tr>
 <td colspan="2"><hr></td>
@@ -80,7 +80,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <h5>Fixed-Loaction Putaway as a primary method</h5>
 
-<p>In the spring of 2023 I watched videos of how <a href="https://www.youtube.com/watch?v=zwauOPIIStU" target="_blank">Burbank Cards sets up their warehouse</a> with over 41 million cards - likely the world's largest sports card inventory by a single seller. Dave (the owner) described how they organize their inventory by sport, year, set and number in 5000 count monster boxes and put the boxes in specific areas on racks in their warehouse. It is a prototypical example of Fixed-Location Putaway described above.</p>
+<p>In the spring of 2023, I watched videos of how <a href="https://www.youtube.com/watch?v=zwauOPIIStU" target="_blank">Burbank Cards sets up their warehouse</a> with over 41 million cards - likely the world's largest sports card inventory by a single seller. Dave (the owner) described how they organize their inventory by sport, year, set and number in 5000 count monster boxes and put the boxes in specific areas on racks in their warehouse. It is a prototypical example of Fixed-Location Putaway described above.</p>
 
 <p style="text-align: center;">
 <img src="{{ site.baseurl }}/assets/images/burbank_cards_warehouse.webp" alt="burbank_cards_warehouse" /><br/>
