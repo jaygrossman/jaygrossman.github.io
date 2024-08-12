@@ -46,7 +46,7 @@ comments: false
 <p><table>
 <tr>
 <td valign="top" align="center"><img src="{{ site.baseurl }}/assets/images/apex_one_jacket.png" alt="apex one jacket" width="60%" /></td>
-<td valign="top"><b>Apex One</b> - (Licensed Sports Apparel Manufacter)<br />
+<td valign="top"><b>Apex One</b> - (Licensed Sports Apparel Manufacturer)<br />
 Primary Method: Fixed-Location<br/>
 <br />
  During my college days (1992-1994), I worked on the warehouse floor -  receiving, putaway (driving cherry pickers is fun), picking and packing orders.</td>
@@ -56,7 +56,7 @@ Primary Method: Fixed-Location<br/>
 </tr>
 <tr>
 <td valign="top" align="center"><img src="{{ site.baseurl }}/assets/images/dell_computer.jpg" alt="dell computer" width="60%" /></td>
-<td valign="top"><b>Dell</b> - (Computer Manufacter)<br />
+<td valign="top"><b>Dell</b> - (Computer Manufacturer)<br />
 Primary Method: Directed<br/>
 <br />
  During the dotcom boom + bust (2000-2005), I worked in the professional services divison of Dell. Their world class logistics facilities in Austin, TX only carried inventory for 4 hours. </td>
