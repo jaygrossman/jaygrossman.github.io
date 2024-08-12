@@ -159,7 +159,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 <li>I choose a card and associate it with its sku in <a href="http://collectz.com/" target="_blank">Collectz</a> (my WMS).</li>
 <li>I scan in the front and back of each card (optional).</li>
 <li>The system assigns a numbered barcode to each card.</li>
-<li>I attach the barcode to the card and put in a box in numbered order.</li>
+<li>I attach the barcode to the card and put it in a box in numbered order.</li>
 </ul>
 </p>
 
