@@ -145,7 +145,7 @@ Primary Method: Fixed-Location, then Dynamic<br/>
 
 <h5>When to use Directed Putaway</h5>
 
-<p>I suspect majority of online and in person sellers use some form of Directed Putaway, where they regularly list a smaller portion of their inventory for sale and don't fully catalog their items. For me it makes sense for the following scenarios where I do not need to catalog them individually:
+<p>I suspect the majority of online and in person sellers use some form of Directed Putaway, where they regularly list a smaller portion of their inventory for sale and don't fully catalog their items. For me it makes sense for the following scenarios where I do not need to catalog them individually:
 <ul>
 <li>I am selling many cards in a lot or in bulk.</li>
 <li>I take a picture of a group of cards and offer them individually on a message board or Facebook group. It is very common on Facebook to see a seller post a picture of 9 or 18 cards and offer each of them all at the same price.</li>
