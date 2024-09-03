@@ -52,7 +52,7 @@ COACHES: Coach Grossman (me), Coach Hammond, Coach Cimler</small></p>
 <small>Jack posing in front of the Ripken sign.</small></p>
 
 <p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/12u_baseball/jack_hitting.jpg" alt="jack_hitting"  /><br/>
-<small>Jack hitting on PNC Bank field. He went 3-6 in the tournament.</small></p>
+<small>Jack hitting on PNC Bank field. He went 3 for 6 in the tournament.</small></p>
 
 
 <h5>Mother's Day Game</h5>
@@ -67,7 +67,7 @@ COACHES: Coach Grossman (me), Coach Hammond, Coach Cimler</small></p>
 
 <h5>Spring League Champs</h5>
 
-<p>The boys won the NJ Suburban League playoffs with a big 6-5 win over Wyckoff. Jack went 2-3 with a single and a double.</p>
+<p>The boys won the NJ Suburban League playoffs with a big 6-5 win over Wyckoff. Jack went 2 for 3 with a single and a double.</p>
 
 <p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/12u_baseball/njsbl_champs_2024.jpg" alt="njsbl_champs_2024"  /><br/>
 <small>Raiders posing with the Spring championship trophy.</small></p>
