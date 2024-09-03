@@ -74,7 +74,7 @@ COACHES: Coach Grossman (me), Coach Hammond, Coach Cimler</small></p>
 
 <h5>Coach Jack</h5>
 
-<p>As part of fundraising for the trip to the big tournament in Cooperstown, all 3 Ridgewood 12U teams put on two baseball clinics for kids 4-8 years old. Jack worked with the younger kids on the fundamentals - stretching, running, throwing, catching, fielding and hitting.</p>
+<p>As part of fundraising for the trip to the big tournament in Cooperstown, all 3 Ridgewood 12U teams put on two baseball clinics for kids 4-8 years old. Jack was great working with the younger kids on the fundamentals - stretching, running, throwing, catching, fielding and hitting.</p>
 
 <p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/12u_baseball/coach_jack.jpg" alt="coach_jack_1"  /><br/>
 <small>Jack working the different stations during a clinic</small></p>
