@@ -83,7 +83,7 @@ COACHES: Coach Grossman (me), Coach Hammond, Coach Cimler</small></p>
 
 <p>During the last week of July, the team played in a 5 day tournament at Dreams Park in Cooperstown, NY (the birthplace of baseball). The facility was quite amazing and the boys + coaches stayed in bunks overnight. It was the biggest field they ever had with 104 teams from all over the country. Jack's team did really well finishing with a 4-3 record, including winning a playoff game. </p>
 
-<p>Jack played the best he has ever played! At Cooperstown, he had 16 hits in 19 at bats (.842 average) with 3 home runs over the fences. He had 3 hits in 5 of the 7 games they played.</p>
+<p>Over the year 2 weeks of July, Jack played the best he has ever played! At Cooperstown, he had 16 hits in 19 at bats (.842 average) with 3 home runs over the fences. He had 3 hits in 5 of the 7 games they played.</p>
 
 <p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/12u_baseball/cooperstown_team_pic.jpg" alt="cooperstown_team_pic"  /><br/>
 <small>The Raiders team in their red uniforms getting ready for opening parade.</small></p>
