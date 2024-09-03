@@ -2,7 +2,7 @@
 layout: post
 title:  "Highlights of Jack's 12U Baseball Season"
 author: jay
-tags: [ ] 
+tags: [ baseball ] 
 image: assets/images/headers/12U_baseball.png
 description: "Highlights of Jack's 12U Baseball Season"
 featured: false
