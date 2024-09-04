@@ -35,7 +35,7 @@ COACHES: Coach Grossman (me), Coach Hammond, Coach Cimler</small></p>
 
 <p>Jack had a very strong season both pitching and hitting for our rec team and was chosen to play in the league's All Star game for the third straight year. He was on the Maroon team and I was a super aggressive third base coach.</p>
 
-<p>The All Star game was held directly after the Championship doubleheader (which made for 8 hours of baseball). In the game Jack had a single and a long triple over the centerfielder's head. Unfortunatley our team lost 12-11 in an exciting and very fun game.</p>
+<p>The All Star game was held directly after the Championship doubleheader (which made for 7 hours of baseball). In the game Jack had a single and a long triple over the centerfielder's head. Unfortunatley our team lost 12-11 in an exciting and very fun game.</p>
 
 <p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/12u_baseball/rec_all_star_game_2024.jpg" alt="rec_all_star_game_2024"  /><br/>
 <small>Jack is smiling with blue helmet in the back row on the right.</small></p>
