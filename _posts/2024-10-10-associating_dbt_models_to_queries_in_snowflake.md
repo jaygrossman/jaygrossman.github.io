@@ -38,7 +38,7 @@ comments: false
 
 <h5>Adding a comment with the model name using a macro</h5>
 
-<p>We can a dbt macro that will add some model details as shown below:</p>
+<p>We can a dbt macro that will add the model name as shown below:</p>
 
 {% raw %}
 ```sql
