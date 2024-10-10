@@ -43,10 +43,7 @@ comments: false
 {% raw %}
 ```sql
 {% macro model_comment() %}
-/* Model: {{ model.name }}
-   Schema: {{ model.schema }}
-   Database: {{ target.database }}
-   Compiled at: {{ modules.datetime.datetime.now() }} */
+/* Model: {{ model.name }} */
 {% endmacro %}
 ```
 {% endraw %}
