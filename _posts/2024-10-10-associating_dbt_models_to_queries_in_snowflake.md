@@ -20,7 +20,7 @@ comments: false
 
 > When a query runs slow and I find it running slowly in Snowflake's Profiler, how can I can make it easier to associate the query to the dbt model where the code lives that I will need to refactor?
 
-<h5>Some background on Snowflake's Query Profiler</h5>
+<h5>Some background on queries in Snowflake</h5>
 
 <p>Snowflake's Query History shows queries run, who ran it and how long they took. I generally like to spend time looking at the longest running (most expensive) queries to look for opportunities to refactor them and save money.</p>
 
