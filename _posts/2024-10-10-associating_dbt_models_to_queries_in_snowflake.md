@@ -62,7 +62,7 @@ FROM my_table
 
 <h5>Automatically adding this info to all dbt models</h5>
 
-<p>While the macro is great, I am lazy and don't want to go through the exercise of adding t0 the 100's of models in my projects. I'd like to automagically add it to all of the models!</p>
+<p>While the macro is great, I am lazy and don't want to go through the exercise of adding to the 100's of models in my projects. I'd like to automagically add it to all of the models!</p>
 
 <p>In dbt, the <a href="https://docs.getdbt.com/reference/project-configs/query-comment" target="_blank">query-comment</a> configuration in dbt_project.yml allows you to inject custom comments into the SQL queries that dbt runs against your database. This feature serves several important purposes:</p>
 <ul>
