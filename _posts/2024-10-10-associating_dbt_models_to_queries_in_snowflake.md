@@ -105,7 +105,7 @@ dbt run -s my_dbt_model
 
 {% raw %}
 ```sql
-create or replace table MYDB.MY_SCHEMA.my_dbt_model 
+create or replace table MY_DB.MY_SCHEMA.my_dbt_model 
       as
       (
 SELECT 
