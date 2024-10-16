@@ -43,20 +43,21 @@ comments: false
 {% raw %}
 ```sql
 {% macro model_comment() %}
-/* Model: {{ model.name }} */
+/* source dbt model: {{ model.name }} */
 {% endmacro %}
 ```
 {% endraw %}
 
-<p>Then we can add the comment to the top of the SQL file for the model:</p>
+<p>Then we can add the comment to the bottom of the SQL file for the model:</p>
 
 {% raw %}
-```
-{{ model_comment() }}
+```sql
 SELECT 
   field1
   , field2
 FROM my_table
+
+{{ model_comment() }}
 ```
 {% endraw %}
 
@@ -74,8 +75,40 @@ FROM my_table
 
 {% raw %}
 ```yaml
-query-comment: "{{ model_comment() }}"
+query-comment: 
+  comment: "source dbt model: {{ node.name }}"
+  append: True
 ```
 {% endraw %}
 
+At a project level, we need to {% raw %}`{{node}}`{% endraw %} object, as the {% raw %}`{{model}}`{% endraw %} object is not available at a project level. We need the `append: True` to add the comment to the bottom of the SQL file because Snowflake will filter out comments at the top of the file.
 
+
+I have the following model named "my_dbt_model" in my dbt project:
+{% raw %}
+```sql
+SELECT 
+  field1
+  , field2
+FROM my_table
+```
+{% endraw %}
+
+<p>I ran the following to run the model in our Snowflake environment:</p>
+
+```
+dbt run -s my_dbt_model
+```
+
+<p>When I look at the query history in Snowflake, I can now see the following sql for a model named "my_dbt_model":</p>
+
+{% raw %}
+```sql
+SELECT 
+  field1
+  , field2
+FROM my_table
+
+/* source dbt model: my_dbt_model_model */;
+```
+{% endraw %}
