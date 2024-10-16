@@ -84,7 +84,7 @@ query-comment:
 At a project level, we need to {% raw %}`{{node}}`{% endraw %} object, as the {% raw %}`{{model}}`{% endraw %} object is not available at a project level. We need the `append: True` to add the comment to the bottom of the SQL file because Snowflake will filter out comments at the top of the file.
 
 
-I have the following model named "my_dbt_model" in my dbt project:
+<p>I have the following model named <i>my_dbt_model.sql</i> in my dbt project:</p>
 
 {% raw %}
 ```sql
@@ -101,7 +101,7 @@ FROM my_table
 dbt run -s my_dbt_model
 ```
 
-<p>When I look at the query history in Snowflake, I can now see the following sql for a model named "my_dbt_model":</p>
+<p>When I look at the query history in Snowflake, I can now see the following sql for <i>my_dbt_model.sql</i> (with the comment line at the bottom):</p>
 
 {% raw %}
 ```sql
