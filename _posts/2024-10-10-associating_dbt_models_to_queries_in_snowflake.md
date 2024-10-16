@@ -85,6 +85,7 @@ At a project level, we need to {% raw %}`{{node}}`{% endraw %} object, as the {%
 
 
 I have the following model named "my_dbt_model" in my dbt project:
+
 {% raw %}
 ```sql
 SELECT 
