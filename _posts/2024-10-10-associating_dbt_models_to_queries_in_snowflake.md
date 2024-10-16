@@ -105,11 +105,14 @@ dbt run -s my_dbt_model
 
 {% raw %}
 ```sql
+create or replace table MYDB.MY_SCHEMA.my_dbt_model 
+      as
+      (
 SELECT 
   field1
   , field2
 FROM my_table
-
+  )
 /* source dbt model: my_dbt_model */;
 ```
 {% endraw %}
