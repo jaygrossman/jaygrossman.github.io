@@ -36,7 +36,7 @@ comments: false
 
 <p>While the moderator of the session did not have much interest providing a solution, one of the audience members had a great suggestion:</p>
 
-> You can put a comment with the model's name in the SQL that dbt generates, so you'll be able to see it in the query in the Query run.
+> You can put a comment with the model's name in the SQL that dbt generates, so you'll be able to see it in the query run.
 
 <h5>Adding a comment with the model name using a macro</h5>
 
