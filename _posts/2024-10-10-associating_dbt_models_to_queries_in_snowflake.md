@@ -109,6 +109,6 @@ SELECT
   , field2
 FROM my_table
 
-/* source dbt model: my_dbt_model_model */;
+/* source dbt model: my_dbt_model */;
 ```
 {% endraw %}
