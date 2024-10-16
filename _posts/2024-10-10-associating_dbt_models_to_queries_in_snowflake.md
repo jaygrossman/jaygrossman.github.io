@@ -34,7 +34,9 @@ comments: false
 
 <h2>The solution:</h2>
 
-<p>While the moderator of the session did not have much interest providing a solution, one of the audience members had a great suggestion - put a comment with the model's name in the SQL that dbt generates, so I will be able to see it in the query in the Profiler.</p>
+<p>While the moderator of the session did not have much interest providing a solution, one of the audience members had a great suggestion:</p>
+
+> You can put a comment with the model's name in the SQL that dbt generates, so you'll be able to see it in the query in the Query run.
 
 <h5>Adding a comment with the model name using a macro</h5>
 
