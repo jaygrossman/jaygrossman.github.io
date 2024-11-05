@@ -95,7 +95,7 @@ COACHES: Coach Grossman (me), Coach Hammond, Coach Cimler</small></p>
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DgR8gTuuFlo?si=XGv3_4E4ikZTIiSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7E-eeLjGMl8?si=4ne1IzQTHB_TsoGt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<small><br>Jack hitting a home run against the team from Danville, CA.</small></p>
+<small><br>2 views of Jack hitting a home run against the team from Danville, CA.</small></p>
 
 <p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/12u_baseball/cooperstown_homers.jpg" alt="cooperstown_homers"  /><br/>
 <small>Jack's home run balls in ball cubes.</small></p>
