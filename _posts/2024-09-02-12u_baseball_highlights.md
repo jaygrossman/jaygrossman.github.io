@@ -92,7 +92,7 @@ COACHES: Coach Grossman (me), Coach Hammond, Coach Cimler</small></p>
 <small>Jack styling in his blue uniform.</small></p>
 
 <p style="text-align: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7E-eeLjGMl8?si=DaW2o3nt0Qox5t4F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DgR8gTuuFlo?si=XGv3_4E4ikZTIiSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <small><br>Jack hitting a home run against the team from Danville, CA.</small></p>
 
 <p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/12u_baseball/cooperstown_homers.jpg" alt="cooperstown_homers"  /><br/>
