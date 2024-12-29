@@ -185,7 +185,7 @@ We can calculate the lifetime item profitability of subscriptions by adding up a
 <source id="OperationalConcerns"/>
 <h4>Discussions around Operational Concerns:</h4>
 
-<p>Very few candidates brought up operational aspects that may influence decisions around inventory, but here are some very important considerations by the RtR merchandising teams:</p>
+<p>Very few candidates brought up operational aspects that may influence decisions around inventory, but here are some very important considerations by the RtR's various teams:</p>
 
 <p><u>Durability</u><br>
 These items need to last and be available for many rentals (sometimes >30). Items with delicate materials or that wore down quickly were often eliminated during buying cycles. The cost of repairs and replacements can be significant.</p>
