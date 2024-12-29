@@ -143,7 +143,7 @@ Effectively matching demand allows for less overstocking/ understocking, lower s
 <p>Having multiple offerings required RtR to consider the profitability of each item in their inventory for each use case. The way we would calculate the revenue associated with an item from a one-time rental for 4 days would be different than one of the items that was rented as part of a subscription for the same 4 days.</p>
 
 <p>
-<u>One-time rental (simple model)</u><br/>
+<u>One-time rental (simple model):</u><br/>
 I would generally start with asking candidates to talk through a methodology to calculate profitability for items rented exclusively via the one-time rental business. <br>
 <br>
 Successful candidates would arrive at a formula:<br>
@@ -157,7 +157,7 @@ unit costs = initial cost of the item + (number of rentals * incremental logisti
 </p>
 
 <p>
-<u>Subscription</u><br/>
+<u>Subscription:</u><br/>
 If the candidate did well with the simple model, I would introduce the subscription model. This would require candidates to think about how to attribute the revenue contribution for items rented via the subscription model. <br>
 <br>
 Let's illustrate a scenario for subscription:<br>
