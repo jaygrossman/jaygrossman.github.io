@@ -151,7 +151,7 @@ Successful candidates would arrive at a formula:<br>
 <li>
 unit revenue = (number of rentals * average revenue rental) + final sale revenue</li>
 <li>
-unit costs = initial cost of the item + (number of rentals * incremental logistics costs of each rental)</li>
+unit costs = initial cost of the item + (number of rentals * average incremental logistics costs of each rental)</li>
 <li>unit profitability = unit revenue - unit costs</li>
 </ul>
 </p>
