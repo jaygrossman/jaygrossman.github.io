@@ -36,7 +36,7 @@ comments: false
 <p>
 <ol>
 
-<li><u>Real World Problem</u> - Inventory acquisiton is core to RtR's business. Most candidates walked away learning new things and more interested in the company after the discussion.<br>
+<li><u>Real World Problem</u> - Inventory acquisition is core to RtR's business. Most candidates walked away learning new things and more interested in the company after the discussion.<br>
 <br></li>
 
 <li><u>Dealing with something new</u> - I am looking to see how candidates react to something they probably hadn't thought about, since almost all of them didn't have merchandising backgrounds. I want to understand:
@@ -68,7 +68,7 @@ comments: false
 
 <li><b>RtR was in growth mode</b> after significant VC investment, always looking to aggressively expand their customer base and offerings. Inventory acquisition was the largest capital expense for the company, so maximizing this investment area was always a top priority. This meant we had to consider how to balance the needs of their existing customers (minimizing churn) while cost efficiently attacting new cohorts of customers.<br>
 <br>
-The finance team did amazing jobs to build out models + forecasts for many potential growth targets, considering many complex assumptions and trade offs. The buying and merchandising teams had to balance mulitple forecast scenarios with the realities of the fashion industry and the operational constraints of the business.
+The finance team did amazing jobs to build out models + forecasts for many potential growth targets, considering many complex assumptions and trade offs. The buying and merchandising teams had to balance multiple forecast scenarios with the realities of the fashion industry and the operational constraints of the business.
 <br>
 <br></li>
 
@@ -79,7 +79,7 @@ The finance team did amazing jobs to build out models + forecasts for many poten
 <li><u>Try to Buy</u> - you can buy items instead of returning them.</li>
 </ul>
 Each of these offerings may have different customer segments, different pricing strategies, and different inventory needs. A large percentage of the inventory was made available for multiple offerings and customers often switched between offerings.
-It is especially interesting to consider that the user activity for each offering may directly impact the inventory consdierations for the other offerings.<br>
+It is especially interesting to consider that the user activity for each offering may directly impact the inventory considerations for the other offerings.<br>
 <br>
 Please note - RtR has further iterated since 2020 to significantly change their offerings, adding more options and complexity.<br>
 <br>
@@ -138,7 +138,7 @@ Effectively matching demand allows for less overstocking/ understocking, lower s
 <source id="UnitEconomics"/>
 <h4>Discussions around Unit Economics:</h4>
 
-<p>Since the second part of the question is <i>"At what price?"</i>, usually there were some discussions item level profitability and about how to spend our inventory budget.</p>
+<p>Since the second part of the question is <i>"At what price?"</i>, usually there were some discussions about item level profitability and about how to spend our inventory budget.</p>
 
 <p>Having multiple offerings required RtR to consider the profitability of each item in their inventory for each use case. The way we would calculate the revenue associated with an item from a one-time rental for 4 days would be different than one of the items that was rented as part of a subscription for the same 4 days.</p>
 
@@ -205,7 +205,7 @@ RtR implemented automation around their warehouses for moving/tracking inventory
 <p>In addition to the mechanics of trying to answer the question, I am also looking for the following behavior I have seen in effective data scientists:</p>
 
 <p><u>Framing the problem</u><br>
-It is interesting how candidates begin their attempt come up with their responses. Some specific things I look for:
+It is interesting how candidates begin their attempt to come up with their responses. Some specific things I look for:
 <ul>
 <li>Do they try to define what would constitute success?</li>
 <li>Do they ask for context and/or look to validate any assumptions, or do they immediately dive into providing a solution?</li>
