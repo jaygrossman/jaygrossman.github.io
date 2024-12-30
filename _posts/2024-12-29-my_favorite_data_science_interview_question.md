@@ -145,17 +145,16 @@ Effectively matching demand allows for less overstocking/ understocking, lower s
 <u>One-time rental (simple model):</u><br/>
 I would generally start with asking candidates to talk through a methodology to calculate profitability for items rented exclusively via the one-time rental business. <br>
 <br>
-Successful candidates would arrive at a formula:<br>
+Successful candidates would arrive at some version of this formula:<br>
 <ul>
 <li>
-unit revenue = (number of rentals * average revenue rental) + final sale revenue</li>
+unit revenue = (number of rentals * average revenue rental of that unit) + final sale revenue</li>
 <li>
 unit costs = initial cost of the item + (number of rentals * average incremental logistics costs of each rental)</li>
 <li>unit profitability = unit revenue - unit costs</li>
 </ul>
 </p>
 RtR offered customers a "free" backup size with each rental to minimize issues when the primary size choice did not fit customers. When we added this context, candidates would need to consider how to attribute across multiple item orders. 
-
 <p>
 <u>Subscription:</u><br/>
 If the candidate did well with the simple model, I would introduce the subscription model. This would require candidates to think about how to attribute the revenue contribution for items rented via the subscription model. <br>
