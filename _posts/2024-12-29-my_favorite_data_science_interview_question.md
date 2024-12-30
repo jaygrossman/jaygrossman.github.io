@@ -212,7 +212,7 @@ It is interesting how candidates begin their attempt to come up with their respo
 <li>Do they try to break the hard problem into digestible parts?</li>
 </ul>
 </p>
-<p>It's worth noting that there were quite a few candidates that immediately tried to identify the machine learning models they would try without really understanding the scope of the problem. Once I provided feedback about their solution, some folks plowed through with an incorrect path while others adjusted their approach.</p>
+<p>It's worth noting that there were quite a few candidates that immediately tried to identify the machine learning models they would try without really understanding the scope of the problem. Once I provided feedback about their solution, some folks continued with that incorrect path while others adjusted their approach.</p>
 
 <p><u>Communication Style</u><br>
 Assuming I am their stakeholder for this problem, how do they interact with me? I am looking for candidates to be able to explain their thoughts clearly and concisely. How do they react when the parameters of the problem change or their explanations are challenged? I am looking for cultural red flags in their responses, as I am inclined to hire gritty folks over brilliant/condescending jerks. How do they use visual cues effectively to tell a stroy and/or express their points (like drawing things on a whiteboard)?</p>
