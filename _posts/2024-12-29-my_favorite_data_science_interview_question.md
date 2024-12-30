@@ -113,7 +113,6 @@ As with many data science related problems, there are not completely right or wr
 <li>Current and upcoming trends that should be considered.</li>
 </ul>
 
-
 <source id="Demand"/>
 <h4>Discussions around Demand:</h4>
 
@@ -133,7 +132,7 @@ Fashion is highly dynamic, with trends and demand fluctuating based on seasons a
 <p><u>Inventory Management Efficiency</u><br/>
 Effectively matching demand allows for less overstocking/ understocking, lower storage costs for slow-moving items and streamlined your inventory management process.</p>
 
-<p>Some candidates would go on to discuss how they could model demand. Some would talk about the relationship between demand and personalized recommendations to customers. Some even talked about segmenting customers into target groups (based on size, geography, fashion persona, etc.) and discussed how RtR needed to have enough desirable inventory to attract users.</p>
+<p>Some candidates would go on to discuss how they could model demand. Some would talk about the relationship between demand and personalized recommendations to customers. Some even talked about segmenting customers into target groups (based on size, geography, fashion persona, etc.) and discussed how RtR needed to have enough desirable inventory to attract + keep users.</p>
 
 <source id="UnitEconomics"/>
 <h4>Discussions around Unit Economics:</h4>
@@ -155,6 +154,7 @@ unit costs = initial cost of the item + (number of rentals * average incremental
 <li>unit profitability = unit revenue - unit costs</li>
 </ul>
 </p>
+RtR offered customers a "free" backup size with each rental to minimize issues when the primary size choice did not fit customers. When we added this context, candidates would need to consider how to attribute across multiple item orders. 
 
 <p>
 <u>Subscription:</u><br/>
@@ -213,6 +213,7 @@ It is interesting how candidates begin their attempt to come up with their respo
 <li>Do they try to break the hard problem into digestible parts?</li>
 </ul>
 </p>
+<p>It's worth noting that there were quite a few candidates that immediately tried to identify the machine learning models they would try without really understanding the scope of the problem. Once I provided feedback about their solution, some folks plowed through with an incorrect path while others adjusted their approach.</p>
 
 <p><u>Communication Style</u><br>
 Assuming I am their stakeholder for this problem, how do they interact with me? I am looking for candidates to be able to explain their thoughts clearly and concisely. How do they react when the parameters of the problem change or their explanations are challenged? I am looking for cultural red flags in their responses, as I am inclined to hire gritty folks over brilliant/condescending jerks. How do they use visual cues effectively to tell a stroy and/or express their points (like drawing things on a whiteboard)?</p>
