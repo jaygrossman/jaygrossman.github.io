@@ -73,7 +73,7 @@ comments: false
 
 <h4>How to use the extension:</h4>
 
-<p>In the browser's toolbar, click on the <img src="{{ site.baseurl }}/assets/images/address_finder/con.png" width="30" alt="home icon"/> icon and the search form will appear:</p>
+<p>In the browser's toolbar, click on the <img src="{{ site.baseurl }}/assets/images/address_finder/black_home_icon.png" width="30" alt="home icon"/> icon and the search form will appear:</p>
 
 <p>
 <img src="{{ site.baseurl }}/assets/images/address_finder/search_form.png" alt="search_form" width="50%" style="border: 1px solid #000000;"/><br/></p>
@@ -112,7 +112,7 @@ You will see a page like this:<br>
 <ol>
 <li>Click on the puzzle icon in the browser toolbar (as shown in the screen above)</li>
 <li>Click on the <img src="{{ site.baseurl }}/assets/images/address_finder/pin_icon.png" width="25" alt="pin icon"/> icon next to Address Finder Extension</li>
-<li>You should now see the <img src="{{ site.baseurl }}/assets/images/address_finder/icon.png" width="30" alt="home icon"/> icon in the toolbar next to the puzzle icon</li>
+<li>You should now see the <img src="{{ site.baseurl }}/assets/images/address_finder/black_home_icon.png" width="30" alt="home icon"/> icon in the toolbar next to the puzzle icon</li>
 </ol>
 
 
