@@ -10,16 +10,6 @@ hidden: false
 comments: false
 ---
 
-<table style="width: 100%; border-color:red;" border="1" cellpadding="5">
-<tr>
-<td>
-   <strong><i>Please Note:</i></strong><br>
-   This post is for entertainment and research purposes only.  I am not responsible for any actions you take based on the information in this post. Please respect the privacy of others and use the information you find responsibly.
-    </td>
-</tr>
-</table>
-<br>
-
 <p><a href="https://developer.chrome.com/docs/extensions/develop" target="_blank">Chrome extensions</a> allow developers to add functionality to your Chrome Browser.  While folks can do malicious things within chrome extensions, I have had a lot of fun building extensions that can improve my personal productivity. I <a href="https://jaygrossman.com/decorating-sites-with-browser-extensions/" target="_blank">blogged about an extension</a> in 2013 that showed the WeightWatchers points values next to food items on grubhub and other sites.</p>
 
 <h2>The Challenge:</h2>
