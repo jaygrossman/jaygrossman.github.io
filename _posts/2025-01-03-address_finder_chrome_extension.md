@@ -27,8 +27,7 @@ comments: false
 
 <h4>Project Requirements:</h4>
 
-
-Chrome extension needs to:
+<p>Chrome extension needs to:
 <ol> 
 <li>Prompt the user for information about the person:
   <ul>  
@@ -54,6 +53,25 @@ Chrome extension needs to:
 </li>
 <li>Display the results from each site in a new tab.</li>
 </ol>
+</p>
+
+<p><table style="width: 100%; border-color:red;" border="1" cellpadding="5">
+<tr>
+<td>
+   <strong><i>Please Note:</i></strong><br>
+   I decided against trying to scrape the relevant content across 9 sites and aggregate it into a single view because:<br>
+   <ul>
+    <li>these sites change their layout</li>
+    <li>they have different types of CAPTCHAs</li>
+    <li>some sites have unique useful data elements</li>
+    <li>it would likely be in violation of their Terms of Service</li>
+    </ul>
+    </td>
+</tr>
+</table>
+</p>
+
+
 
 <h4>How to use the extension:</h4>
 
