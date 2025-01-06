@@ -118,4 +118,4 @@ Also many of these sites provide a list of previous addresses the person has liv
 
 <p><b>What if the person you are searching for is not found?</b></p>
 
-<p><blockquote>It is possible that the person you are searching for is not in the databases of the sites I am searching.  It is also possible that the person has taken steps to remove their information from these sites.</blockquote></p>
+<p><blockquote>It is possible that the person you are searching for is not in the databases of these free sites.  It is also possible that the person has taken steps to remove their information from these sites.</blockquote></p>
