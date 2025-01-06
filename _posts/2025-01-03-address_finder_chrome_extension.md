@@ -15,18 +15,16 @@ comments: false
 <td>
    <strong><i>Please Note:</i></strong><br>
    This post is for entertainment and research purposes only.  I am not responsible for any actions you take based on the information in this post. Please respect the privacy of others and use the information you find responsibly.
-   <b>Don't visit people's homes uninvited</b>.
     </td>
 </tr>
 </table>
 <br>
 
-
 <p><a href="https://developer.chrome.com/docs/extensions/develop" target="_blank">Chrome extensions</a> allow developers to add functionality to your Chrome Browser.  While folks can do malicious things within chrome extensions, I have had a lot of fun building extensions that can improve my personal productivity. I <a href="https://jaygrossman.com/decorating-sites-with-browser-extensions/" target="_blank">blogged about an extension</a> in 2013 that showed the WeightWatchers points values next to food items on grubhub and other sites.</p>
 
 <h2>The Challenge:</h2>
 
-<p>I run an autograph community (<a href="https://sportscollectors.net" target="_blank">sportscollectors.net</a>) where collectors mail letters to athletes to request autographs. Sometimes I want to locate or confirm an address of a player and I want it to be more efficient.</p>
+<p>I run an autograph community (<a href="https://sportscollectors.net" target="_blank">sportscollectors.net</a>) where collectors mail letters to athletes to request autographs. I want to make it more efficient when I want to locate or confirm an address of a player.</p>
 
 <h2><span style="color: #ff0000;"><em><strong>I want to initiate searches for a person's address on multiple free sites in one action.</strong></em></span></h2>
 
