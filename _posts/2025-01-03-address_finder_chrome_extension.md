@@ -24,7 +24,7 @@ comments: false
 
 <h2>The Challenge:</h2>
 
-<p>I run an autograph community (<a href="https://sportscollectors.net" target="_blank">sportscollectors.net</a>) where collectors mail letters to athletes to request autographs. I want to make it more efficient when I want to locate or confirm an address of a player.</p>
+<p>I run an autograph community (<a href="https://sportscollectors.net" target="_blank">sportscollectors.net</a>) where collectors mail letters to athletes to request autographs. Sometimes I want to locate or confirm an address of a player, and I'd like to make the process more efficient.</p>
 
 <h2><span style="color: #ff0000;"><em><strong>I want to initiate searches for a person's address on multiple free sites in one action.</strong></em></span></h2>
 
