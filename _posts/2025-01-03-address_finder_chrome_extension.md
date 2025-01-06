@@ -21,9 +21,8 @@ comments: false
 <hr>
 <h2>My Solution: Address Finder Extension</h2>
 
-<p>Code for this extension is posted on github:<br>
-<a href="https://github.com/jaygrossman/AddressFinderExtension" target="_blank">https://github.com/jaygrossman/AddressFinderExtension</a>
-</p>
+<p>TDLR - I built a Chrome extension described below:</p>
+
 
 <h4>Project Requirements:</h4>
 
@@ -109,12 +108,28 @@ You will see a page like this:<br>
 <p>
 <img src="{{ site.baseurl }}/assets/images/address_finder/enable_extension.png" alt="enable extension" style="border: 1px solid #000000;"/><br/>
 
+<p>
 <ol>
 <li>Click on the puzzle icon in the browser toolbar (as shown in the screen above)</li>
 <li>Click on the <img src="{{ site.baseurl }}/assets/images/address_finder/pin_icon.png" width="25" alt="pin icon"/> icon next to Address Finder Extension</li>
 <li>You should now see the <img src="{{ site.baseurl }}/assets/images/address_finder/black_home_icon.png" width="30" alt="home icon"/> icon in the toolbar next to the puzzle icon</li>
 </ol>
+</p>
 
+<h4>The code for the extension:</h4>
+
+<p>Code for this extension is posted on github:<br>
+<a href="https://github.com/jaygrossman/AddressFinderExtension" target="_blank">https://github.com/jaygrossman/AddressFinderExtension</a>
+</p>
+
+<p>The important files for this type of extension:
+<ul>
+<li><a href="https://github.com/jaygrossman/AddressFinderExtension/blob/master/manifest.json" target="_blank">manifest.json</a> - specifies basic metadata (name and version) and some aspects of your extension's functionality</li>
+<li><a href="https://github.com/jaygrossman/AddressFinderExtension/blob/master/popup.html" target="_blank">popup.html</a> - the HTML for the search form</li>
+<li><a href="https://github.com/jaygrossman/AddressFinderExtension/blob/master/validation.js" target="_blank">validation.js</a> - enables search button only when required fields are supplied</li>
+<li><a href="https://github.com/jaygrossman/AddressFinderExtension/blob/master/popup.js" target="_blank">popup.js</a> - using the form values, opens each site's specific search URL in a new browser tab</li>
+</ul>
+</p>
 
 
 
