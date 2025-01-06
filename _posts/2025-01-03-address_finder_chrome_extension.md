@@ -59,7 +59,7 @@ comments: false
 <tr>
 <td>
    <strong><i>Please Note:</i></strong><br>
-   I decided against trying to scrape the relevant content across 9 sites and aggregate it into a single view because:<br>
+   I decided to open the sites in new chrome tabs, rather trying to scrape the relevant content across 9 sites and aggregate it into a single view because:<br>
    <ul>
     <li>these sites change their layout</li>
     <li>they have different types of CAPTCHAs</li>
