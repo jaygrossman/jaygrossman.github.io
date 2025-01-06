@@ -63,15 +63,13 @@ comments: false
    <ul>
     <li>these sites change their layout often</li>
     <li>I didn't want to deal with different types of CAPTCHAs</li>
-    <li>there is valuable extra data + context on some sites beyond addresses</li>
+    <li>there is valuable extra data + context on some sites beyond the person's address</li>
     <li>it would likely be in violation of some Terms of Service</li>
     </ul>
     </td>
 </tr>
 </table>
 </p>
-
-
 
 <h4>How to use the extension:</h4>
 
