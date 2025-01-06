@@ -61,10 +61,10 @@ comments: false
    <strong><i>Please Note:</i></strong><br>
    I decided to open the sites in new chrome tabs, rather trying to scrape the relevant content across 9 sites and aggregate it into a single view because:<br>
    <ul>
-    <li>these sites change their layout</li>
-    <li>they have different types of CAPTCHAs</li>
-    <li>some sites have unique useful data elements</li>
-    <li>it would likely be in violation of their Terms of Service</li>
+    <li>these sites change their layout often</li>
+    <li>I didn't want to deal with different types of CAPTCHAs</li>
+    <li>there is valuable extra data + context on some sites beyond addresses</li>
+    <li>it would likely be in violation of some Terms of Service</li>
     </ul>
     </td>
 </tr>
