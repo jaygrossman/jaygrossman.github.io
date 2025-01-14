@@ -118,21 +118,44 @@ As with many data science related problems, there are not completely right or wr
 
 <p>Since part of the question is <i>"What to buy?"</i>, pretty much every candidate spends some time talking about how they think about demand for the items we buy.</p>
 
-<p>Better candidates talk about how understanding demand is crucial when deciding what inventory to buy for a clothing rental business for several reasons:</p>
+<p><u>Using Historical Data:</u></p>
 
-<p><u>Maximizing Profitability</u><br/>
-Startups need efficient use of their capital. Understanding demand helps ensure that we invest in items that will generate profitable revenue. </p>
+<p>Most candidates came to the idea that we should look at historical sales totals to understand to see the overall direction and potentially make assumptions about it continuing. Many drew a diagram similar to the simple example below:</p>
 
-<p><u>Meeting Customer Expectations</u><br/>
-Demand-driven inventory decisions allow for RtR to have items that customers want to rent (that fit their lifestyles and rental use cases), better availability of popular items during peak seasons and selection diversity that caters to various customer preferences.</p>
+<p align="center"><img src="{{ site.baseurl }}/assets/images/demand_planning_linear_regression.png" alt="demand_planning_linear_regression" /></p>
 
-<p><u>Seasonal and Trend Considerations</u><br/>
-Fashion is highly dynamic, with trends and demand fluctuating based on seasons and events.</p>
+<p>The basic formula can be represented as:</p>
 
-<p><u>Inventory Management Efficiency</u><br/>
-Effectively matching demand allows for less overstocking/ understocking, lower storage costs for slow-moving items and streamlined your inventory management process.</p>
+<p><blockquote>Predicted Demand = f(historical rentals, time)</blockquote></p>
 
-<p>Some candidates would go on to discuss how they could model demand. Some would talk about the relationship between demand and personalized recommendations to customers. Some even talked about segmenting customers into target groups (based on size, geography, fashion persona, etc.) and discussed how RtR needed to have enough desirable inventory to attract + keep users.</p>
+<p><u>Trend, Seasonality and Growth</u></p>
+
+<p><i>Trend Factor</i> is a multiplier derived by looking at historical sales data to identify the average rate of increase or decrease over a given time period. For instance, we may see sales has increased by 20% over the past 3 months, so Trend Factor = 1.2.</p>
+
+<p><i>Seasonality Index</i> is calculated similar to Trend Factor. We can divide the demand for each month by the average monthly demand across all months. For example, if December's demand is 1.4 times the average, its seasonality index would be 1.4. </p>
+
+<p><i>Growth Rate</i> = (Predicted Subscribers - Current Subscribers) / Current Subscribers</p>
+
+<p><blockquote>Final Demand = (Predicted Demand * Trend Factor * Seasonality Index) * (1 + Subscriber Growth Rate)</blockquote></p>
+
+<p><u>Product Assortment</u></p>
+
+<p>While short black cocktail dresses in size 4 may be profitable and very popular in the spring, we probably wouldn't want to only buy only this category of inventory. So we would probably want to think about the best of inventory categories, styles and designers that will be popular with users and are complimentary.</p>
+
+<p align="center"><img src="{{ site.baseurl }}/assets/images/rtr_assortment.png" alt="rtr_assortment" /><br>
+<small>Rent the Runway offered a variety of fashion and accessories</small></p>
+
+<p>Better candidates talk about some of the following for :</p>
+<ul>
+<li><u>Utilization Metric</u> - The percentage of days in a month that is an item rented (and not sitting in the warehouse)? If an item is rented 10 times in a month, it has a utilization rate of 10/30 = 33%.</li>
+
+<li><u>Meeting Customer Expectations</u> - Need to consider that the inventory would be attractive to prospective customers. This means we need to consider that we have carry sizes that would fit and styles that would support various fashion needs (everyday work, formal events, casual, etc.).</li>
+
+<li><u>Depth and Replenishment</u> - We may choose to buy new styles or replenish previous styles from designers. We also need to make decisions about the sizes we want to carry for certain products.</li>
+</ul>
+
+
+<p>Some candidates would go on to discuss how they could model a style level portfolio. Some would talk about the relationship between demand and personalized recommendations to customers. Some even talked about segmenting customers into target groups (based on size, geography, fashion persona, etc.) and discussed how RtR needed to have enough desirable inventory to attract + keep users.</p>
 
 <source id="UnitEconomics"/>
 <h4>Discussions around Unit Economics:</h4>
@@ -183,6 +206,12 @@ We can calculate the lifetime item profitability of subscriptions by adding up a
 
 <source id="OperationalConcerns"/>
 <h4>Discussions around Operational Concerns:</h4>
+
+
+<p>RtR's warehouse was a pretty impressive and complex operation. In additon to more traditional logistics functions (picking, packing, putaway), they had unique processes and workflows for dry cleaning, stain removal and clothing repairs.</p>
+
+<p align="center"><img src="{{ site.baseurl }}/assets/images/rtr_warehouse.png" alt="rtr_warehouse" /><br>
+<small>Racks of clothes hang in Rent the Runway's distribution center in New Jersey. </small></p>
 
 <p>Very few candidates brought up operational aspects that may influence decisions around inventory, but here are some very important considerations by the RtR's various teams:</p>
 
