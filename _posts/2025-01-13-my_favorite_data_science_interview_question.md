@@ -204,9 +204,20 @@ We then subtract the blended average unit costs ($5.02 for prorated shipping, re
 We can calculate the lifetime item profitability of subscriptions by adding up all of the item's profitability from each subscription rental.
 </p>
 
+<p>
+<u>Inventory Acquistion Strategies:</u><br/>
+A few candiates brought up that there may be different ways to acquire inventory. RtR had several avenues for acquiring inventory that have impact on the economics and inventory decisions: <br>
+<ul>
+<li><i>Inventory Purchase</i>: RtR would buy items from designers at wholesale prices. This would require a significant capital outlay and would require a longer time to recoup the investment. </li>
+
+<li><i>Private Label</i>: This is where RtR would design and partner to manufacture their own branded items. It provided a potentially benefical cost structure and timelines vs. traditional inventory purchase. It also was an opportunity to strategically fill some demand areas in the catalog.</li>
+
+<li><i>Revenue Share</i>: In 2018, my team helped introduce a program where RtR would pay designers a portion of the wholesale cost up front and then share the rental revenue. During the pandemic, a larger percentage of procurement transitioned to this type of agreement.</li>
+</ul>
+</p>
+
 <source id="OperationalConcerns"/>
 <h4>Discussions around Operational Concerns:</h4>
-
 
 <p>RtR's warehouse was a pretty impressive and complex operation. In additon to more traditional logistics functions (picking, packing, putaway), they had unique processes and workflows for dry cleaning, stain removal and clothing repairs.</p>
 
