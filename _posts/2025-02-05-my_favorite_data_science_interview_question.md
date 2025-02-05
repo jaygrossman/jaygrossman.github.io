@@ -258,7 +258,7 @@ Assuming I am their stakeholder for this problem, how do they interact with me? 
 <p><u>How do they simplify complexity for non-data people</u><br>
 Being really smart and thorough is great!!! But can you explain your thoughts to someone who doesn't have a statistics and/or tech background? A big part of the job (and this interview) is to be able to idenitfy the important aspects that move the business forward and come up with appropriate actions (often via experiments). The best data scientists have the ability to sell the value of their proposed actions/projects.<br/>
 <br/>
-I recently read an interesting post from Paul Stansik <a href="https://hellooperator.substack.com/p/how-to-hire-a-simplifie" target="_blank">"How to hire a Simplifier"</a> that resonated with me.</p>
+I recently read an interesting post from Paul Stansik <a href="https://hellooperator.substack.com/p/how-to-hire-a-simplifier" target="_blank">"How to hire a Simplifier"</a> that resonated with me.</p>
 
 
 <p><u>Questions I get asked</u><br>
