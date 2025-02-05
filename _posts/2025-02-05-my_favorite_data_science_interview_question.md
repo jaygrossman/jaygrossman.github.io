@@ -20,7 +20,6 @@ comments: false
 
 <h2><span style="color: #ff0000;"><em><strong>What clothes should Rent the Runway buy and at what price?</strong></em></span></h2>
 
-
 <h4>Ground rules and assumptions:</h4>
 
 <p>
@@ -84,7 +83,6 @@ It is especially interesting to consider that the user activity for each offerin
 Please note - RtR has further iterated since 2020 to significantly change their offerings, adding more options and complexity.<br>
 <br>
 </li>
-
 </ol>
 </p>
 
@@ -256,6 +254,12 @@ It is interesting how candidates begin their attempt to come up with their respo
 
 <p><u>Communication Style</u><br>
 Assuming I am their stakeholder for this problem, how do they interact with me? I am looking for candidates to be able to explain their thoughts clearly and concisely. How do they react when the parameters of the problem change or their explanations are challenged? I am looking for cultural red flags in their responses, as I am inclined to hire gritty folks over brilliant/condescending jerks. How do they use visual cues effectively to tell a stroy and/or express their points (like drawing things on a whiteboard)?</p>
+
+<p><u>How do they simplify complexity for non-data people</u><br>
+Being really smart and thorough is great!!! But can you explain your thoughts to someone who doesn't have a statistics and/or tech background? A big part of the job (and this interview) is to be able to idenitfy the important aspects that move the business forward and come up with appropriate actions (often via experiments). The best data scientists have the ability to sell the value of their proposed actions/projects.<br/>
+<br/>
+I recently read an interesting post from Paul Stansik <a href="https://hellooperator.substack.com/p/how-to-hire-a-simplifie" target="_blank">"How to hire a Simplifier"</a> that resonated with me.</p>
+
 
 <p><u>Questions I get asked</u><br>
 I generally try to leave the last 10-15 minutes of the interview for the candidate to ask me questions. I am looking for candidates to ask questions that show they are interested in the company, the teams, the problem space and most importantly learning.</p>
