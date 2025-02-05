@@ -269,7 +269,7 @@ I generally try to leave the last 10-15 minutes of the interview for the candida
 
 <hr>
 <h2>Other parts of the interview:</h2>
-<p>While I like to think that the session with my question was always a highlight, the RtR data interview process generally also included:</p>
+<p>While I like to think that the session with my question was always a highlight, the RtR data interview process during that time period generally also included:</p>
 <p>
 <ul>
   <li><u>Phone screen:</u> discuss the role + company + team + opportunities and the candidate's interest + background.</li>
