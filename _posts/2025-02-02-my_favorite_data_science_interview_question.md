@@ -2,7 +2,7 @@
 layout: post
 title:  "My favorite data science interview question"
 author: jay
-tags: [ data science ] 
+tags: [ data science, rent the runway ] 
 image: assets/images/headers/data_science_what_to_buy.png
 description: "My favorite data science interview question"
 featured: false
