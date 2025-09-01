@@ -14,7 +14,7 @@ comments: false
 <ul>
   <li>To add to my personal collection</li>
   <li>To get the card signed by a player (using <a href="https://sportscollectors.net" target="_blank">SportsCollectors.net</a>)</li>
-  <li>As an investment / To flip for profit (using <a href="https://collectz.com" target="_blank">Collectz</a>)</li>
+  <li>As an investment / To flip for profit (using <a href="http://collectz.com" target="_blank">Collectz</a>)</li>
 </ul>
 
 <p>So I thought it would be fun to share some guidance around what places I go to look when I am searching for specific single cards.</p>
