@@ -83,14 +83,26 @@ comments: false
 
 <h2>Some of my Favorite Highlights</h2>
 
-<p>Here are some of my favorite site and collecting highlights from the past 25 years:</p>
+<p>In David Letterman fashion, here are my <b>Top 10 favorite site and collecting highlights from the past 25 years</b>:</p>
 
 <ol>
 
     <li><b>Launching SCN (2000)</b> - It was pretty amazing when people first found the site and got all excited to meet other collectors.<br><br></li>
 
+    <li><b>Associating pro sports rosters (1948-present) to player signing habits (2007)</b> - Introduced player rosters to SCN. Allows memebrs to see the signing habits of their favorite teams and years: <br>
+    <img src="{{ site.baseurl }}/assets/images/scn25/scn_teams.png" alt="scn_team"  border="0" /><br><br></li>
+
     <li><b>Finishing my favorite signed card (2007)</b> - I got to meet Bob Gibson and Juan Marichal in a 2 month span at local card shows to complete this 1967 Topps leaders card:<br>
     <img src="{{ site.baseurl }}/assets/images/scn25/1967_koufax_marichal_gibson_perry.png" alt="1967_topps_leaders_bob_gibson_juan_marichal"  border="0" /><br><br></li>
+
+    <li><b>SCN Collectors Set (2009)</b> - A group of <a href="https://www.sportscollectors.net/MessageBoardThread.aspx?t=48403" target="_blank">50 SCN members organized where we each got cards</a> made on the Topps site. My 1976 Topps inspired card pictures my daughter and me outside Fenway Park (she was 1 year old then):<br>
+     <table>
+    <tr>
+        <td><img src="{{ site.baseurl }}/assets/images/scn25/scn_set_front.png"  alt="scn_set"  border="0" /></td>
+        <td><img src="{{ site.baseurl }}/assets/images/scn25/scn_set_back.png"  alt="scn_set"  border="0" /></td>
+    </tr>
+   </table>
+  <br></li>
 
     <li><b>Associating 5+ million cards to player signing habits (2010)</b> - By far this is the most ambitious (but awesome) feature I have built. It has been a dream feature for set collectors like myself:<br>
     <img src="https://www.sportscollectors.net/assets/screens/SigsByMailCardSetTrack.gif" alt="SigsByMailCardSetTrack"  border="0" style="border:1px solid #000000;"/><br><br></li>
@@ -98,9 +110,6 @@ comments: false
 
     <li><b>Private Signings on SCN (2010)</b> - We introduced a feature that allows approved promoters to offer private signings to our members:<br>
     <img src="https://www.sportscollectors.net/assets/screens/signing_detail_page.gif" alt="signing_detail_page" /><br><br></li>
-
-
-
 
    <li><b>Cooper's collages (2020)</b> - One of our members shared <a href="https://www.sportscollectors.net/blog.aspx?id=148" target="_blank">about his son's fun activity</a> of making a really cool collages from his old cards and then sending them to players to get signed:<br>
    <table>
