@@ -87,15 +87,15 @@ comments: false
 
 <ol>
 
-    <li><b>Launching SCN (2000)</b> - It was pretty amazing when people first found the site and got all excited to meet other collectors.<br><br></li>
+    <li><b>Launching SCN (2000)</b> - It was pretty amazing when people first found the site and got all excited to share with other collectors.<br><br></li>
 
-    <li><b>Associating pro sports rosters (1948-present) to player signing habits (2007)</b> - Introduced player rosters to SCN. Allows memebrs to see the signing habits of their favorite teams and years: <br>
+    <li><b>Associating pro sports rosters (1948-present) to player signing habits (2007)</b> - Introduced player rosters to SCN. Allows members to see the signing habits of their favorite teams, broken down by years: <br>
     <img src="{{ site.baseurl }}/assets/images/scn25/scn_teams.png" alt="scn_team"  border="0" /><br><br></li>
 
-    <li><b>Finishing my favorite signed card (2007)</b> - I got to meet Bob Gibson and Juan Marichal in a 2 month span at local card shows to complete this 1967 Topps leaders card:<br>
+    <li><b>Finishing my favorite signed card (2007)</b> - I got to meet Bob Gibson and Juan Marichal in a 2 month span at card shows in NY and NJ to complete this 1967 Topps leaders card:<br>
     <img src="{{ site.baseurl }}/assets/images/scn25/1967_koufax_marichal_gibson_perry.png" alt="1967_topps_leaders_bob_gibson_juan_marichal"  border="0" /><br><br></li>
 
-    <li><b>SCN Collectors Set (2009)</b> - A group of <a href="https://www.sportscollectors.net/MessageBoardThread.aspx?t=48403" target="_blank">50 SCN members organized where we each got cards</a> made on the Topps site. My 1976 Topps inspired card pictures my daughter and me outside of Fenway Park (she was 7 months old then):<br>
+    <li><b>SCN Collectors Set (2009)</b> - A group of <a href="https://www.sportscollectors.net/MessageBoardThread.aspx?t=48403" target="_blank">50 SCN members organized where we each got cards</a> made on the Topps site. My 1976 Topps inspired card pictures my daughter and me cheering on our Red Sox (she was 7 months old then):<br>
      <table>
     <tr>
         <td><img src="{{ site.baseurl }}/assets/images/scn25/scn_set_front.png"  alt="scn_set"  border="0" /></td>
@@ -123,17 +123,12 @@ comments: false
     <li><b>Completing 1978 Topps basketball set (2020)</b> - After needing one card for 4 years to complete the signed set, I finally acquired the Pete Maravich card from a member of the community:<br>
   <img src="{{ site.baseurl }}/assets/images/scn25/1978_topps_signed_maravich.png" alt="1978_topps_signed_maravich"  border="0" /><br><br></li>
 
-    <li><b>SCN member elected to Football Hall of Fame (2021)</b> - Not sure what is more amazing, the insane Browns collection of Ray "Showdawg" Prisby or that Jim Brown showed up at his house to let him know he is a member of the Pro Football Hall of Fame.<br>
+    <li><b>SCN member elected to Football Hall of Fame (2021)</b> - Not sure what is more amazing, the insane Browns collection of Ray "Showdawg" Prisby or that Jim Brown showed up at his house to let him know he nominated for the Pro Football Hall of Fame.<br>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_RP9Fb9YsLg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br></li>
 
     <li><b>We hit 2,000,000 autograph successes tracked (2023)</b> - The <a href="https://www.sportscollectors.net/blog.aspx?id=180" target="_blank">announcement</a> of this milestone for the community was pretty exciting.<br><br></li>
 
-
-
-    
 </ol>
-
-
 
 <h2>Learnings and Takeaways</h2>
 
