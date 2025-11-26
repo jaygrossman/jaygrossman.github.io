@@ -95,7 +95,7 @@ comments: false
     <li><b>Finishing my favorite signed card (2007)</b> - I got to meet Bob Gibson and Juan Marichal in a 2 month span at local card shows to complete this 1967 Topps leaders card:<br>
     <img src="{{ site.baseurl }}/assets/images/scn25/1967_koufax_marichal_gibson_perry.png" alt="1967_topps_leaders_bob_gibson_juan_marichal"  border="0" /><br><br></li>
 
-    <li><b>SCN Collectors Set (2009)</b> - A group of <a href="https://www.sportscollectors.net/MessageBoardThread.aspx?t=48403" target="_blank">50 SCN members organized where we each got cards</a> made on the Topps site. My 1976 Topps inspired card pictures my daughter and me outside Fenway Park (she was 1 year old then):<br>
+    <li><b>SCN Collectors Set (2009)</b> - A group of <a href="https://www.sportscollectors.net/MessageBoardThread.aspx?t=48403" target="_blank">50 SCN members organized where we each got cards</a> made on the Topps site. My 1976 Topps inspired card pictures my daughter and me outside of Fenway Park (she was 7 months old then):<br>
      <table>
     <tr>
         <td><img src="{{ site.baseurl }}/assets/images/scn25/scn_set_front.png"  alt="scn_set"  border="0" /></td>
