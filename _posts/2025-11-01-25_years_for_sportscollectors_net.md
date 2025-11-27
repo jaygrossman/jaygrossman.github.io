@@ -74,13 +74,6 @@ comments: false
     <li>Photo Galleries and Collections</li>
 </ul>
 
-<h2>What a milestone!</h2>
-
-<p>Before I go any further, I want to thank everyone who has been along for the ride. I am continually amazed how many folks that joined early on are still regular contributors and such a big part of our community.  It's kind of crazy just how many folks have been subscribing for over 10, 15, and even 20 years. Also, by how often many of members proactively reach out to help and do nice things for other collectors. Through SCN, I have become my personal friends with so many collectors, and they have brought me such enjoyment sharing their passion for collecting.</p>
-
-<p>Data from the Census Bureau's Business Dynamics Statistics indicates that around 15% of U.S. companies are still in business after 25 years. And for Internet based companies, the vast majority of businesses don't thrive and grow for this long.</p>
-
-
 <h2>Some of my Favorite Highlights</h2>
 
 <p>In David Letterman fashion, here are my <b>Top 10 favorite site and collecting highlights from the past 25 years</b>:</p>
@@ -180,6 +173,8 @@ The site and community exist because of our members and the community!!! So I ge
 </ul>
 
 <h2>Thank You</h2>
+
+<p>I want to thank everyone who has been along for the ride. I am continually amazed how many folks that joined early on are still regular contributors and such a big part of our community.  It's kind of crazy just how many folks have been subscribing for over 10, 15, and even 20 years. Also, by how often many of members proactively reach out to help and do nice things for other collectors. Through SCN, I have become my personal friends with so many collectors, and they have brought me such enjoyment sharing their passion for collecting.</p>
 
 <p>Looking back at 25 years, I'm proud of what we've built together. This site has always been about connecting collectors, and seeing that spirit thrive year after year is the best reward I could ask for.</p>
 
