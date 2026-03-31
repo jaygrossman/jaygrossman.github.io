@@ -8,6 +8,7 @@ baseurl: ''
 google_analytics: ''
 disqus: ''
 mailchimp-list: false
+future: true
 include: ["_pages"]
 permalink: /:title/
 show_featured: false
