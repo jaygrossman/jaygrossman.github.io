@@ -238,7 +238,7 @@ python card_searchapp.py 1774277243-1_4.png --top-k 5
 <ol>
 <li><strong>Seller photos vs stock images</strong> — Cards photographed by sellers (angled, different lighting, sometimes signed) score lower against the clean stock images in the catalog. The system usually identifies the correct player, but may not rank the exact card variant first.</li>
 
-<li><strong>O-Pee-Chee vs Topps</strong> — Many OPC and Topps cards from the same year share the identical front photo. Visual similarity alone can't distinguish them — you'd need text recognition or back-of-card analysis for that.</li>
+<li><strong>Variations of cards are hard to distinguish</strong> — Many OPC and Topps cards from the same year share the identical front photo and design. Visual similarity alone can't distinguish them — you'd need text recognition or back-of-card analysis for that.</li>
 
 <li><strong>Thermal throttling is real</strong> — Running sustained GPU workloads on a laptop for days requires patience and cooling breaks. My M1 MacBook would drop from 15 cards/sec to 2 cards/sec when it got hot.</li>
 
