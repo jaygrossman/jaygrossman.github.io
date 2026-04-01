@@ -11,7 +11,7 @@ hidden: false
 comments: false
 ---
 
-<p>I have been collecting sports cards for over 40 years and have amassed a pretty big collection. A while back I built <a href="http://collectz.com/" target="_blank">Collectz</a> to use data + machine learning to help me find arbitrage opportunities in the collectibles market. A natural extension of that work was building a catalog of card images — and once you have images, you can start doing interesting things with them.</p>
+<p>I have been collecting sports cards for over 40 years and have amassed a pretty big collection. A while back I built <a href="http://collectz.com/" target="_blank">Collectz</a> to help me manage my collection and use data to find arbitrage opportunities in the collectibles market. A foundational component is a large catalog of cards with images — and once you have images, you can start doing interesting things with them.</p>
 
 <p>One thing that comes up constantly when sorting through boxes of cards is the question: <strong>what card am I actually looking at?</strong>  If you have a card in your hand and want to look it up, you typically need to know the player, year, brand, and card number. Sometimes that's easy. But for newer or unfamiliar sets, it can be a real pain to figure out.</p>
 
