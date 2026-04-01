@@ -24,7 +24,7 @@ comments: false
 <hr>
 <h2>My Solution: Visual Similarity Search Pipeline</h2>
 
-<p>A traditional approach to this problem I tried in the past involved training an image classification model or an object detection pipeline — labeling thousands of cards, training a model to recognize specific sets or players, and retraining whenever new cards are added to the catalog. That's a LOT of up front and ongoing work.</p>
+<p>A traditional approach to this problem (that I tried in the past) involves training an image classification model or an object detection pipeline. This includes labeling thousands of cards, training a model to recognize specific sets or players, and retraining whenever new cards are added to the catalog. That's a LOT of up front and ongoing work.</p>
 
 <p>I thought using vector embeddings could be a cool alternative. Instead of training a classifier, you just run every card image through a pre-trained vision model to get a numerical representation (an embedding) of what the card looks like. Then to identify a new card, you embed it the same way and find the closest matches in your catalog. No custom training required — and when new cards are added, you just embed them and they're immediately searchable.</p>
 
