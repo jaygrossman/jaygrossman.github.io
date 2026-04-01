@@ -178,7 +178,6 @@ python card_search.py 1774277243-1_4.png --top-k 5
       "player": "Harold Carmichael",
       "set_name": "1977 Topps",
       "card_no": "144",
-      "team": "Philadelphia Eagles",
       "similarity": 0.919
     },
     {
