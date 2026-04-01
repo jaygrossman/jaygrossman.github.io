@@ -28,7 +28,7 @@ comments: false
 
 <p>I thought using vector embeddings could be a cool alternative. Instead of training a classifier, you just run every card image through a pre-trained vision model to get a numerical representation (an embedding) of what the card looks like. Then to identify a new card, you embed it the same way and find the closest matches in your catalog. No custom training required — and when new cards are added, you just embed them and they're immediately searchable.</p>
 
-<p><b>TLDR</b> — I built a pipeline that takes a photo of a card, converts it into a vector embedding using a vision model, then searches a FAISS index of 3.4 million pre-computed card image embeddings to find the closest matches. The whole thing runs locally on my M1 MacBook.</p>
+<p><b>TLDR</b> — I built a pipeline that takes a photo of a card, converts it into a vector embedding using a vision model, then searches a <b>F</b>acebook <b>AI</b> <b>S</b>imilarity <b>S</b>earch (FAISS) index of 3.4 million pre-computed card image embeddings to find the closest matches. The whole thing runs locally on my M1 MacBook.</p>
 
 <p>Here is the high-level architecture:</p>
 
@@ -70,7 +70,7 @@ comments: false
 </tr>
 <tr>
   <td><a href="https://github.com/facebookresearch/faiss" target="_blank"><strong>FAISS</strong></a> (IVF Flat, Inner Product)</td>
-  <td><b>F</b>acebook <b>AI</b> <b>S</b>imilarity <b>S</b>earch - library for fast approximate nearest neighbor search across millions of vectors</td>
+  <td>Faceook's library for fast approximate nearest neighbor search across millions of vectors</td>
 </tr>
 <tr>
   <td><a href="https://duckdb.org/" target="_blank"><strong>DuckDB</strong></a></td>
