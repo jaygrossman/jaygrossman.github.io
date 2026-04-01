@@ -160,15 +160,14 @@ comments: false
 <hr>
 <h2>Usage and Results</h2>
 
-<p>To show how this works in practice, I scanned a 1977 Topps Harold Carmichael card from my collection:</p>
+<p>To show how this works in practice, I scanned a 1977 Topps Harold Carmichael card in an album page from my collection:</p>
 
-<p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/card_identifier/1774277243-1_4.png" alt="Harold Carmichael 1977 Topps card photo" width="40%" style="border: 1px solid #000000;" />
-<small><br>A scanned 1977 Topps Harold Carmichael card from my collection</small></p>
+<p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/card_identifier/1774277243-1_4.png" alt="Harold Carmichael 1977 Topps card photo" width="40%" style="border: 1px solid #000000;" /></p>
 
 <p>Running it through <code>card_search.py</code> with the <code>--top-k</code> flag set to return the top 5 matches:</p>
 
 ```bash
-python card_searchapp.py 1774277243-1_4.png --top-k 5
+python card_search.py 1774277243-1_4.png --top-k 5
 ```
 
 <p>Returns the top 5 matches — the correct card comes back first with a 0.919 similarity score, followed by other Harold Carmichael cards from neighboring years:</p>
@@ -218,9 +217,7 @@ python card_searchapp.py 1774277243-1_4.png --top-k 5
 <hr>
 <h2>Integrating into Collectz</h2>
 
-<p>I integrated the card identifier into <a href="http://collectz.com/" target="_blank">Collectz</a> as a tool under the Tools menu. It provides a simple drag-and-drop interface — you upload one or more card photos and it returns the closest matches from the catalog.</p>
-
-<p>Here's the Card Identifier tool on Collectz. You can drag card images into the upload area or click to choose files from your computer:</p>
+<p>I integrated the card identifier into <a href="http://collectz.com/" target="_blank">Collectz</a> under the Tools menu. You can drag and drop one or more card images into the upload area or click to choose files from your computer:</p>
 
 <p style="text-align: center;"><img src="{{ site.baseurl }}/assets/images/card_identifier/card_identifier_search.png" alt="Card Identifier upload interface on Collectz" style="border: 1px solid #000000;" />
 <small><br>The Card Identifier tool on Collectz with drag-and-drop file upload</small></p>
