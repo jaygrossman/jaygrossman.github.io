@@ -70,7 +70,7 @@ comments: false
 </tr>
 <tr>
   <td><a href="https://github.com/facebookresearch/faiss" target="_blank"><strong>FAISS</strong></a> (IVF Flat, Inner Product)</td>
-  <td>Faceook's library for fast approximate nearest neighbor search across millions of vectors</td>
+  <td>Facebook's library for fast approximate nearest neighbor search across millions of vectors</td>
 </tr>
 <tr>
   <td><a href="https://duckdb.org/" target="_blank"><strong>DuckDB</strong></a></td>
