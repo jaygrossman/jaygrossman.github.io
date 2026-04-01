@@ -185,28 +185,24 @@ python card_search.py 1774277243-1_4.png --top-k 5
       "player": "Harold Carmichael",
       "set_name": "1976 Topps",
       "card_no": "425",
-      "team": "Philadelphia Eagles",
       "similarity": 0.8678
     },
     {
       "player": "Harold Carmichael",
       "set_name": "1978 Topps",
       "card_no": "379",
-      "team": "Philadelphia Eagles",
       "similarity": 0.8675
     },
     {
       "player": "Harold Carmichael",
       "set_name": "1983 Topps",
       "card_no": "137",
-      "team": "Philadelphia Eagles",
       "similarity": 0.8413
     },
     {
       "player": "Harold Carmichael",
       "set_name": "1981 Topps",
       "card_no": "35",
-      "team": "Philadelphia Eagles",
       "similarity": 0.8317
     }
 ]
