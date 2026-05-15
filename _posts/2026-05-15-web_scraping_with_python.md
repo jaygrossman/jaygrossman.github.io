@@ -10,7 +10,9 @@ hidden: false
 comments: false
 ---
 
-I've been scraping websites for well over a decade. I started many years ago with trying to pull player stats to get ready for my Fantasy Football draft, and over the years it's become one of those skills I reach for constantly. Need to pull product data for a side project? Scrape it. Want to monitor prices across marketplaces? Scrape it. Need to build a dataset that doesn't exist as a nice API? You guessed it.
+I recently went to the <a href="https://www.agentconference.com" target="_blank">AI Agent Conference</a> and I noticed a recurring theme - quite a few vendors are offering public data that they've scraped from the web (or scrape in real time) to make available to AI agents. <a href="https://brightdata.com/" target="_blank">BrightData</a> had a big display and even hosted a nice happy hour event. It makes sense when you think about it - AI agents need access to current, structured data to be useful, and web scraping is a popular way how folks get that data at scale.
+
+It got me thinking about how fundamental web scraping has become, not just for AI but for all kinds of projects. I've been scraping websites for well over a decade. I started many years ago with trying to pull player stats to get ready for my Fantasy Football draft, and over the years it's become one of those skills I reach for constantly. Need to pull product data for a side project? Scrape it. Want to monitor prices across marketplaces? Scrape it. Need to build a dataset that doesn't exist as a nice API? You guessed it.
 
 Web scraping is one of those things that sounds simple on the surface - just grab the HTML and parse it, right? But anyone who's spent real time doing it knows the rabbit hole goes deep. You've got JavaScript-rendered pages, rate limiting, anti-bot measures, changing DOM structures, and the ever-present question of whether you're being a good citizen of the internet. I wanted to put together a thorough guide covering the tools and techniques I've found most useful over the years.
 
