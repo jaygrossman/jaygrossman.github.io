@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Web Scraping with Python"
+title:  "Things to Know About Web Scraping with Python"
 author: jay
 tags: [ python, automation, web development, data engineering ]
 image: assets/images/headers/web_scraping_with_python.png
@@ -10,9 +10,9 @@ hidden: false
 comments: false
 ---
 
-I recently went to the <a href="https://www.agentconference.com" target="_blank">AI Agent Conference</a> and I noticed a recurring theme - quite a few vendors are offering public data that they've scraped from the web (or scrape in real time) to make available to AI agents. <a href="https://brightdata.com/" target="_blank">BrightData</a> had a big display and even hosted a nice happy hour event. It makes sense when you think about it - AI agents need access to current, structured data to be useful, and web scraping is a popular way how folks get that data at scale.
+Last week I attended the <a href="https://www.agentconference.com" target="_blank">AI Agent Conference</a> in NYC and I noticed there were a quite few vendor booths for services offering public data that they've scraped from the web (or will scrape in real time) to make available to AI agents. It makes sense when you think about it - LLM's and AI agents need access to current + structured data to be useful, and web scraping is a popular way how folks get that data at scale.
 
-It got me thinking about how fundamental web scraping has become, not just for AI but for all kinds of projects. I've been scraping websites for well over a decade. I started many years ago with trying to pull player stats to get ready for my Fantasy Football draft, and over the years it's become one of those skills I reach for constantly. Need to pull product data for a side project? Scrape it. Want to monitor prices across marketplaces? Scrape it. Need to build a dataset that doesn't exist as a nice API? You guessed it.
+It got me thinking about how fundamental web scraping has become, not just for AI but for all kinds of projects. I started playing around with scraping years ago when I wanted player stats to get ready for my Fantasy Football draft, and over the years it's become one of those skills I reach for constantly. Need to pull product data for a side project? Scrape it. Want to monitor prices across marketplaces? Scrape it. Need to build a dataset that doesn't exist as a nice API? You guessed it.
 
 Web scraping is one of those things that sounds simple on the surface - just grab the HTML and parse it, right? But anyone who's spent real time doing it knows the rabbit hole goes deep. You've got JavaScript-rendered pages, rate limiting, anti-bot measures, changing DOM structures, and the ever-present question of whether you're being a good citizen of the internet. I wanted to put together a thorough guide covering the tools and techniques I've found most useful over the years.
 
@@ -37,6 +37,8 @@ for item in soup.select(".product-card"):
 That's the hello world of scraping. You make a GET request with the <a href="https://docs.python-requests.org/" target="_blank">requests</a> library, pass the HTML into <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">BeautifulSoup</a>, and use CSS selectors to find the elements you care about. For simple, static HTML pages, this is all you need.
 
 But most interesting websites aren't that simple.
+
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## Choosing the right tool for the job
 
@@ -159,6 +161,8 @@ I'll be honest though, for most of my projects Scrapy is overkill. I tend to rea
 - Projects that need built-in retry logic, rate limiting, and pipeline processing
 - When you want a structured, maintainable scraping codebase
 
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
+
 ## Parsing strategies
 
 Getting the HTML is only half the battle. Extracting the right data from it is where things get interesting.
@@ -219,6 +223,8 @@ if price:
 if sku:
     print(f"SKU: {sku.group(1)}")
 ```
+
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## Understanding User-Agent strings
 
@@ -339,6 +345,8 @@ ua_manager = UserAgentManager(UserAgentConfig(rotate=False))
 
 One thing to keep in mind - User-Agent rotation alone won't get you past sophisticated bot detection. Modern anti-bot systems look at a combination of signals including TLS fingerprints, header ordering, JavaScript execution patterns, and behavioral analysis. But a proper User-Agent is table stakes and will get you past the simpler checks.
 
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
+
 ## Handling common challenges
 
 This is where the real fun starts. Here are the problems you'll inevitably run into and how I deal with them.
@@ -428,18 +436,7 @@ session.headers.update({
 })
 ```
 
-**Use proxy rotation** for larger scraping jobs where you need to distribute requests across multiple IPs. I won't go into specific proxy providers here, but the pattern looks like:
-
-```python
-proxies = [
-    "http://proxy1:port",
-    "http://proxy2:port",
-    "http://proxy3:port",
-]
-
-proxy = {"http": random.choice(proxies), "https": random.choice(proxies)}
-response = session.get(url, proxies=proxy)
-```
+**Use proxy rotation** for larger scraping jobs where you need to distribute requests across multiple IPs. I covered this in detail in the proxy section below - the short version is to use a commercial provider's rotating gateway, match your proxy type (datacenter vs. residential) to how aggressive the site's detection is, and build retry logic around proxy failures.
 
 **Use headless browsers with stealth plugins** when detection is more aggressive. For Playwright there's <a href="https://github.com/AresS31/playwright-stealth" target="_blank">playwright-stealth</a> which patches common detection vectors.
 
@@ -559,6 +556,235 @@ def list_snapshots(url):
 
 **Scrape the API instead of the page.** I mentioned this briefly earlier, but it's worth emphasizing as a creative strategy. Open your browser's dev tools, go to the Network tab, filter by XHR/Fetch, and browse the site normally. Many modern sites load their data from internal JSON APIs that are way easier to work with than parsing HTML. Sometimes these APIs don't require authentication, or they accept the same session cookies your browser uses. I've had entire scraping projects collapse down to a single `requests.get()` call once I found the right API endpoint.
 
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
+
+## Using proxies
+
+If you're scraping at any meaningful scale, you're going to run into IP-based blocking eventually. A site sees 500 requests from the same IP address in an hour and decides you're not a human - fair enough. That's where proxies come in.
+
+### How proxies work
+
+A proxy server acts as an intermediary between your scraper and the target website. Instead of your request going directly from your machine to the website, it flows through the proxy first. The website sees the proxy's IP address instead of yours. The basic flow looks like:
+
+<p align="center">
+<img src="{{ site.baseurl }}/assets/images/proxy_flow.png" alt="Proxy flow diagram showing requests routed through a proxy server" />
+</p>
+
+This gives you two main advantages. First, you can distribute your requests across many different IP addresses so no single IP triggers rate limits. Second, you can make requests appear to come from different geographic locations, which matters for sites that serve different content by region or block requests from certain countries (or from known datacenter IP ranges).
+
+### Types of proxies
+
+Not all proxies are created equal, and the differences matter a lot for scraping. Here's the breakdown:
+
+**Datacenter proxies** are IP addresses that belong to servers in data centers (AWS, Google Cloud, etc.). They're fast and cheap, but many websites can identify datacenter IP ranges and block them outright. If a site sees a request coming from an AWS IP address, it's a pretty safe bet that it's not a regular person browsing the web. These work fine for sites with minimal bot detection, but they'll get flagged quickly on anything with Cloudflare or similar protection.
+
+**Residential proxies** use IP addresses assigned by real ISPs to real households. When a website sees traffic from a residential IP, it looks like a normal person on their home internet connection. These are significantly harder for sites to detect and block, but they cost more and are generally slower than datacenter proxies. They're the go-to choice for scraping sites with serious anti-bot measures.
+
+**Mobile proxies** route traffic through IP addresses assigned to mobile carriers (AT&T, Verizon, T-Mobile, etc.). These are the hardest to block because mobile carriers use shared IP pools - blocking a single mobile IP could affect thousands of legitimate users, so websites are very reluctant to do it. They're the most expensive option but the most resilient against blocking.
+
+**ISP proxies** (sometimes called static residential) are a hybrid - they're datacenter-hosted IPs that are registered under residential ISPs. You get the speed of datacenter proxies with the classification of residential IPs. They're a good middle ground for many use cases.
+
+Here's a rough comparison:
+
+<p align="center">
+<img src="{{ site.baseurl }}/assets/images/proxy_comparison.png" alt="Comparison table of proxy types showing speed, detection risk, cost, and best use cases" />
+</p>
+
+### Setting up your own proxy
+
+Before paying for a proxy service, it's worth knowing you can set up your own. If you have a VPS or cloud server, you can run a simple proxy with something like <a href="http://www.interlap.com.ar/squid/" target="_blank">Squid</a> or <a href="https://tinyproxy.github.io/" target="_blank">Tinyproxy</a>:
+
+```bash
+# on an Ubuntu VPS
+sudo apt install tinyproxy
+sudo nano /etc/tinyproxy/tinyproxy.conf
+# set the port and allow your IP
+sudo systemctl restart tinyproxy
+```
+
+Then use it from your scraper:
+
+```python
+proxies = {
+    "http": "http://your-vps-ip:8888",
+    "https": "http://your-vps-ip:8888",
+}
+response = requests.get(url, proxies=proxies)
+```
+
+The limitation is obvious - you only have one IP address per server. You could spin up multiple cheap VPS instances across different providers and regions to build a small pool, but you're essentially building your own proxy infrastructure at that point. For small projects or personal use this can work fine, but once you need dozens or hundreds of IPs, it makes more sense to use a proxy provider.
+
+You can also use SSH tunneling as a quick-and-dirty proxy if you have access to a remote machine:
+
+```bash
+# create a SOCKS proxy through SSH
+ssh -D 1080 -N user@your-remote-server
+```
+
+```python
+proxies = {
+    "http": "socks5://127.0.0.1:1080",
+    "https": "socks5://127.0.0.1:1080",
+}
+response = requests.get(url, proxies=proxies)
+```
+
+This is great for ad-hoc scraping from a different IP or geographic location, but not practical for rotating across many IPs.
+
+### Proxy providers
+
+When you need real scale - rotating IPs, residential pools, geographic targeting - you're looking at commercial proxy providers. The market has matured a lot and there are quite a few solid options. Here are some of the more established ones I've come across:
+
+<a href="https://brightdata.com/" target="_blank">**Bright Data**</a> (formerly Luminati) is probably the biggest name in the space. They have the largest proxy pool - over 72 million residential IPs according to their marketing. They offer all proxy types (datacenter, residential, mobile, ISP) and have additional tools like a scraping browser and pre-built datasets. The pricing is usage-based and can get expensive, but the network is very reliable. As I mentioned at the top of this post, they had a major presence at the AI Agent Conference.
+
+<a href="https://oxylabs.io/" target="_blank">**Oxylabs**</a> is another major player with a large residential pool (100M+ IPs). They're known for good documentation and enterprise-grade reliability. They also offer a "Web Scraper API" that handles proxy rotation, retries, and JavaScript rendering for you - you just send them a URL and get back the data. Pricing is similar to Bright Data.
+
+<a href="https://smartproxy.com/" target="_blank">**Smartproxy**</a> is popular for offering a good balance of features and price. Their residential pool is smaller than Bright Data or Oxylabs, but still substantial (55M+ IPs), and their pricing tends to be more accessible for smaller projects. They have subscription plans starting around $30/month which makes them a reasonable entry point.
+
+<a href="https://www.scraperapi.com/" target="_blank">**ScraperAPI**</a> takes a different approach - instead of giving you raw proxies, they provide an API where you send a URL and they handle proxy rotation, CAPTCHAs, and browser rendering behind the scenes. It's simpler to use but less flexible. Good if you want to avoid managing proxy infrastructure entirely.
+
+<a href="https://scrapingbee.com/" target="_blank">**ScrapingBee**</a> is similar to ScraperAPI in concept - an API-first approach where they manage the proxy and rendering infrastructure. They have a generous free tier (1,000 API calls) that's great for testing.
+
+Most of these providers offer two pricing models: **pay-per-GB** (you pay for bandwidth consumed) or **pay-per-request** (through their scraping APIs). Pay-per-GB is more cost effective if you're doing lots of small requests. Pay-per-request is simpler to budget for and makes sense if individual pages are large or if you want the provider to handle retries and rendering.
+
+### Using proxies with requests
+
+The basic pattern with the `requests` library is straightforward:
+
+```python
+import requests
+
+# single proxy
+proxies = {
+    "http": "http://username:password@proxy-host:port",
+    "https": "http://username:password@proxy-host:port",
+}
+response = requests.get("https://example.com", proxies=proxies)
+```
+
+Most commercial proxy providers give you a single gateway endpoint that automatically rotates IPs on each request. For example, with Bright Data it looks something like:
+
+```python
+proxies = {
+    "http": "http://username:password@brd.superproxy.io:22225",
+    "https": "http://username:password@brd.superproxy.io:22225",
+}
+
+# each request automatically gets a different IP
+for url in urls:
+    response = requests.get(url, proxies=proxies)
+```
+
+If you're managing your own pool of proxies, here's a rotation class similar to the `UserAgentManager` from earlier:
+
+```python
+import random
+import requests
+
+class ProxyRotator:
+    def __init__(self, proxy_list):
+        self.proxies = proxy_list
+        self._last_used = None
+        self._failures = {}
+
+    def get(self):
+        """Get a proxy, avoiding the last used one and any with recent failures."""
+        available = [
+            p for p in self.proxies
+            if p != self._last_used and self._failures.get(p, 0) < 3
+        ]
+        if not available:
+            # reset failures if we've exhausted all proxies
+            self._failures.clear()
+            available = self.proxies
+
+        proxy = random.choice(available)
+        self._last_used = proxy
+        return {"http": proxy, "https": proxy}
+
+    def mark_failed(self, proxy_url):
+        """Track a proxy failure for rotation decisions."""
+        self._failures[proxy_url] = self._failures.get(proxy_url, 0) + 1
+
+    def mark_success(self, proxy_url):
+        """Reset failure count on success."""
+        self._failures.pop(proxy_url, None)
+
+# usage
+rotator = ProxyRotator([
+    "http://user:pass@proxy1:port",
+    "http://user:pass@proxy2:port",
+    "http://user:pass@proxy3:port",
+])
+
+for url in urls:
+    proxy = rotator.get()
+    try:
+        response = requests.get(url, proxies=proxy, timeout=30)
+        rotator.mark_success(proxy["http"])
+    except requests.RequestException:
+        rotator.mark_failed(proxy["http"])
+```
+
+### Using proxies with Playwright
+
+For browser-based scraping with Playwright, you configure the proxy at the browser or context level:
+
+```python
+from playwright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+    browser = p.chromium.launch(
+        headless=True,
+        proxy={
+            "server": "http://proxy-host:port",
+            "username": "user",
+            "password": "pass",
+        }
+    )
+    page = browser.new_page()
+    page.goto("https://example.com")
+    content = page.content()
+    browser.close()
+```
+
+If you need to rotate proxies across different pages, create a new browser context for each proxy:
+
+```python
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True)
+
+    for url in urls:
+        proxy_config = rotator.get()
+        context = browser.new_context(proxy={
+            "server": proxy_config["http"],
+        })
+        page = context.new_page()
+        page.goto(url)
+        # ... extract data ...
+        context.close()
+
+    browser.close()
+```
+
+### Strategies and trade-offs
+
+There's no one-size-fits-all approach with proxies. Here's how I think about the trade-offs:
+
+**Start without proxies.** Seriously. If you're scraping a few hundred pages from a site with no bot protection, you probably don't need proxies at all. Add reasonable delays, use a proper User-Agent, and you'll be fine. Don't add complexity until you actually need it.
+
+**Use a single rotating proxy gateway for most jobs.** The commercial providers' rotating gateways are the easiest path. You get a single endpoint, every request gets a different IP, and you don't have to manage anything. The cost is higher per-GB, but the time saved is usually worth it.
+
+**Match the proxy type to the target.** Datacenter proxies for easy sites, residential for anything with Cloudflare or similar protection, mobile for the really tough cases. There's no point paying residential prices to scrape a site that doesn't even check IPs.
+
+**Watch your bandwidth.** Residential proxies at $10/GB add up fast if you're downloading large pages or images. Strip out what you don't need, avoid downloading assets (images, CSS, fonts) when possible, and compress responses when the server supports it.
+
+**Geographic targeting matters.** If you're scraping a US e-commerce site, use US-based proxies. Many sites serve different content, pricing, or availability by region, and some block foreign traffic entirely. Most providers let you target specific countries or even cities.
+
+**Budget for failures.** Not every request through a proxy will succeed. Residential proxies especially can be flaky - the underlying connection might drop, the IP might already be flagged, or the proxy might be slow. Build retry logic and expect maybe 5-15% of requests to need retrying, which means you're paying for that extra bandwidth too.
+
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
+
 ## Storing scraped data
 
 Once you've got the data, you need somewhere to put it. Here are the approaches I use most.
@@ -623,6 +849,8 @@ def save_to_json(items, filename):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(items, f, indent=2, ensure_ascii=False)
 ```
+
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## Putting it all together
 
@@ -735,6 +963,8 @@ if __name__ == "__main__":
         scraper.close()
 ```
 
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
+
 ## A note on ethics and legality
 
 I'd be irresponsible if I didn't mention this. Web scraping exists in a gray area, and it's worth thinking about before you start a project:
@@ -746,6 +976,8 @@ I'd be irresponsible if I didn't mention this. Web scraping exists in a gray are
 - **Consider the API first.** If a site offers an API, use it. It's more reliable, more respectful, and usually gives you better data.
 
 I've always tried to follow a simple rule: scrape the way you'd want someone to scrape your site. Be polite, don't take more than you need, and if the site owner asks you to stop, stop.
+
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## What I've learned
 
