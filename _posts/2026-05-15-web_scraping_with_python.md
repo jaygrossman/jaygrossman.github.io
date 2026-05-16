@@ -2,7 +2,7 @@
 layout: post
 title:  "Things to Know About Web Scraping with Python"
 author: jay
-tags: [ python, automation, web development, data engineering ]
+tags: [ python, automation, data engineering ]
 image: assets/images/headers/web_scraping_with_python.png
 description: "A deep dive into web scraping with Python, covering tools, techniques, and the real-world challenges you'll run into."
 featured: false
@@ -136,7 +136,7 @@ playwright install
 - When you need to intercept network requests
 - When you want built-in waiting and auto-retry logic
 
-Worth mentioning: if you're running into bot detection with Playwright, check out <a href="https://github.com/AresS31/patchright" target="_blank">Patchright</a>. It's a patched fork of Playwright that removes many of the telltale signs that automation tools leave behind (like the `navigator.webdriver` flag and other browser fingerprinting leaks). The API is identical to Playwright, so you can swap it in with minimal changes:
+Worth mentioning: if you're running into bot detection with Playwright, check out <a href="https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python" target="_blank">Patchright</a>. It's a patched fork of Playwright that removes many of the telltale signs that automation tools leave behind (like the `navigator.webdriver` flag and other browser fingerprinting leaks). The API is identical to Playwright, so you can swap it in with minimal changes:
 
 ```bash
 pip install patchright
