@@ -438,7 +438,7 @@ session.headers.update({
 
 **Use proxy rotation** for larger scraping jobs where you need to distribute requests across multiple IPs. I covered this in detail in the proxy section below - the short version is to use a commercial provider's rotating gateway, match your proxy type (datacenter vs. residential) to how aggressive the site's detection is, and build retry logic around proxy failures.
 
-**Use headless browsers with stealth plugins** when detection is more aggressive. For Playwright there's <a href="https://github.com/AresS31/playwright-stealth" target="_blank">playwright-stealth</a> which patches common detection vectors.
+**Use headless browsers with stealth plugins** when detection is more aggressive. For Playwright there's <a href="https://pypi.org/project/playwright-stealth/" target="_blank">playwright-stealth</a> which patches common detection vectors.
 
 ### Handling login-required pages
 
