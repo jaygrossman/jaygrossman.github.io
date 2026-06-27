@@ -231,13 +231,11 @@ def retry(func, max_attempts=3, backoff_base=2):
 
 Make your operations idempotent too. If a batch gets partially processed and then re-run, the output should replace the old one completely — not append to it. The S3 upload handles this naturally since `put_object` overwrites whatever was there before.
 
-
-
 <hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## Where I ended up
 
-My new setup for this job is a <a href="https://cursor.com/automate" target="_blank">Cursor Automation</a> connected to a private GitHub repo. It runs on a weekly schedule on the cheapest model available with a simple prompt:
+My new setup for this job is a <a href="https://cursor.com/automate" target="_blank">Cursor Automation</a> connected to a private GitHub repo. It runs on a weekly schedule (using the cheapest model available) with a simple prompt:
 
 ```bash
 run these commands as-is:
