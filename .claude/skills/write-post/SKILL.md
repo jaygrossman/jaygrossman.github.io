@@ -67,6 +67,17 @@ comments: false
 - **Honest about failures** - mention what didn't work and what you learned from it
 - Never use emojis
 
+### Avoiding LLM-sounding writing
+The output must read like a human wrote it. Watch out for these common tells:
+- **Avoid overused LLM phrases**: "a fundamental tension", "a natural next step", "the common thread is", "it's worth noting", "future you will be grateful", "that's a pretty good place to be", "a special kind of", "at the end of the day"
+- **Avoid textbook vocabulary**: words like "monolithic", "idempotent", "orchestrate" when simpler words work ("one big script", "repeatable", "coordinate")
+- **Don't define vocab words mid-sentence** like "This is called checkpointing." — just show the concept through code or explanation
+- **Don't use the `**Bold lead-in.** Explanation follows.` pattern** repeatedly in lists — it's an LLM signature
+- **Don't be too comprehensive or balanced** — a real person goes deep on what they struggled with and breezes past the obvious stuff. Not every topic deserves equal coverage.
+- **Don't wrap up too neatly** — skip the tidy numbered summary at the end restating everything. End with a thought, not a recap.
+- **Vary paragraph and section structure** — don't follow the same "concept statement, explanation, code block, tidy summary" pattern for every section
+- **Include rough edges** — mention a specific thing that went wrong, a decision you're unsure about, something you tried that didn't work before landing on the solution
+
 ### Structure
 
 **Opening (1-2 paragraphs):**
