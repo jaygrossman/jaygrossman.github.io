@@ -210,6 +210,8 @@ For my use case, multiprocessing on one machine has been plenty. I'd only reach 
 
 ## A few other things worth mentioning
 
+"Hey Jay, aren't you a data engineer? Aren't there robust orchestration tools like Airflow, Dagster, Prefect that are made to handle running jobs on a CRON?" Yes, and they're great at scheduling and managing complex pipelines, but they don't magically make your code fault-tolerant. If your Airflow task runs for 12 hours in a single shot and the worker dies at hour 9, you're in the same boat. You still need batching, checkpointing, and resumability within the task itself. For a single weekly job on a personal project, a cron trigger plus these patterns gets me everything I need without the operational overhead of maintaining an orchestrator.
+
 Retry logic within each batch matters. Network timeouts and transient errors are normal over a 10-hour run. I use a simple retry wrapper with exponential backoff — if a single item fails, retry that item, don't redo the whole batch.
 
 ```python
@@ -235,6 +237,15 @@ And test your resume logic before you need it. I killed the job intentionally af
 
 ## Where I ended up
 
-I went from losing 9 hours of work to losing a few minutes at most. If the environment dies, I restart and it picks up from the last completed batch.
+My new setup for this job is a <a href="https://cursor.com/automate" target="_blank">Cursor Automation</a> connected to a private GitHub repo. It runs on a weekly schedule with a simple prompt:
 
-Honestly, once I had this working, I stopped worrying about ephemeral environments entirely. Spot instance gets reclaimed? Fine, spin up another one. The job doesn't care where it runs, as long as it can talk to S3.
+```bash
+run these commands as-is:
+
+pip install -r requirements.txt
+python jobs/demand_and_valuation_script.py
+```
+
+That's it — no custom infrastructure, no server to maintain. The automation spins up, runs the job, and goes away. If it fails midway through, I kick it off again and pick up from the last completed batch.
+
+I went from losing 9 hours of work to losing a few minutes at most. If the environment dies, I restart and it picks up from the last completed batch. Honestly, once I had this working, I stopped worrying about ephemeral environments entirely. The job doesn't care where it runs, as long as it can talk to S3.
