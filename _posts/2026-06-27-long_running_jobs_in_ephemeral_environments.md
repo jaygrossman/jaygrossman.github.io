@@ -231,7 +231,7 @@ def retry(func, max_attempts=3, backoff_base=2):
 
 Make your operations idempotent too. If a batch gets partially processed and then re-run, the output should replace the old one completely — not append to it. The S3 upload handles this naturally since `put_object` overwrites whatever was there before.
 
-And test your resume logic before you need it. I killed the job intentionally after a few batches to make sure it picked up correctly. Found a bug where my batch numbering was off by one, which would have silently skipped a batch on restart. Would have been a nasty surprise in a real run.
+
 
 <hr style="border: 1px solid #ccc; margin: 40px 0;">
 
