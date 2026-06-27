@@ -235,7 +235,13 @@ Make your operations idempotent too. If a batch gets partially processed and the
 
 ## Where I ended up
 
-My new setup for this job is a <a href="https://cursor.com/automate" target="_blank">Cursor Automation</a> connected to a private GitHub repo. It runs on a weekly schedule (using the cheapest model available) with a simple prompt:
+My new setup for this job is a <a href="https://cursor.com/automate" target="_blank">Cursor Automation</a>:
+
+<p align="center">
+<img src="/assets/images/headers/cursor_automation.png" alt="Cursor Automation setup" >
+</p>
+
+It is connected to a private GitHub repo and runs on a weekly schedule (using the cheapest model available) with a simple prompt:
 
 ```bash
 run these commands as-is:
