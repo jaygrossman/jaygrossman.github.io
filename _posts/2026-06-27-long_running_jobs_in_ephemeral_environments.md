@@ -248,4 +248,4 @@ python jobs/demand_and_valuation_script.py
 
 That's it — no custom infrastructure, no server to maintain. The automation spins up, runs the job, and goes away. If it fails midway through, I kick it off again and pick up from the last completed batch.
 
-I went from losing 9 hours of work to losing a few minutes at most. If the environment dies, I restart and it picks up from the last completed batch. Honestly, once I had this working, I stopped worrying about ephemeral environments entirely. The job doesn't care where it runs, as long as it can talk to S3.
+I went from losing 9 hours of work to losing a few minutes at most. Once I had this working, I stopped worrying about ephemeral environments entirely. The job doesn't care where it runs, as long as it can talk to S3.
