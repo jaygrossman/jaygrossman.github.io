@@ -4,35 +4,35 @@ title:  "Considerations for Long Running Jobs in Ephemeral Environments"
 author: jay
 tags: [ data engineering, python, automation ]
 image: assets/images/headers/jobs_in_ephemeral_environments.png
-description: "Practical patterns for running 10+ hour jobs in environments that can disappear at any time."
+description: "How I restructured a 12-hour job so it can survive getting killed mid-run."
 featured: false
 hidden: false
 comments: false
 ---
 
-I have a pretty ambitious weekly job that calculates demand scores and pricing estimates for 100,000's of items. It uses a combination of ML models and complex transformations — pulling in historical sales data, active sales data, indications of sentiment, and other data sources to spit out updated valuations across different variations and conditions. The whole thing takes somewhere between 10 to 12 hours to complete.
+I have a pretty ambitious weekly job that calculates demand scores and pricing estimates for 100,000's of items. It uses a mix of ML models and some gnarly transformations — pulling in historical sales data, active listings, sentiment signals, and a bunch of other sources to spit out updated valuations across different variations and conditions. The whole thing takes somewhere between 10 and 12 hours to run.
 
 For some time, I was running this on my laptop. That meant keeping it open and active the entire time — no closing the lid, no letting it sleep, no taking it anywhere. I wanted to move all of this off my machine and into an environment where I didn't have to babysit it.
 
-I like the idea of using a cloud hosted runtime environment like AWS as a cost effective solution — you can spin it up whenever you want to run workloads and destroy it when you're done. But this kind of environment is, by nature, temporary. I've been burned by this — I kicked off the job on a Friday night, checked in Saturday morning, and the container had been evicted just before hour 9. Nothing was saved and I was sad. I had to restart the whole thing over and hope I would have better luck for the next run.
+Cloud hosted environments like AWS are great for this — you spin something up, run your workload, and tear it down when you're done. Cheap. But the tradeoff is these environments are temporary. I've been burned by this — I kicked off the job on a Friday night, checked in Saturday morning, and the container had been evicted just before hour 9. Nothing was saved. I had to restart from scratch and just hope it wouldn't happen again.
 
-That experience forced me to rethink how the job was structured. Here's what I've learned.
+That got me to rethink how the whole thing was put together.
 
 <hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## What is an ephemeral environment?
 
-An ephemeral environment is a compute resource that's designed to be temporary. It gets created on demand, runs your workload, and then gets destroyed. Think containers, AWS Step Functions, spot instances, or even AI coding agent sessions. You don't maintain them — you treat them as disposable.
+An ephemeral environment is basically any compute that's designed to be thrown away — containers, spot instances, Step Functions, even AI coding agent sessions like Claude Code routines or Cursor automations. You spin them up, run stuff, and they go away (or get killed).
 
-They're cheap and they scale well, but they don't promise your process will run to completion. Kubernetes pods get evicted when nodes run low on resources. Step Functions have state transition limits. Claude Code routines and Cursor automations can lose their session mid-run. If your job is one big script that runs for 12 hours, you're gambling every time you start it.
+The problem is they don't promise your process will finish. Kubernetes pods get evicted when nodes run low on resources. Step Functions have state transition limits. Agent sessions can just lose their connection mid-run. If your job is one big script that runs for 12 hours, you're gambling every time you hit go.
 
 <hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## Break the work into batches
 
-The single most important thing I did was stop thinking of my job as one giant task and start thinking of it as a bunch of smaller tasks.
+The biggest thing that helped was breaking the job into smaller pieces instead of treating it as one giant run.
 
-Instead of processing all 100,000+ items in a single loop, I break them into batches. Each batch is just a chunk of items — maybe 500 or 1,000 — that can be processed independently.
+I split the 100,000+ items into batches — maybe 500 or 1,000 items each — where each batch can be processed on its own.
 
 ```python
 import pandas as pd
@@ -58,19 +58,19 @@ def process_batch(batch, batch_num, output_dir="output/batches"):
     return output_file
 ```
 
-Each batch produces its own output file. If your environment dies after processing 150 of 200 batches, you've still got 150 batch files sitting there with valid results.
+Each batch writes its own output file. So if your environment dies after 150 of 200 batches, you've still got those 150 files with valid results.
 
-Getting the batch size right took some trial and error. I started with 100 items per batch, but the overhead of writing all those files and checking progress was adding up. Bumped it to 2,000 and then a failure wiped out 20 minutes of work instead of 2. I settled on 500 — each batch takes a few minutes, which feels like the right amount of work to lose if something goes wrong.
+Getting the batch size right took some messing around. I started with 100 items per batch, but writing all those tiny files and checking progress was adding up. Then I tried 2,000 and a failure wiped out 20 minutes of work instead of 2. I landed on 500 — each batch takes a few minutes, which feels like an acceptable amount of work to lose if things go sideways.
 
 <hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## Checkpointing and resumability
 
-Batching alone isn't enough. You also need a way to know which batches are done so you can skip them on restart. AKA checkpointing.
+But batching by itself doesn't solve the restart problem. You also need to know which batches already finished so you can skip them next time — checkpointing.
 
-Since the job is running in an ephemeral environment, it can't write to my local machine. I store all batch outputs in S3 so they're accessible no matter where the script runs. Any cloud storage would work (GCS, Azure Blob, etc.) — the point is that your storage has to outlive your compute.
+Since the job runs in an ephemeral environment, it obviously can't save files to my laptop. So I write batch outputs to S3. Any cloud storage works (GCS, Azure Blob, whatever) — the key thing is your storage needs to outlive your compute.
 
-My checkpoint logic is simple: if a batch output file exists in S3, that batch is done. When the job starts (or restarts), it lists the bucket to see which batch files are already there and skips them.
+The checkpoint logic is dead simple — if a batch output file exists in S3, that batch is done. When the job starts up (or restarts), it checks the bucket, sees which files are already there, and skips those batches.
 
 ```python
 import boto3
@@ -109,9 +109,9 @@ def run_job(input_file, batch_size=500):
     combine_batch_results()
 ```
 
-Kill it, restart it on a completely different machine, and it picks up right where it stopped.
+You can kill it, restart it on a totally different machine, and it picks up where it left off.
 
-The batch gets fully generated on the ephemeral compute first, then uploaded to S3 as a single `put_object` call. Either the upload completes and the checkpoint exists, or it doesn't and there's nothing to skip on the next run.
+One thing worth noting — the batch gets fully built in memory first, then uploaded to S3 as a single `put_object` call. So either the whole file makes it up there or it doesn't. No half-written checkpoints to worry about.
 
 ```python
 def process_batch(batch, batch_num):
@@ -132,7 +132,7 @@ def process_batch(batch, batch_num):
 
 ## Progress tracking
 
-When a job runs for hours, you want to know where it's at. Since I'm already using S3 for batch outputs, I write a progress file there too:
+When something runs for hours, you want to know where it's at. I'm already using S3 for the batch outputs, so I just write a progress file there too:
 
 ```python
 import time
@@ -164,15 +164,15 @@ def update_progress(batch_num, total_batches, start_time):
           f"ETA: {round(remaining / 60)} minutes remaining")
 ```
 
-I can check progress from anywhere with a quick `aws s3 cp` or just look at the print output in CloudWatch. When the job restarts after a failure, it's also easy to see how much work is left.
+I can check on it from anywhere — quick `aws s3 cp` to pull the progress file, or just look at the logs in CloudWatch. And when the job restarts after a failure, I can immediately see how much is left.
 
 <hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## Parallelizing the work
 
-Once batching and checkpointing are working, you can start running multiple batches at the same time. Since each batch is independent, this is pretty straightforward.
+Once I had batching and checkpointing working, the next obvious thing was running multiple batches at the same time. Since each batch is independent, this was actually pretty easy.
 
-I started with Python's `concurrent.futures` on a single machine, which is the simplest option by far:
+I went with Python's `concurrent.futures` on a single machine — simplest thing that could work:
 
 ```python
 from concurrent.futures import ProcessPoolExecutor, as_completed
@@ -200,19 +200,17 @@ def run_job_parallel(input_file, batch_size=500, max_workers=4):
                 print(f"Batch {batch_num} failed: {e}")
 ```
 
-With 4 workers, my 12-hour job dropped to about 3 hours. The checkpoint files mean you don't need to coordinate between workers — each one writes its own output file, and there's no overlap.
+With 4 workers, my 12-hour job dropped to about 3 hours. And since each worker writes its own checkpoint file, there's no coordination needed — no overlap, no locking, nothing.
 
-If single-machine parallelism isn't enough, you can distribute batches across multiple containers using a queue like SQS. A coordinator pushes batch definitions onto a queue, workers pull from the queue and process them, and a combiner merges the results at the end. The nice thing about a queue is that workers are disposable — if one dies, the message goes back on the queue and another worker picks it up.
-
-For my use case, multiprocessing on one machine has been plenty. I'd only reach for distributed workers if I needed to process everything in under an hour or if individual batches needed more memory than a single machine could offer.
+You could take this further and distribute batches across multiple containers with something like SQS. Push batch definitions onto a queue, have workers pull from it, and if a worker dies the message just goes back on the queue for another worker to grab. I haven't needed to go that far though — multiprocessing on one machine has been plenty for my volumes. I'd only bother with distributed workers if I needed everything done in under an hour or if individual batches were too memory-hungry for a single box.
 
 <hr style="border: 1px solid #ccc; margin: 40px 0;">
 
 ## A few other things worth mentioning
 
-"Hey Jay, aren't you a data engineer? Aren't there robust orchestration tools like Airflow, Dagster, Prefect that are made to handle running jobs on a CRON?" Yes, and they're great at scheduling and managing complex pipelines, but they don't magically make your code fault-tolerant. If your Airflow task runs for 12 hours in a single shot and the worker dies at hour 9, you're in the same boat. You still need batching, checkpointing, and resumability within the task itself. For a single weekly job on a personal project, a cron trigger plus these patterns gets me everything I need without the operational overhead of maintaining an orchestrator.
+"Hey Jay, aren't you a data engineer? What about Airflow or Dagster or Prefect?" Sure, those are great for scheduling and managing complex pipelines. But they don't magically make your code survive getting killed mid-run. If your Airflow task runs for 12 hours in one shot and the worker dies at hour 9, you're in the same boat. You still need the batching and checkpointing inside the task itself. And for a single weekly job on a personal project, I really don't want to deal with running and maintaining an orchestrator.
 
-Retry logic within each batch matters. Network timeouts and transient errors are normal over a 10-hour run. I use a simple retry wrapper with exponential backoff — if a single item fails, retry that item, don't redo the whole batch.
+Retry logic within each batch is important too. Over a 10+ hour run you're going to hit network timeouts and random transient errors — it's just a matter of when. I use a simple retry wrapper with exponential backoff so if a single item fails, I retry that item instead of redoing the whole batch.
 
 ```python
 import time
@@ -229,7 +227,7 @@ def retry(func, max_attempts=3, backoff_base=2):
             time.sleep(wait)
 ```
 
-Make your operations idempotent too. If a batch gets partially processed and then re-run, the output should replace the old one completely — not append to it. The S3 upload handles this naturally since `put_object` overwrites whatever was there before.
+It also helps to make things idempotent. If a batch gets partially processed and then re-run, you want the output to replace the old one completely — not append to it. The S3 upload already does this since `put_object` just overwrites whatever was there before.
 
 <hr style="border: 1px solid #ccc; margin: 40px 0;">
 
@@ -250,6 +248,6 @@ pip install -r requirements.txt
 python jobs/demand_and_valuation_script.py
 ```
 
-That's it — no custom infrastructure, no server to maintain. The automation spins up, runs the job, and goes away. If it fails midway through, I kick it off again and pick up from the last completed batch.
+That's it. No server to maintain, no infra to worry about. The automation spins up, runs the script, and goes away. If it dies halfway through, I just kick it off again and it picks up from the last completed batch.
 
- Now that I have this working, I stopped worrying about ephemeral environments entirely. The job doesn't care where it runs, as long as it can talk to S3.
+Since I set this up, I've pretty much stopped thinking about the ephemeral environment problem. The job doesn't care where it runs as long as it can talk to S3.
