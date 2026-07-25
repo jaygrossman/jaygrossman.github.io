@@ -10,7 +10,7 @@ hidden: false
 comments: false
 ---
 
-<p>My daughter Jenna turns 18 next month. I wanted to do something for her birthday that wasn't just a card and a gift card, and since she's grown up with my dad jokes she knows I'll happily embarrass myself for a laugh.</p>
+<p>My daughter Jenna turns 18 next month. I wanted to do something for her birthday that wasn't just a card and a gift card, and since she's grown up with my dad jokes she knows I'll happily go big for a laugh.</p>
 
 <p>So I wrote her a rap. Then I used one AI tool to turn it into an actual song, and another one to make a video of me lip syncing to it. Here's what I ended up with:</p>
 
@@ -74,7 +74,7 @@ Now go strike 'em down. Your story's just begun.</p>
 <p><i>I want to create a high energy up tempo rap song in the style of Weird Al Yankovic</i></p>
 </blockquote>
 
-<p>I didn't want a serious hip hop track - I wanted a goofy dad-rap. I think the song I chose has the Weird Al style with the pace of a Pitbull song.</p>
+<p>I didn't want a serious hip hop track - I wanted a goofy dad-rap. I think the song is more like Pitbull than Weird Al, but I like the tempo.</p>
 
 <p>Suno gives you two variations per generation. My first pass was okay but too polished. I regenerated a handful of times before I got something that felt right.</p>
 
@@ -89,7 +89,7 @@ Now go strike 'em down. Your story's just begun.</p>
 
 <h2>Attempt one: me lip syncing it myself</h2>
 
-<p>I'm a big fan of the TV show <a href="https://en.wikipedia.org/wiki/Lip_Sync_Battle" target="_blank">Lip Sync Battle</a> with LL Cool J, and I honestly thought I could pull this off myself. How hard could it be?</p>
+<p>I'm a casual fan of the TV show <a href="https://en.wikipedia.org/wiki/Lip_Sync_Battle" target="_blank">Lip Sync Battle</a> with LL Cool J, and I honestly thought I could pull this off myself. How hard could it be?</p>
 
 <p>I played the song in the background and recorded a video of myself with QuickTime on my Mac. Watching it back, there were way too many silly gestures and you could hear me singing out of tune to parts of the song. I couldn't help myself.</p>
 
