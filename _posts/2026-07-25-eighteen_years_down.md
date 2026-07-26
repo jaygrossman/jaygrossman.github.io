@@ -138,3 +138,18 @@ Now go strike 'em down. Your story's just begun.</p>
 <p>A few years ago I couldn't have made anything like this. I don't have any musical talent and I'm not about to hire someone to record a birthday rap. But an evening of messing around with free tools got me something my daughter is going to love (and be a little mortified by), and that's a pretty great trade.</p>
 
 <p>Happy 18th, Jenna. We love you. Now go strike 'em down. Your story's just begun!</p>
+
+<hr style="border: 1px solid #ccc; margin: 40px 0;">
+
+<h2>Special bonus</h2>
+
+<p>After I finished the first version, I went back into ChatGPT and had it generate another rapper picture of me - this time without the hat and with a baggier sweatshirt. Then I ran it through FreeLipSync with the same audio to see how it would come out:</p>
+
+<p style="text-align: center;">
+<img src="{{ site.baseurl }}/assets/images/eighteen_years_down_rapper_v2.png" alt="second ChatGPT-generated rapper version of Jay, no hat" width="500" /><br/>
+<small>Rapper Jay v2 - no hat, baggier hoodie.</small>
+</p>
+
+<p style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w9h0H2SpY7I?cc_load_policy=0" title="Eighteen Years Down - Bonus Version" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
